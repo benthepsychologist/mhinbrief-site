@@ -1,0 +1,29 @@
+title: "BH Compliance — private working site"
+baseURL: "/"
+languageCode: "en-us"
+
+# Private/dark scaffold (design §8): no analytics, no external fonts,
+# no CDN or module dependencies. Kept minimal on purpose.
+googleAnalytics: ""
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+  - sitemap
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+
+build:
+  writeStats: false
