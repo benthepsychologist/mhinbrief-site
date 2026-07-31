@@ -12,6 +12,21 @@
 
 <div class="prose">
   <h1>{{ .Title }}</h1>
+</div>
+
+<div class="map-stage">
+  <div class="map-wrap">
+    {{ partial "canada-map.html" . }}
+    <p class="map-legend">
+      <span><span class="sw sw-plain"></span>not yet researched</span>
+      <span><span class="sw sw-data"></span>sources staged</span>
+      <span><span class="sw sw-selected"></span>selected</span>
+    </p>
+  </div>
+  <div id="reg-panel" class="reg-panel" aria-live="polite"></div>
+</div>
+
+<div class="prose">
   {{ .Content }}
 </div>
 
@@ -31,18 +46,6 @@
   {{ else }}
   <p class="rp-empty">Not yet researched for this registry.</p>
   {{ end }}
-</div>
-
-<div class="map-stage">
-  <div class="map-wrap">
-    {{ partial "canada-map.html" . }}
-    <p class="map-legend">
-      <span><span class="sw sw-plain"></span>not yet researched</span>
-      <span><span class="sw sw-data"></span>sources staged</span>
-      <span><span class="sw sw-selected"></span>selected</span>
-    </p>
-  </div>
-  <div id="reg-panel" class="reg-panel" aria-live="polite"></div>
 </div>
 
 <details class="map-fallback">
