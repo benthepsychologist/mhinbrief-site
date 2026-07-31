@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{ $regs := .Site.Data.regulators.jurisdictions }}
+{{ $prov := slice
+  (dict "code" "AB" "name" "Alberta") (dict "code" "BC" "name" "British Columbia")
+  (dict "code" "MB" "name" "Manitoba") (dict "code" "NB" "name" "New Brunswick")
+  (dict "code" "NL" "name" "Newfoundland and Labrador") (dict "code" "NS" "name" "Nova Scotia")
+  (dict "code" "NT" "name" "Northwest Territories") (dict "code" "NU" "name" "Nunavut")
+  (dict "code" "ON" "name" "Ontario") (dict "code" "PE" "name" "Prince Edward Island")
+  (dict "code" "QC" "name" "Quebec") (dict "code" "SK" "name" "Saskatchewan")
+  (dict "code" "YT" "name" "Yukon")
+}}
+
+<div class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+
+{{ $federal := index $regs "ca-federal" }}
+<div class="fed-card">
+  <h3>Federal — applies everywhere</h3>
+  {{ if $federal }}
+  <ul>
+    {{ range $federal }}
+    <li><span class="{{ printf "rt rt-%d" (.tier | default 3) }}">{{ .tier_label }}</span>
+      {{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+      {{ if eq .status "proposed" }}<span class="rp-status"> — staged, pending confirmation</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p class="rp-empty">Not yet researched for this registry.</p>
+  {{ end }}
+</div>
+
+<div class="map-stage">
+  <div class="map-wrap">
+    {{ partial "canada-map.html" . }}
+    <p class="map-legend">
+      <span><span class="sw sw-plain"></span>not yet researched</span>
+      <span><span class="sw sw-data"></span>sources staged</span>
+      <span><span class="sw sw-selected"></span>selected</span>
+    </p>
+  </div>
+  <div id="reg-panel" class="reg-panel" aria-live="polite"></div>
+</div>
+
+<details class="map-fallback">
+  <summary>Browse all jurisdictions without the interactive map</summary>
+  {{ range $prov }}
+  {{ $items := index $regs (printf "ca-%s" (lower .code)) }}
+  <h4>{{ .name }}</h4>
+  {{ if $items }}
+  <ul>
+    {{ range $items }}
+    <li>{{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+      ({{ .tier_label }}){{ if eq .status "proposed" }} — staged{{ end }}</li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p class="rp-empty">Not yet researched for this registry.</p>
+  {{ end }}
+  {{ end }}
+</details>
+
+<script>window.__REGULATORS = {{ $regs | jsonify }};</script>
+<script src="/js/jurisdiction-map.js" defer></script>
+{{ end }}

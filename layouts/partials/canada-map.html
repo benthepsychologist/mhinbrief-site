@@ -1,0 +1,9 @@
+{{/* Inline (not <img>) so per-province CSS states and click/keyboard
+     handling work — an <img src=".svg"> can't be styled or scripted
+     per-element. Source: static/img/canada-provinces-annotated.svg,
+     derived from Wikimedia Commons' public-domain Canada_blank_map.svg
+     (see scripts/gen-regulators-data.py's sibling note in git log for
+     provenance) — each province/territory is its own <g id="XX">
+     carrying a data-code, role=button, tabindex, and aria-label already
+     baked in; jurisdiction-map.js does the rest. */}}
+<div id="canada-map-svg">{{ readFile "static/img/canada-provinces-annotated.svg" | safeHTML }}</div>

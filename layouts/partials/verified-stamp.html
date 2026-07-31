@@ -1,5 +1,5 @@
 {{- with .Params.last_verified -}}
-<div class="verified-stamp">Last verified {{ . }}{{ with $.Params.source_label }}
+<div class="verified-stamp"><svg class="stamp-mark" viewBox="0 0 32 32" width="14" height="14" aria-hidden="true"><circle cx="16" cy="16" r="14.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8 L23 22 H9 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="16" cy="14.6" r="1.9" fill="currentColor"/></svg> Last verified {{ . }}{{ with $.Params.source_label }}
   <span class="src">· source: {{ with $.Params.source_url }}<a href="{{ . }}">{{ $.Params.source_label }}</a>{{ else }}{{ . }}{{ end }}</span>
 {{ end }}</div>
 {{- end -}}
