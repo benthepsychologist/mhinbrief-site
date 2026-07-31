@@ -1,0 +1,199 @@
+generated_by: therapybulletin publish adapter (publish/adapter.py)
+record_count: 4
+topic_names:
+  licensure: Licensure
+  scope: Scope of practice
+  telepractice: Telepractice
+  privacy: Privacy
+  retention: Records retention
+  insurance: Liability insurance
+  tax: GST/HST
+  ai: AI in practice
+  payer: Payers
+jurisdiction_names:
+  ca-federal: Federal
+  ca-on: Ontario
+  ca-qc: Quebec
+  ca-ns: Nova Scotia
+  ca-bc: British Columbia
+  ca-ab: Alberta
+  ca-sk: Saskatchewan
+  ca-mb: Manitoba
+  ca-nb: New Brunswick
+  ca-nl: Newfoundland and Labrador
+  ca-pe: Prince Edward Island
+  ca-yt: Yukon
+  ca-nt: Northwest Territories
+  ca-nu: Nunavut
+by_topic:
+  tax:
+  - &id001
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope: []
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 6
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: Nursing services rendered to an individual within a nurse-patient relationship
+      are exempt from GST/HST. This matters to behavioural-health practice because where provincial law
+      permits a nurse to provide psychotherapy within their scope of nursing practice, CRA treats the
+      nursing exemption at s. 6 as the applicable provision rather than the psychotherapy exemption added
+      in 2024 — so the test is the nurse-patient relationship, not the s. 7 practitioner definition.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"6 A supply of a nursing service rendered to an individual by a registered nurse, a
+      registered nursing assistant, a licensed or registered practical nurse or a registered psychiatric
+      nurse, if the service is rendered within a nurse-patient relationship." — Excise Tax Act, Schedule
+      V, Part II, s. 6 (Justice Laws consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-nursing
+  - &id002
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - psychologist
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: Psychological services rendered to an individual by a practitioner of
+      the service are exempt supplies — GST/HST is not charged on them. This exemption is long-standing
+      and was NOT created or altered by the 2024 Bill C-59 amendment that added psychotherapy and counselling
+      therapy; psychologists were already exempt before it and are unaffected by it.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
+      by a practitioner of the service: (a) optometric services; ... (i) occupational therapy services;
+      (j) psychological services; (j.1) psychotherapy services; (j.2) counselling therapy services; ..."
+      — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws consolidation, Act current to 2026-06-14).
+      Paragraph (j) sits immediately before the two paragraphs added by S.C. 2024, c. 15, and was not
+      amended by it.'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-psychology
+  - &id003
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - psychotherapist
+    - counselling_therapist
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: C-59
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j.1)-(j.2)
+      regulation_cite: null
+    status: in_force
+    enactment_date: '2024-06-20'
+    effective_date: '2024-06-20'
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: 'Psychotherapy and counselling therapy services rendered to an individual
+      by a "practitioner" of the service are exempt supplies — GST/HST is not charged on them. On becoming
+      exempt, three consequences follow that practitioners routinely miss: input tax credits are no longer
+      claimable on inputs acquired to make these supplies; a change in use of capital property may trigger
+      a deemed sale and repurchase; and a registrant whose supplies are all exempt is not required to
+      be registered and may close the GST/HST account.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
+      by a practitioner of the service: (a) optometric services; ... (j) psychological services; (j.1)
+      psychotherapy services; (j.2) counselling therapy services; (k) midwifery services; (l) acupuncture
+      services; and (m) naturopathic services." — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws
+      consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-psychotherapy-counselling
+  - &id004
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - clinical_social_worker
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7.2
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: 'Social work services are exempt from GST/HST, but under a materially
+      narrower test than the psychotherapy and counselling therapy exemptions. Two conditions must both
+      hold: the service is rendered within a professional-client relationship AND is provided for the
+      prevention, assessment or remediation of — or to assist the individual in coping with — a physical,
+      emotional, behavioural or mental disorder or disability. The disorder may be the client''s own or
+      that of a related person the client cares for or supervises otherwise than professionally. Separately,
+      the practitioner must be licensed where the province requires it, or hold equivalent qualifications
+      where it does not. A social work service outside that clinical purpose test is not exempt under
+      this provision.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7.2 A supply of a service rendered in the practice of the profession of social work
+      where (a) the service is rendered to an individual within a professional-client relationship between
+      the particular individual who renders the service and the individual and is provided for the prevention,
+      assessment or remediation of, or to assist the individual in coping with, a physical, emotional,
+      behavioural or mental disorder or disability of the individual or of another individual to whom
+      the individual is related or to whom the individual provides care or supervision otherwise than
+      in a professional capacity; and (b) either (i) if the particular individual is required to be licensed
+      or otherwise certified to practise the profession of social work in the province in which the service
+      is supplied, the particular individual is so licensed or certified, or (ii) if the particular individual
+      is not required to be licensed or otherwise certified to practise that profession in that province,
+      the particular individual has the qualifications equivalent to those..." — Excise Tax Act, Schedule
+      V, Part II, s. 7.2 (Justice Laws consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-social-work
+by_jurisdiction:
+  ca-federal:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+records:
+  ca-federal-tax-gst-hst-nursing: *id001
+  ca-federal-tax-gst-hst-psychology: *id002
+  ca-federal-tax-gst-hst-psychotherapy-counselling: *id003
+  ca-federal-tax-gst-hst-social-work: *id004

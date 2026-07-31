@@ -1,4 +1,4 @@
-generated_by: scripts/gen-regulators-data.py (temporary bridge — see file header)
+generated_by: therapybulletin publish adapter (publish/adapter.py)
 source_manifest: therapybulletin-data/kestrel.yaml
 jurisdictions:
   ca-federal:
