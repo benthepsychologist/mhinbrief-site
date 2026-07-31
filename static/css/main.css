@@ -406,11 +406,49 @@ code {
 .reg-item .rt-1 { background: var(--spruce); }
 .reg-item .rt-2 { background: var(--brass); }
 .reg-item .rt-3 { background: var(--ink-soft); }
-.reg-item .rp-status {
-  font-size: 0.75rem;
-  color: var(--ink-soft);
-  font-style: italic;
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.45rem 0.1rem 0.4rem;
+  border-radius: 2px;
+  margin: 0 0.3rem 0.15rem 0;
+  vertical-align: middle;
+  line-height: 1.5;
 }
+.tag::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  flex: none;
+}
+.tag-proposed {
+  color: var(--brass);
+  background: color-mix(in srgb, var(--brass) 12%, #fff);
+  border: 1px solid color-mix(in srgb, var(--brass) 45%, transparent);
+}
+.tag-proposed::before { background: var(--brass); }
+.tag-unverified {
+  color: var(--revision);
+  background: color-mix(in srgb, var(--revision) 10%, #fff);
+  border: 1px dashed var(--revision);
+}
+.tag-unverified::before {
+  border-radius: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: none;
+  border: 1.5px solid var(--revision);
+  transform: rotate(45deg);
+}
+
+.reg-item .rp-tags { margin-top: 0.3rem; }
 
 .fed-card {
   border: 1px solid var(--hairline);

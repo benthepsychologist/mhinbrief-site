@@ -10,6 +10,7 @@ jurisdictions:
     language: en/fr
     website: https://gazette.gc.ca/accueil-home-eng.html
     status: wired
+    verified: true
   - id: canada-gazette-p2
     name: Canada Gazette Part II
     org_type: null
@@ -18,6 +19,7 @@ jurisdictions:
     language: null
     website: https://gazette.gc.ca/rss/p2-eng.xml
     status: wired
+    verified: true
   - id: cra-gst-hst-counselling
     name: Canada Revenue Agency — GST/HST Memorandum 25-3, Psychotherapy and Counselling Therapy Services
     org_type: other
@@ -26,6 +28,7 @@ jurisdictions:
     language: en/fr
     website: https://www.canada.ca/en/revenue-agency.html
     status: wired
+    verified: true
   - id: opc-pipeda
     name: Office of the Privacy Commissioner of Canada — PIPEDA investigations & guidance
     org_type: privacy-regulator
@@ -34,6 +37,7 @@ jurisdictions:
     language: en/fr
     website: https://www.priv.gc.ca/en/
     status: wired
+    verified: true
   - id: casw-national
     name: Canadian Association of Social Workers (CASW)
     org_type: professional-association
@@ -42,6 +46,7 @@ jurisdictions:
     language: en/fr
     website: https://www.casw-acts.ca/en
     status: wired
+    verified: true
   - id: ccpa-national
     name: Canadian Counselling and Psychotherapy Association (CCPA / ACCP)
     org_type: professional-association
@@ -50,6 +55,7 @@ jurisdictions:
     language: en/fr
     website: https://www.ccpa-accp.ca/
     status: proposed
+    verified: false
   - id: cpa-national
     name: Canadian Psychological Association (CPA)
     org_type: professional-association
@@ -58,6 +64,7 @@ jurisdictions:
     language: en/fr
     website: https://cpa.ca/
     status: wired
+    verified: true
   - id: mhcc-workplace-standard
     name: Mental Health Commission of Canada — National Standard for Psychological Health and Safety in
       the Workplace
@@ -67,6 +74,7 @@ jurisdictions:
     language: en/fr
     website: https://mentalhealthcommission.ca/workplace-standard/
     status: proposed
+    verified: false
   ca-on:
   - id: cpbao-news
     name: College of Psychologists and Behaviour Analysts of Ontario
@@ -76,6 +84,7 @@ jurisdictions:
     language: en
     website: https://cpbao.ca/
     status: wired
+    verified: true
   - id: ocswssw-news
     name: Ontario College of Social Workers and Social Service Workers
     org_type: regulatory-college
@@ -84,6 +93,7 @@ jurisdictions:
     language: en
     website: https://www.ocswssw.org/
     status: wired
+    verified: true
   - id: on-rhpa-elaws
     name: Regulated Health Professions Act, 1991 (Ontario e-Laws)
     org_type: government-gazette
@@ -92,6 +102,7 @@ jurisdictions:
     language: en/fr
     website: https://www.ontario.ca/laws/statute/91r18
     status: wired
+    verified: true
   - id: crpo-news
     name: CRPO news (Ontario psychotherapists)
     org_type: null
@@ -100,6 +111,7 @@ jurisdictions:
     language: null
     website: https://crpo.ca/news/
     status: wired
+    verified: true
   - id: opa-news-media
     name: Ontario Psychological Association
     org_type: professional-association
@@ -108,6 +120,7 @@ jurisdictions:
     language: en
     website: https://www.psych.on.ca/
     status: wired
+    verified: true
   - id: oasw-news
     name: Ontario Association of Social Workers
     org_type: professional-association
@@ -116,6 +129,7 @@ jurisdictions:
     language: en
     website: https://www.oasw.org/
     status: wired
+    verified: true
   ca-qc:
   - id: qc-gazette-officielle
     name: Gazette officielle du Québec
@@ -125,6 +139,7 @@ jurisdictions:
     language: fr
     website: https://www.publicationsduquebec.gouv.qc.ca/gazette-officielle/
     status: wired
+    verified: true
   - id: qc-office-professions
     name: Office des professions du Québec
     org_type: oversight-body
@@ -133,6 +148,7 @@ jurisdictions:
     language: en/fr
     website: https://www.quebec.ca/gouvernement/ministeres-organismes/office-professions
     status: wired
+    verified: true
   - id: qc-occoq
     name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
     org_type: regulatory-order
@@ -141,6 +157,7 @@ jurisdictions:
     language: fr
     website: https://www.orientation.qc.ca/
     status: wired
+    verified: true
   - id: qc-ordre-psychologues
     name: Ordre des psychologues du Québec (OPQ)
     org_type: regulatory-order
@@ -149,6 +166,7 @@ jurisdictions:
     language: fr
     website: https://www.ordrepsy.qc.ca/
     status: wired
+    verified: true
   - id: qc-oppq
     name: Ordre des psychoéducateurs et psychoéducatrices du Québec (OPPQ)
     org_type: regulatory-order
@@ -157,6 +175,7 @@ jurisdictions:
     language: fr
     website: https://ordrepsed.qc.ca/
     status: wired
+    verified: true
   - id: qc-otstcfq
     name: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec (OTSTCFQ)
     org_type: regulatory-order
@@ -165,6 +184,7 @@ jurisdictions:
     language: fr
     website: https://www.otstcfq.org/
     status: wired
+    verified: true
   - id: qc-cai
     name: Commission d'accès à l'information du Québec (CAI)
     org_type: oversight-body
@@ -173,6 +193,7 @@ jurisdictions:
     language: fr
     website: https://www.cai.gouv.qc.ca/
     status: wired
+    verified: true
   - id: qc-apq
     name: Association des psychologues du Québec (APQ)
     org_type: professional-association
@@ -181,6 +202,7 @@ jurisdictions:
     language: fr
     website: https://apqc.ca/
     status: wired
+    verified: true
   ca-ns:
   - id: ns-college-counselling-therapists
     name: Nova Scotia College of Counselling Therapists (NSCCT)
@@ -190,6 +212,7 @@ jurisdictions:
     language: en
     website: https://nscct.ca/
     status: wired
+    verified: true
   - id: ns-college-social-workers
     name: Nova Scotia College of Social Workers (NSCSW)
     org_type: regulatory-college
@@ -198,6 +221,7 @@ jurisdictions:
     language: en
     website: https://nscsw.org/
     status: wired
+    verified: true
   - id: ns-regulator-of-psychology
     name: Nova Scotia Regulator of Psychology (NSRP)
     org_type: regulatory-college
@@ -206,6 +230,7 @@ jurisdictions:
     language: en
     website: https://www.ns-rp.ca/
     status: wired
+    verified: true
   - id: ns-royal-gazette-part-ii
     name: Nova Scotia Royal Gazette, Part II (Regulations)
     org_type: government-gazette
@@ -214,6 +239,7 @@ jurisdictions:
     language: en
     website: https://novascotia.ca/just/regulations/rg2.htm
     status: wired
+    verified: true
   - id: ns-oipc-phia
     name: Office of the Information and Privacy Commissioner for Nova Scotia (PHIA oversight)
     org_type: government-gazette
@@ -222,6 +248,7 @@ jurisdictions:
     language: en
     website: https://oipc.novascotia.ca/
     status: wired
+    verified: true
   - id: apns
     name: Association of Psychologists of Nova Scotia (APNS)
     org_type: professional-association
@@ -230,6 +257,7 @@ jurisdictions:
     language: en
     website: https://apns.ca/
     status: wired
+    verified: true
   ca-bc:
   - id: bccsw
     name: British Columbia College of Social Workers
@@ -239,6 +267,7 @@ jurisdictions:
     language: en
     website: https://bccsw.ca/
     status: proposed
+    verified: true
   - id: chcpbc
     name: College of Health and Care Professionals of BC
     org_type: regulatory-college
@@ -247,6 +276,7 @@ jurisdictions:
     language: en
     website: https://chcpbc.org/
     status: proposed
+    verified: true
   - id: bcacc
     name: BC Association of Clinical Counsellors
     org_type: professional-association
@@ -255,6 +285,7 @@ jurisdictions:
     language: en
     website: https://bc-counsellors.org/
     status: proposed
+    verified: true
   ca-ab:
   - id: ab-alberta-college-of-social-workers
     name: Alberta College of Social Workers
@@ -264,6 +295,7 @@ jurisdictions:
     language: en
     website: https://acsw.ab.ca/
     status: proposed
+    verified: true
   - id: ab-college-of-alberta-psychologists
     name: College of Alberta Psychologists
     org_type: regulatory-college
@@ -272,6 +304,7 @@ jurisdictions:
     language: en
     website: https://www.cap.ab.ca/
     status: proposed
+    verified: true
   - id: ab-psychologists-association-of-alberta
     name: Psychologists' Association of Alberta
     org_type: professional-association
@@ -280,6 +313,7 @@ jurisdictions:
     language: en
     website: https://psychologistsassociation.ab.ca/
     status: proposed
+    verified: true
   ca-sk:
   - id: sk-association-of-social-workers
     name: Saskatchewan Association of Social Workers
@@ -289,6 +323,7 @@ jurisdictions:
     language: en
     website: https://www.sasw.ca/
     status: proposed
+    verified: true
   - id: sk-college-of-psychologists
     name: Saskatchewan College of Psychologists
     org_type: regulatory-college
@@ -297,6 +332,7 @@ jurisdictions:
     language: en
     website: https://www.skcp.ca/
     status: proposed
+    verified: true
   ca-mb:
   - id: mb-mcsw
     name: Manitoba College of Social Workers (MCSW)
@@ -306,6 +342,7 @@ jurisdictions:
     language: en
     website: https://mcsw.ca/
     status: proposed
+    verified: true
   - id: mb-pam
     name: Psychological Association of Manitoba (PAM)
     org_type: regulatory-college
@@ -314,6 +351,7 @@ jurisdictions:
     language: en
     website: https://www.cpmb.ca/
     status: proposed
+    verified: true
   ca-nb:
   - id: nb-college-licensed-counselling-therapists
     name: College of Licensed Counselling Therapists of New Brunswick
@@ -323,6 +361,7 @@ jurisdictions:
     language: en/fr
     website: https://cctnb.ca/
     status: proposed
+    verified: true
   - id: nb-college-psychologists
     name: College of Psychologists of New Brunswick
     org_type: regulatory-college
@@ -331,6 +370,7 @@ jurisdictions:
     language: en/fr
     website: https://cpnb.ca/en/
     status: proposed
+    verified: true
   - id: nb-association-social-workers
     name: New Brunswick Association of Social Workers (Association des travailleuses et travailleurs sociaux
       du Nouveau-Brunswick / NBASW-ATSNB)
@@ -340,6 +380,7 @@ jurisdictions:
     language: en/fr
     website: https://www.nbasw-atsnb.ca/
     status: proposed
+    verified: false
   ca-nl:
   - id: nl-college-social-workers
     name: Newfoundland and Labrador College of Social Workers
@@ -349,6 +390,7 @@ jurisdictions:
     language: en
     website: https://nlcsw.ca/
     status: proposed
+    verified: true
   - id: nl-psychology-board
     name: Newfoundland and Labrador Psychology Board
     org_type: regulatory-college
@@ -357,6 +399,7 @@ jurisdictions:
     language: en
     website: https://nlpsychboard.ca/
     status: proposed
+    verified: true
   ca-pe:
   - id: pe-college-counselling-therapy
     name: College of Counselling Therapy of Prince Edward Island
@@ -366,6 +409,7 @@ jurisdictions:
     language: en
     website: https://www.cctpei.ca/
     status: proposed
+    verified: true
   - id: pe-psychologists-registration-board
     name: Prince Edward Island Psychologists Registration Board
     org_type: regulatory-college
@@ -374,6 +418,7 @@ jurisdictions:
     language: en
     website: https://www.peipsychology.org/peiprb/
     status: proposed
+    verified: true
   - id: pe-social-work-registration-board
     name: Prince Edward Island Social Work Registration Board
     org_type: regulatory-college
@@ -382,6 +427,7 @@ jurisdictions:
     language: en
     website: https://socialworkpei.ca/
     status: proposed
+    verified: true
   ca-yt:
   - id: yt-psychologists
     name: Government of Yukon — Psychologist Regulation (Professional Licensing, Health Professions Act)
@@ -391,6 +437,7 @@ jurisdictions:
     language: en
     website: https://yukon.ca/en/doing-business/professional-licensing/learn-about-psychologist-regulations-yukon
     status: proposed
+    verified: false
   ca-nt:
   - id: nt-psychologists
     name: Government of Northwest Territories — Psychologist Licence (Professional Licensing Office, Dept.
@@ -401,6 +448,7 @@ jurisdictions:
     language: en
     website: https://www.hss.gov.nt.ca/en/services/psychologist-licence
     status: proposed
+    verified: true
   - id: nt-social-workers
     name: Government of Northwest Territories — Social Worker Licence (Professional Licensing Office,
       Dept. of Health and Social Services)
@@ -410,6 +458,7 @@ jurisdictions:
     language: en
     website: https://www.hss.gov.nt.ca/en/services/social-worker-licence
     status: proposed
+    verified: true
   ca-nu:
   - id: nu-psychologists
     name: Government of Nunavut — Registrar, Professional Licensing (Dept. of Health; Psychologists Act)
@@ -419,3 +468,4 @@ jurisdictions:
     language: en
     website: https://www.gov.nu.ca/health
     status: proposed
+    verified: true

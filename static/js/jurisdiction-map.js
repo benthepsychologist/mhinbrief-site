@@ -44,9 +44,10 @@
           '<span class="' + tierClass(it.tier) + '">' + (it.tier_label || "") + "</span>" +
           (it.website ? '<a href="' + it.website + '">' + it.name + "</a>" : it.name) +
           "</div>";
-        if (it.status === "proposed") {
-          html += '<div class="rp-status">Staged — pending confirmation, not yet live-tracked</div>';
-        }
+        var tags = "";
+        if (it.status === "proposed") tags += '<span class="tag tag-proposed">Proposed</span>';
+        if (it.verified === false) tags += '<span class="tag tag-unverified">Unverified</span>';
+        if (tags) html += '<div class="rp-tags">' + tags + "</div>";
         html += "</div>";
       });
     }

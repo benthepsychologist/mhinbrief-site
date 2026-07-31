@@ -23,7 +23,8 @@
     {{ range $federal }}
     <li><span class="{{ printf "rt rt-%d" (.tier | default 3) }}">{{ .tier_label }}</span>
       {{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
-      {{ if eq .status "proposed" }}<span class="rp-status"> — staged, pending confirmation</span>{{ end }}
+      {{ if eq .status "proposed" }}<span class="tag tag-proposed">Proposed</span>{{ end }}
+      {{ if not .verified }}<span class="tag tag-unverified">Unverified</span>{{ end }}
     </li>
     {{ end }}
   </ul>
@@ -53,7 +54,10 @@
   <ul>
     {{ range $items }}
     <li>{{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
-      ({{ .tier_label }}){{ if eq .status "proposed" }} — staged{{ end }}</li>
+      ({{ .tier_label }})
+      {{ if eq .status "proposed" }}<span class="tag tag-proposed">Proposed</span>{{ end }}
+      {{ if not .verified }}<span class="tag tag-unverified">Unverified</span>{{ end }}
+    </li>
     {{ end }}
   </ul>
   {{ else }}

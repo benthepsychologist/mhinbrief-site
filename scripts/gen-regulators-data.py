@@ -46,6 +46,7 @@ def main():
             "language": s.get("language"),
             "website": s.get("website") or s.get("endpoint") or s.get("feed_url"),
             "status": s.get("status"),
+            "verified": s.get("verified", True),
         }
         by_jurisdiction.setdefault(j, []).append(entry)
 
