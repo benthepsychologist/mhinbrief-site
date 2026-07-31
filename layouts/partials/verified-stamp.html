@@ -1,0 +1,5 @@
+{{- with .Params.last_verified -}}
+<div class="verified-stamp">Last verified {{ . }}{{ with $.Params.source_label }}
+  <span class="src">· source: {{ with $.Params.source_url }}<a href="{{ . }}">{{ $.Params.source_label }}</a>{{ else }}{{ . }}{{ end }}</span>
+{{ end }}</div>
+{{- end -}}

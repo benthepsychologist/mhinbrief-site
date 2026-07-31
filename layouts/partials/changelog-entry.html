@@ -1,0 +1,18 @@
+<div class="entry">
+  <div class="entry-meta">
+    <span>{{ .Date.Format "2006-01-02" }}</span> ·
+    <span class="jurisdiction">{{ .Params.jurisdiction | default "—" }}</span>
+    {{ with .Params.topic }} · <span>{{ . }}</span>{{ end }}
+    {{ with .Params.status }} <span class="badge {{ . }}">{{ . }}</span>{{ end }}
+  </div>
+  <div class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+  {{ if or .Params.old .Params.new }}
+  <div class="delta">
+    {{ with .Params.old }}<span class="old">{{ . }}</span><br>{{ end }}
+    {{ with .Params.new }}<span class="new">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+  {{ with .Params.source_url }}
+  <div class="entry-meta">source: <a href="{{ . }}">{{ $.Params.source_label | default . }}</a></div>
+  {{ end }}
+</div>

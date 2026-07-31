@@ -1,1 +1,35 @@
-This repo is private and dark (design §8): no domain, no deploy hook, build dark until brand placement resolves. Its `content/` directory is written ONLY by the kestrel publish core through the `therapybulletin` adapter — this is the single-content-writer invariant from design §1 ("A site repo has exactly one content writer: the publish core, through that site's adapter"). Do not hand-edit `content/`. The site's own chrome — templates/layouts, CSS, this scaffold — is normal repo-owned code and is edited directly; the invariant governs generated content/data exports only, not the site chrome.
+# therapybulletin-site
+
+Hugo site for **Therapy Bulletin** (therapybulletin.org) — the verified
+reference for the rules governing behavioural-health practice in Canada.
+Name locked 2026-07-31; domains (.org/.com/.ca) owned; repo private until
+the public launch call.
+
+## Content-writer contract
+
+Registry-derived content — jurisdiction records, topic-matrix cells,
+changelog entries — is written ONLY by the kestrel publish core through
+the `therapybulletin` adapter (the single-content-writer invariant,
+design §1: "A site repo has exactly one content writer: the publish core,
+through that site's adapter"). Do not hand-edit those sections.
+
+Editorial chrome — templates/layouts, CSS, and the hand-authored editorial
+pages (`method.md`, `newsletter.md`, section `_index.md` copy) — is normal
+repo-owned code, edited directly. The invariant governs generated
+registry/changelog exports, not the site chrome.
+
+## Build & deploy
+
+- Local: `hugo` (site builds with v0.111.3-extended; no theme deps, no
+  modules, no external assets — fonts are self-hosted in `static/fonts/`).
+- Cloudflare Pages: build command `hugo`, output directory `public`,
+  environment variable `HUGO_VERSION=0.111.3`.
+- `static/_headers` carries the security headers; `enableRobotsTXT` and
+  RSS/sitemap are on. No analytics.
+
+## Design
+
+"Survey map" system (brand package, 2026-07-31): chart-white `#F6F8F6`,
+ink `#1F2823`, spruce `#1F5C45`, brass `#8A6B2E`, survey-red changed-marker
+`#C13A2B`, graticule hairlines `#C7D0D4`; Spectral (headings) +
+Public Sans (body). All tokens in `static/css/main.css`.

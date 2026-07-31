@@ -1,12 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ .Site.Title }}</title>
-  <style>body{font-family:sans-serif;margin:2rem;color:#222;}</style>
-</head>
-<body>
-  <h1>{{ .Site.Title }}</h1>
-  <p>Private working site.</p>
-</body>
-</html>
+{{ define "main" }}
+<section class="hero">
+  <p class="question">What may a licensed clinician in your jurisdiction
+  actually do — and what must you disclose, document, or avoid?</p>
+  <p class="promise">Therapy Bulletin keeps a verified reference to the
+  rules governing behavioural-health practice in Canada — for
+  psychologists, psychotherapists, counsellors, social workers, and
+  marriage and family therapists. Every entry is sourced to the regulator
+  or statute that made it and stamped with the date we last checked.</p>
+  <p class="posture">Not a law firm. Not legal advice. A monitoring and
+  verification service — with receipts. <a href="/method/">How this
+  works&nbsp;→</a></p>
+</section>
+
+<h2>Latest verified changes</h2>
+{{ $entries := where .Site.RegularPages "Section" "changelog" }}
+{{ if $entries }}
+  {{ range first 5 $entries.ByDate.Reverse }}
+    {{ partial "changelog-entry.html" . }}
+  {{ end }}
+  <p><a href="/changelog/">Full changelog →</a></p>
+{{ else }}
+  <p class="empty-state">The first verified entries publish with Issue #1
+  of the Bulletin. Until then: the registry is being built, sourced, and
+  dated — nothing ships here without a receipt.</p>
+{{ end }}
+
+<h2>The reference</h2>
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="/jurisdictions/">Jurisdictions</a></h3>
+    <p>Province-by-province hubs — regulators, controlled acts, title
+    protection, telepractice, privacy, retention, insurance, tax.</p>
+  </div>
+  <div class="card">
+    <h3><a href="/topics/">Topics</a></h3>
+    <p>Cross-provincial matrices: telepractice &amp; cross-border work,
+    GST/HST, privacy &amp; data residency, records retention, liability
+    insurance, AI in practice.</p>
+  </div>
+  <div class="card">
+    <h3><a href="/changelog/">Changelog</a></h3>
+    <p>Every verified change to every entry — dated, sourced, and
+    append-only. The weekly rollup is the newsletter.</p>
+  </div>
+  <div class="card">
+    <h3><a href="/method/">Method</a></h3>
+    <p>How claims get verified, what the last-verified stamp means, and
+    exactly what this site is not.</p>
+  </div>
+</div>
+
+<h2>The Bulletin</h2>
+<p class="prose">The weekly Bulletin is the changelog: what changed, where,
+since when, with the source attached. <a href="/newsletter/">Signup opens
+with the first issue →</a></p>
+{{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+{{ if .Pages }}
+  {{ range .Pages.ByDate.Reverse }}
+    {{ partial "changelog-entry.html" . }}
+  {{ end }}
+{{ else }}
+  <p class="empty-state">No entries yet. The changelog opens with the first
+  verified records — every field change, record addition, and retirement
+  lands here, dated and sourced, and the weekly rollup becomes the
+  Bulletin.</p>
+{{ end }}
+{{ end }}

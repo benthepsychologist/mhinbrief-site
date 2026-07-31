@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ .Title }}</title>
-</head>
-<body>
+{{ define "main" }}
+<div class="prose">
   <h1>{{ .Title }}</h1>
-  <ul>
-    {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
-</body>
-</html>
+  {{ .Content }}
+</div>
+{{ if .Pages }}
+<div class="card-grid">
+  {{ range .Pages }}
+  <div class="card">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

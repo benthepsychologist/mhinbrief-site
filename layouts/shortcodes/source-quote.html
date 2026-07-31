@@ -1,0 +1,4 @@
+<blockquote>
+  {{ .Inner | markdownify }}
+  {{ with .Get "label" }}<p><cite>— {{ . }}{{ with $.Get "url" }}, <a href="{{ . }}">source</a>{{ end }}</cite></p>{{ end }}
+</blockquote>

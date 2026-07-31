@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ .Title }}</title>
-</head>
-<body>
+{{ define "main" }}
+<article class="prose">
   <h1>{{ .Title }}</h1>
+  {{ partial "verified-stamp.html" . }}
   {{ .Content }}
-</body>
-</html>
+  <div class="disclaimer">
+    <strong>Not legal advice.</strong> This page states rules and quotes
+    sources; it does not apply them to your situation. Confirm anything
+    that matters with your college or regulator, your accountant, or your
+    insurer before acting on it.
+  </div>
+</article>
+{{ end }}

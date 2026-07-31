@@ -1,15 +1,43 @@
-title: "Therapy Bulletin — private working site"
-baseURL: "/"
-languageCode: "en-us"
+title: "Therapy Bulletin"
+baseURL: "https://therapybulletin.org/"
+languageCode: "en-ca"
+copyright: "Therapy Bulletin"
 
-# Private/dark scaffold (design §8): no analytics, no external fonts,
-# no CDN or module dependencies. Kept minimal on purpose.
+# Self-contained by design: no analytics, no external fonts at runtime,
+# no CDN or module dependencies. Fonts are self-hosted under static/fonts/.
 googleAnalytics: ""
+enableRobotsTXT: true
+
+# Taxonomies stay off until the record corpus drives them; RSS and sitemap
+# are on — the changelog feed IS the product's native format.
 disableKinds:
   - taxonomy
   - term
-  - RSS
-  - sitemap
+
+params:
+  description: >-
+    A verified reference for the rules governing behavioural-health
+    practice in Canada — every entry sourced, every change dated.
+    Not legal advice: a monitoring and verification service, with receipts.
+  tagline: "Every rule sourced. Every change dated."
+
+menus:
+  main:
+    - name: Jurisdictions
+      url: /jurisdictions/
+      weight: 10
+    - name: Topics
+      url: /topics/
+      weight: 20
+    - name: Changelog
+      url: /changelog/
+      weight: 30
+    - name: Newsletter
+      url: /newsletter/
+      weight: 40
+    - name: Method
+      url: /method/
+      weight: 50
 
 privacy:
   disqus:
