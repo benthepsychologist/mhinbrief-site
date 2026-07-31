@@ -24,6 +24,18 @@ registry/changelog exports, not the site chrome.
   modules, no external assets — fonts are self-hosted in `static/fonts/`).
 - Cloudflare Pages: build command `hugo`, output directory `public`,
   environment variable `HUGO_VERSION=0.111.3`.
+- **Push does NOT auto-deploy.** Like theprojection-site, this project
+  builds only on its Cloudflare deploy hook, not on git push — a build
+  connected to the GitHub repo alone will sit un-triggered indefinitely
+  (found 2026-07-31: a real push of the jurisdiction-map/branding work
+  sat live-unchanged for several minutes with no way to tell from this
+  repo alone that a build hadn't even started). After every push that
+  should go live, fire the hook by hand:
+  `curl -X POST "$THERAPYBULLETIN_DEPLOY_HOOK"` — the URL lives in this
+  repo's gitignored `.env` (see `.env.example` for the var name), never
+  committed. Response includes a `build_uuid`; Cloudflare's dashboard is
+  the only place to check build success/failure from here — no API
+  token is configured in this environment to poll it directly.
 - `static/_headers` carries the security headers; `enableRobotsTXT` and
   RSS/sitemap are on. No analytics.
 
