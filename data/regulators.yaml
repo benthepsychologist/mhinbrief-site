@@ -9,7 +9,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://gazette.gc.ca/accueil-home-eng.html
-    status: proposed
+    status: wired
   - id: canada-gazette-p2
     name: Canada Gazette Part II
     org_type: null
@@ -25,7 +25,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://www.canada.ca/en/revenue-agency.html
-    status: proposed
+    status: wired
   - id: opc-pipeda
     name: Office of the Privacy Commissioner of Canada — PIPEDA investigations & guidance
     org_type: privacy-regulator
@@ -33,7 +33,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://www.priv.gc.ca/en/
-    status: proposed
+    status: wired
   - id: casw-national
     name: Canadian Association of Social Workers (CASW)
     org_type: professional-association
@@ -41,7 +41,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en/fr
     website: https://www.casw-acts.ca/en
-    status: proposed
+    status: wired
   - id: ccpa-national
     name: Canadian Counselling and Psychotherapy Association (CCPA / ACCP)
     org_type: professional-association
@@ -57,7 +57,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en/fr
     website: https://cpa.ca/
-    status: proposed
+    status: wired
   - id: mhcc-workplace-standard
     name: Mental Health Commission of Canada — National Standard for Psychological Health and Safety in
       the Workplace
@@ -75,7 +75,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://cpbao.ca/
-    status: proposed
+    status: wired
   - id: ocswssw-news
     name: Ontario College of Social Workers and Social Service Workers
     org_type: regulatory-college
@@ -83,7 +83,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.ocswssw.org/
-    status: proposed
+    status: wired
   - id: on-rhpa-elaws
     name: Regulated Health Professions Act, 1991 (Ontario e-Laws)
     org_type: government-gazette
@@ -91,7 +91,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://www.ontario.ca/laws/statute/91r18
-    status: proposed
+    status: wired
   - id: crpo-news
     name: CRPO news (Ontario psychotherapists)
     org_type: null
@@ -107,7 +107,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en
     website: https://www.psych.on.ca/
-    status: proposed
+    status: wired
   - id: oasw-news
     name: Ontario Association of Social Workers
     org_type: professional-association
@@ -115,7 +115,7 @@ jurisdictions:
     tier_label: Association
     language: en
     website: https://www.oasw.org/
-    status: proposed
+    status: wired
   ca-qc:
   - id: qc-gazette-officielle
     name: Gazette officielle du Québec
@@ -124,7 +124,7 @@ jurisdictions:
     tier_label: Regulator
     language: fr
     website: https://www.publicationsduquebec.gouv.qc.ca/gazette-officielle/
-    status: proposed
+    status: wired
   - id: qc-office-professions
     name: Office des professions du Québec
     org_type: oversight-body
@@ -132,7 +132,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://www.quebec.ca/gouvernement/ministeres-organismes/office-professions
-    status: proposed
+    status: wired
   - id: qc-occoq
     name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
     org_type: regulatory-order
@@ -140,7 +140,7 @@ jurisdictions:
     tier_label: Regulator
     language: fr
     website: https://www.orientation.qc.ca/
-    status: proposed
+    status: wired
   - id: qc-ordre-psychologues
     name: Ordre des psychologues du Québec (OPQ)
     org_type: regulatory-order
@@ -148,7 +148,7 @@ jurisdictions:
     tier_label: Regulator
     language: fr
     website: https://www.ordrepsy.qc.ca/
-    status: proposed
+    status: wired
   - id: qc-oppq
     name: Ordre des psychoéducateurs et psychoéducatrices du Québec (OPPQ)
     org_type: regulatory-order
@@ -156,7 +156,7 @@ jurisdictions:
     tier_label: Regulator
     language: fr
     website: https://ordrepsed.qc.ca/
-    status: proposed
+    status: wired
   - id: qc-otstcfq
     name: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec (OTSTCFQ)
     org_type: regulatory-order
@@ -164,7 +164,7 @@ jurisdictions:
     tier_label: Regulator
     language: fr
     website: https://www.otstcfq.org/
-    status: proposed
+    status: wired
   - id: qc-cai
     name: Commission d'accès à l'information du Québec (CAI)
     org_type: oversight-body
@@ -172,7 +172,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: fr
     website: https://www.cai.gouv.qc.ca/
-    status: proposed
+    status: wired
   - id: qc-apq
     name: Association des psychologues du Québec (APQ)
     org_type: professional-association
@@ -180,7 +180,7 @@ jurisdictions:
     tier_label: Association
     language: fr
     website: https://apqc.ca/
-    status: proposed
+    status: wired
   ca-ns:
   - id: ns-college-counselling-therapists
     name: Nova Scotia College of Counselling Therapists (NSCCT)
@@ -189,7 +189,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://nscct.ca/
-    status: proposed
+    status: wired
   - id: ns-college-social-workers
     name: Nova Scotia College of Social Workers (NSCSW)
     org_type: regulatory-college
@@ -197,7 +197,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://nscsw.org/
-    status: proposed
+    status: wired
   - id: ns-regulator-of-psychology
     name: Nova Scotia Regulator of Psychology (NSRP)
     org_type: regulatory-college
@@ -205,7 +205,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.ns-rp.ca/
-    status: proposed
+    status: wired
   - id: ns-royal-gazette-part-ii
     name: Nova Scotia Royal Gazette, Part II (Regulations)
     org_type: government-gazette
@@ -213,7 +213,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://novascotia.ca/just/regulations/rg2.htm
-    status: proposed
+    status: wired
   - id: ns-oipc-phia
     name: Office of the Information and Privacy Commissioner for Nova Scotia (PHIA oversight)
     org_type: government-gazette
@@ -221,7 +221,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en
     website: https://oipc.novascotia.ca/
-    status: proposed
+    status: wired
   - id: apns
     name: Association of Psychologists of Nova Scotia (APNS)
     org_type: professional-association
@@ -229,4 +229,4 @@ jurisdictions:
     tier_label: Association
     language: en
     website: https://apns.ca/
-    status: proposed
+    status: wired
