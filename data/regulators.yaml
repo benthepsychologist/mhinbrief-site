@@ -54,7 +54,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en/fr
     website: https://www.ccpa-accp.ca/
-    status: proposed
+    status: wired
     verified: false
   - id: cpa-national
     name: Canadian Psychological Association (CPA)
@@ -73,7 +73,7 @@ jurisdictions:
     tier_label: Association
     language: en/fr
     website: https://mentalhealthcommission.ca/workplace-standard/
-    status: proposed
+    status: wired
     verified: false
   ca-on:
   - id: cpbao-news
@@ -266,7 +266,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://bccsw.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: chcpbc
     name: College of Health and Care Professionals of BC
@@ -275,7 +275,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://chcpbc.org/
-    status: proposed
+    status: wired
     verified: true
   - id: bcacc
     name: BC Association of Clinical Counsellors
@@ -284,7 +284,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en
     website: https://bc-counsellors.org/
-    status: proposed
+    status: wired
     verified: true
   ca-ab:
   - id: ab-alberta-college-of-social-workers
@@ -294,7 +294,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://acsw.ab.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: ab-college-of-alberta-psychologists
     name: College of Alberta Psychologists
@@ -303,7 +303,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.cap.ab.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: ab-psychologists-association-of-alberta
     name: Psychologists' Association of Alberta
@@ -312,7 +312,7 @@ jurisdictions:
     tier_label: Quasi-regulatory / associations
     language: en
     website: https://psychologistsassociation.ab.ca/
-    status: proposed
+    status: wired
     verified: true
   ca-sk:
   - id: sk-association-of-social-workers
@@ -322,7 +322,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.sasw.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: sk-college-of-psychologists
     name: Saskatchewan College of Psychologists
@@ -331,7 +331,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.skcp.ca/
-    status: proposed
+    status: wired
     verified: true
   ca-mb:
   - id: mb-mcsw
@@ -341,7 +341,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://mcsw.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: mb-pam
     name: Psychological Association of Manitoba (PAM)
@@ -350,7 +350,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.cpmb.ca/
-    status: proposed
+    status: wired
     verified: true
   ca-nb:
   - id: nb-college-licensed-counselling-therapists
@@ -360,7 +360,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://cctnb.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: nb-college-psychologists
     name: College of Psychologists of New Brunswick
@@ -369,7 +369,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://cpnb.ca/en/
-    status: proposed
+    status: wired
     verified: true
   - id: nb-association-social-workers
     name: New Brunswick Association of Social Workers (Association des travailleuses et travailleurs sociaux
@@ -379,7 +379,7 @@ jurisdictions:
     tier_label: Regulator
     language: en/fr
     website: https://www.nbasw-atsnb.ca/
-    status: proposed
+    status: wired
     verified: false
   ca-nl:
   - id: nl-college-social-workers
@@ -389,7 +389,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://nlcsw.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: nl-psychology-board
     name: Newfoundland and Labrador Psychology Board
@@ -398,7 +398,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://nlpsychboard.ca/
-    status: proposed
+    status: wired
     verified: true
   ca-pe:
   - id: pe-college-counselling-therapy
@@ -408,7 +408,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.cctpei.ca/
-    status: proposed
+    status: wired
     verified: true
   - id: pe-psychologists-registration-board
     name: Prince Edward Island Psychologists Registration Board
@@ -417,7 +417,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.peipsychology.org/peiprb/
-    status: proposed
+    status: wired
     verified: true
   - id: pe-social-work-registration-board
     name: Prince Edward Island Social Work Registration Board
@@ -426,7 +426,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://socialworkpei.ca/
-    status: proposed
+    status: wired
     verified: true
   ca-yt:
   - id: yt-psychologists
@@ -436,7 +436,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://yukon.ca/en/doing-business/professional-licensing/learn-about-psychologist-regulations-yukon
-    status: proposed
+    status: wired
     verified: false
   ca-nt:
   - id: nt-psychologists
@@ -447,7 +447,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.hss.gov.nt.ca/en/services/psychologist-licence
-    status: proposed
+    status: wired
     verified: true
   - id: nt-social-workers
     name: Government of Northwest Territories — Social Worker Licence (Professional Licensing Office,
@@ -457,7 +457,7 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.hss.gov.nt.ca/en/services/social-worker-licence
-    status: proposed
+    status: wired
     verified: true
   ca-nu:
   - id: nu-psychologists
@@ -467,5 +467,5 @@ jurisdictions:
     tier_label: Regulator
     language: en
     website: https://www.gov.nu.ca/health
-    status: proposed
+    status: wired
     verified: true
