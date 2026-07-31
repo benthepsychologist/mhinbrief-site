@@ -55,7 +55,7 @@ jurisdictions:
     language: en/fr
     website: https://www.ccpa-accp.ca/
     status: wired
-    verified: false
+    verified: true
   - id: cpa-national
     name: Canadian Psychological Association (CPA)
     org_type: professional-association
