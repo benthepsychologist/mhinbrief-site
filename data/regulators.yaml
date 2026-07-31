@@ -230,3 +230,192 @@ jurisdictions:
     language: en
     website: https://apns.ca/
     status: wired
+  ca-bc:
+  - id: bccsw
+    name: British Columbia College of Social Workers
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://bccsw.ca/
+    status: proposed
+  - id: chcpbc
+    name: College of Health and Care Professionals of BC
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://chcpbc.org/
+    status: proposed
+  - id: bcacc
+    name: BC Association of Clinical Counsellors
+    org_type: professional-association
+    tier: 2
+    tier_label: Quasi-regulatory / associations
+    language: en
+    website: https://bc-counsellors.org/
+    status: proposed
+  ca-ab:
+  - id: ab-alberta-college-of-social-workers
+    name: Alberta College of Social Workers
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://acsw.ab.ca/
+    status: proposed
+  - id: ab-college-of-alberta-psychologists
+    name: College of Alberta Psychologists
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.cap.ab.ca/
+    status: proposed
+  - id: ab-psychologists-association-of-alberta
+    name: Psychologists' Association of Alberta
+    org_type: professional-association
+    tier: 2
+    tier_label: Quasi-regulatory / associations
+    language: en
+    website: https://psychologistsassociation.ab.ca/
+    status: proposed
+  ca-sk:
+  - id: sk-association-of-social-workers
+    name: Saskatchewan Association of Social Workers
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.sasw.ca/
+    status: proposed
+  - id: sk-college-of-psychologists
+    name: Saskatchewan College of Psychologists
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.skcp.ca/
+    status: proposed
+  ca-mb:
+  - id: mb-mcsw
+    name: Manitoba College of Social Workers (MCSW)
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://mcsw.ca/
+    status: proposed
+  - id: mb-pam
+    name: Psychological Association of Manitoba (PAM)
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.cpmb.ca/
+    status: proposed
+  ca-nb:
+  - id: nb-college-licensed-counselling-therapists
+    name: College of Licensed Counselling Therapists of New Brunswick
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en/fr
+    website: https://cctnb.ca/
+    status: proposed
+  - id: nb-college-psychologists
+    name: College of Psychologists of New Brunswick
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en/fr
+    website: https://cpnb.ca/en/
+    status: proposed
+  - id: nb-association-social-workers
+    name: New Brunswick Association of Social Workers (Association des travailleuses et travailleurs sociaux
+      du Nouveau-Brunswick / NBASW-ATSNB)
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en/fr
+    website: https://www.nbasw-atsnb.ca/
+    status: proposed
+  ca-nl:
+  - id: nl-college-social-workers
+    name: Newfoundland and Labrador College of Social Workers
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://nlcsw.ca/
+    status: proposed
+  - id: nl-psychology-board
+    name: Newfoundland and Labrador Psychology Board
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://nlpsychboard.ca/
+    status: proposed
+  ca-pe:
+  - id: pe-college-counselling-therapy
+    name: College of Counselling Therapy of Prince Edward Island
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.cctpei.ca/
+    status: proposed
+  - id: pe-psychologists-registration-board
+    name: Prince Edward Island Psychologists Registration Board
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.peipsychology.org/peiprb/
+    status: proposed
+  - id: pe-social-work-registration-board
+    name: Prince Edward Island Social Work Registration Board
+    org_type: regulatory-college
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://socialworkpei.ca/
+    status: proposed
+  ca-yt:
+  - id: yt-psychologists
+    name: Government of Yukon — Psychologist Regulation (Professional Licensing, Health Professions Act)
+    org_type: government-department
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://yukon.ca/en/doing-business/professional-licensing/learn-about-psychologist-regulations-yukon
+    status: proposed
+  ca-nt:
+  - id: nt-psychologists
+    name: Government of Northwest Territories — Psychologist Licence (Professional Licensing Office, Dept.
+      of Health and Social Services)
+    org_type: government-department
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.hss.gov.nt.ca/en/services/psychologist-licence
+    status: proposed
+  - id: nt-social-workers
+    name: Government of Northwest Territories — Social Worker Licence (Professional Licensing Office,
+      Dept. of Health and Social Services)
+    org_type: government-department
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.hss.gov.nt.ca/en/services/social-worker-licence
+    status: proposed
+  ca-nu:
+  - id: nu-psychologists
+    name: Government of Nunavut — Registrar, Professional Licensing (Dept. of Health; Psychologists Act)
+    org_type: government-department
+    tier: 1
+    tier_label: Regulator
+    language: en
+    website: https://www.gov.nu.ca/health
+    status: proposed
