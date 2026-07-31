@@ -66,6 +66,15 @@
   {{ end }}
 </details>
 
-<script>window.__REGULATORS = {{ $regs | jsonify }};</script>
+{{/* NOT window.__REGULATORS = {{ jsonify }} inside a bare <script> — Hugo's
+     html/template contextual auto-escaper treats ANY <script> block as a JS
+     context regardless of its type= attribute, and re-escapes jsonify's
+     output into a quoted JS string (first tried: backticked; even inside
+     type="application/json" it still came out double-JSON-encoded, a
+     string containing JSON text, not the JSON itself) — either way every
+     DATA["ca-xx"] lookup in jurisdiction-map.js silently returned
+     undefined. `| safeJS` is the actual fix: it tells the escaper this
+     value is already safe to emit verbatim in a script context. */}}
+<script type="application/json" id="regulators-data">{{ $regs | jsonify | safeJS }}</script>
 <script src="/js/jurisdiction-map.js" defer></script>
 {{ end }}
