@@ -1,5 +1,5 @@
 generated_by: therapybulletin publish adapter (publish/adapter.py)
-record_count: 4
+record_count: 16
 topic_names:
   licensure: Licensure
   scope: Scope of practice
@@ -186,14 +186,532 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-federal-tax-gst-hst-social-work
+  insurance:
+  - &id005
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: By-laws of the College of Psychologists of Ontario
+      bill_number: null
+      code_cite: By-law 22 (Professional Liability Insurance), ss. 22.1-22.3, 22.6
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: MANDATORY. Registrants holding a certificate authorising autonomous,
+      interim autonomous or supervised practice must hold or be covered by professional liability insurance
+      IN ALL SETTINGS IN WHICH THEY PRACTISE. Minimum coverage $2,000,000. No deductible is permitted.
+      The only exemption is for a registrant who resides outside Ontario AND provides no services within
+      Ontario at any time during the registration year, nor supervises anyone providing services in Ontario.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://cpbao.ca/wp-content/uploads/College-of-Psychologists-of-Ontario-By-laws-Effective-July-1-2024.pdf
+    source_quote: '"22.1 Subject to Section 6, each member of the College registered with a certificate
+      of registration authorizing autonomous practice, interim autonomous practice or supervised practice
+      shall hold, or otherwise be covered by professional liability insurance in all settings in which
+      the member practices. 22.2 The amount of insurance coverage shall be no less than $2,000,000. 22.3
+      The insurance shall have no deductible." — CPBAO By-laws, By-law 22 (revised 2024-03-21, effective
+      2024-07-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-psychology
+  - &id006
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: By-laws of the College of Registered Psychotherapists and Registered Mental Health
+        Therapists of Ontario
+      bill_number: null
+      code_cite: s. 20.01 (Requirement to Carry Insurance)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-01-01'
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: 'MANDATORY for all registrants except inactive registrants who have
+      purchased run-off coverage. The policy must carry: at least $1,000,000 per occurrence; at least
+      $5,000,000 annual aggregate; NO deductible; run-off coverage for a minimum of two years; an insurer
+      licensed with FSRA Ontario or OSFI Canada; and a sexual abuse therapy and counselling fund endorsement
+      covering persons eligible under s. 85.7(4) of the Code.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://crpo.ca/wp-content/uploads/2025/10/CRPO-By-laws-Amended-Oct125-2026-fees.pdf
+    source_quote: '"(1) A Registrant, other than an Inactive Registrant who has purchased any run-off
+      coverage contemplated by these by-laws, must carry professional liability insurance with the following
+      characteristics: (i) a minimum of no less than $1,000,000 per occurrence; (ii) annual aggregate
+      coverage of no less than $5,000,000; (iii) no deductible; (iv) run-off coverage for a minimum of
+      two (2) years; (v) provided by an insurer licensed with the Financial Services Regulatory Authority
+      of Ontario or the office of the Superintendent of Financial Institutions Canada..." — CRPO By-laws,
+      s. 20.01 (made 2024-12-12, effective 2025-01-01, amended 2025-10-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-psychotherapy
+  - &id007
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: none
+    statute_citation:
+      short_title: Social Work and Social Service Work Act, 1998
+      bill_number: null
+      code_cite: no insurance provision — see notes
+      regulation_cite: O. Reg. 383/00 (Registration)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: NOT MANDATORY. Professional liability insurance is not a registration
+      requirement for OCSWSSW registrants. The College strongly encourages it but does not require it,
+      and there is no by-law or regulation imposing it. A social worker in Ontario private practice may
+      register and practise without professional liability insurance.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://www.ocswssw.org/registrants/private-practice/
+    source_quote: '"Although not required by the College, registrants are strongly encouraged to obtain
+      professional liability insurance, which can be purchased through a professional association or another
+      insurance carrier." — OCSWSSW, Private Practice page'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-social-work
+  privacy:
+  - &id008
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    - psychotherapist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: disclosure
+    statute_citation:
+      short_title: Personal Health Information Protection Act, 2004
+      bill_number: null
+      code_cite: S.O. 2004, c. 3, Sched. A, s. 12; s. 72 (offences)
+      regulation_cite: O. Reg. 329/04, s. 6.3
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Information and Privacy Commissioner of Ontario
+    authority_basis: privacy
+    penalties: 'On conviction: a natural person is liable to a fine of not more than $200,000, imprisonment
+      of not more than 1 year, or both; a non-natural person to a fine of not more than $1,000,000 (s.
+      72(2)). Most s. 72 offences require WILFUL conduct — ordinary negligence is not an offence, though
+      it can still ground an IPC order. Prosecution requires the Attorney General''s consent (s. 72(5)).'
+    clinician_facing_obligations: 'Two different duties with two different triggers, and the asymmetry
+      is the point. NOTICE TO THE INDIVIDUAL has NO threshold: on any theft, loss, or unauthorised use
+      or disclosure of personal health information, notify the individual at the first reasonable opportunity
+      and state in the notice that they may complain to the Commissioner (s. 12(2)). NOTICE TO THE IPC
+      does have a threshold, set by O. Reg. 329/04 s. 6.3(1): theft is an automatic trigger, while other
+      incidents run through a significance test weighing whether the information is sensitive, the volume
+      involved, how many individuals are affected, and whether more than one custodian or agent was responsible.
+      For a psychotherapy practice the sensitivity limb means even a single-client breach can clear that
+      bar.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/statute/04p03
+    source_quote: '"(2) ... if personal health information about an individual that is in the custody
+      or control of a health information custodian is stolen or lost or if it is used or disclosed without
+      authority, the health information custodian shall, (a) notify the individual at the first reasonable
+      opportunity of the theft or loss or of the unauthorized use or disclosure; and (b) include in the
+      notice a statement that the individual is entitled to make a complaint to the Commissioner..." —
+      PHIPA, s. 12(2)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-privacy-breach-notification
+  - &id009
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    - psychotherapist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Personal Health Information Protection Act, 2004
+      bill_number: null
+      code_cite: S.O. 2004, c. 3, Sched. A, ss. 2, 3(1) para. 1
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Information and Privacy Commissioner of Ontario
+    authority_basis: privacy
+    penalties: null
+    clinician_facing_obligations: 'An Ontario private-practice behavioural-health clinician is a health
+      information custodian (HIC) under PHIPA, and therefore carries the Act''s full duties — not PIPEDA,
+      which is displaced for activity within Ontario. But the ROUTE into custodian status differs by profession,
+      and the difference matters: psychologists and Registered Psychotherapists qualify under the ''health
+      care practitioner'' definition at s. 2(a), by virtue of being members of a college under the Regulated
+      Health Professions Act, 1991. Clinical social workers qualify under a SEPARATE paragraph, s. 2(c),
+      which exists precisely because OCSWSSW is not an RHPA college. A practitioner using an unregulated
+      title is captured only by the residual clause s. 2(d) — ''any other person whose primary function
+      is to provide health care for payment'' — which turns on facts about their practice rather than
+      a college registry check, and is a materially weaker footing.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://www.ontario.ca/laws/statute/04p03
+    source_quote: '"''health care practitioner'' means, (a) a person who is a member within the meaning
+      of the Regulated Health Professions Act, 1991 and who provides health care, (b) Repealed, (c) a
+      person who is a member of the Ontario College of Social Workers and Social Service Workers and who
+      provides health care, or (d) any other person whose primary function is to provide health care for
+      payment;" — PHIPA, S.O. 2004, c. 3, Sched. A, s. 2 (e-Laws consolidation, currency date 2026-07-28)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-privacy-custodian-status
+  - &id010
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    - psychotherapist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Personal Health Information Protection Act, 2004
+      bill_number: null
+      code_cite: S.O. 2004, c. 3, Sched. A, s. 50(1)
+      regulation_cite: Health Information Custodians in the Province of Ontario Exemption Order, SOR/2005-399
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Information and Privacy Commissioner of Ontario
+    authority_basis: privacy
+    penalties: null
+    clinician_facing_obligations: 'Using a US-hosted EHR, teletherapy platform, or cloud backup engages
+      TWO regimes at once, and most practitioners know about neither. First, PHIPA s. 50(1) permits disclosure
+      of PHI collected in Ontario to a person outside Ontario only on listed grounds — consent, statutory
+      permission, reasonable necessity for the provision of health care, or payment/contractual administration.
+      Ordinary EHR hosting is likely covered by the health-care-provision ground, but that is a ground
+      the practitioner must be able to point to, not an automatic pass. Second, the federal order that
+      exempts Ontario HICs from PIPEDA is scoped to activity ''within the Province of Ontario'' — so PIPEDA
+      re-attaches the moment personal health information crosses a provincial or national border. The
+      practical effect: a solo Ontario practitioner on a US-hosted platform may have to satisfy PHIPA
+      s. 50 and PIPEDA simultaneously for that same transfer.'
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/regulations/SOR-2005-399/page-1.html
+    source_quote: '"Any health information custodian to which the Personal Health Information Protection
+      Act, 2004, S.O. 2004, c. 3, Schedule A, applies is exempt from the application of Part 1 of the
+      Personal Information Protection and Electronic Documents Act in respect of the collection, use and
+      disclosure of personal information that occurs within the Province of Ontario." — Health Information
+      Custodians in the Province of Ontario Exemption Order, SOR/2005-399, P.C. 2005-2224, registered
+      2005-11-28 (emphasis on the territorial scope is ours; the words ''within the Province of Ontario''
+      are the order''s own)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-privacy-data-residency
+  retention:
+  - &id011
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Standards of Professional Conduct (CPBAO)
+      bill_number: null
+      code_cite: s. 9.4 (Record Storage and Retention)
+      regulation_cite: O. Reg. 195/23 (Professional Misconduct), Psychology and Applied Behaviour Analysis
+        Act, 2021
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Retain individual client service records for at least 10 years after
+      the service recipient turns 18, or after the last professional contact — whichever comes later.
+      Organizational service records: at least 10 years after the organizational client''s last contact.
+      Registrants who are health information custodians must also arrange for the security and maintenance
+      of records in case of expected or unexpected incapacity or death, and inform the College of those
+      arrangements before ceasing to provide services.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://cpbao.ca/members/professional-practice/standards-of-professional-conduct/
+    source_quote: '"9.4 Record Storage and Retention — Individual Client Service records must be retained
+      for a minimum of 10 years after the service recipient reaches the age of 18 or after the last professional
+      contact, whichever comes later; Unless otherwise required by law, organizational service records
+      must be maintained for at least ten years following the organizational client''s last contact."
+      — CPBAO, Standards of Professional Conduct, s. 9.4 (in force 2024-07-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-retention-psychology
+  - &id012
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Professional Practice Standards (CRPO)
+      bill_number: null
+      code_cite: Standard 5.1 (Clinical Records) — Retention
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Where the registrant is custodian of the clinical record, retain it
+      for at least 10 years from the date of the last interaction with the client, or 10 years from the
+      client's 18th birthday — whichever is later. Registrants who are health information custodians must
+      give the College up-to-date information about who would take custody of records on their death or
+      long-term inability to act, and must maintain records securely for the Standard 5.1 period even
+      after closing a practice, unless transferred to another custodian. Pre-planned closure or relocation
+      generally requires at least 30 days' notice.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://crpo.ca/practice-standards/record-keeping-documentation/clinical-records/
+    source_quote: '"Retention — Where the RP is the custodian of the clinical record, they retain the
+      record for at least 10 years from the date of the last interaction with the client, or for 10 years
+      from the client''s 18th birthday, whichever is later. For example, if a child is age seven at the
+      time of last interaction, the record would be kept until the client''s 28th birthday." — CRPO, Professional
+      Practice Standards, Standard 5.1'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-retention-psychotherapy
+  - &id013
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code of Ethics and Standards of Practice (OCSWSSW)
+      bill_number: null
+      code_cite: Principle IV, Interpretation 4.2.2
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2023-09-08'
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Store and preserve each client record securely for at least 10 years
+      from the date of the LAST ENTRY or, if the client was under 18 at that date, at least 10 years from
+      the day they turned (or would have turned) 18. Retain longer where required by law or an employer's
+      policy, and retain longer on reasonable judgment where future access may be needed — the Standard
+      names minors, sexual abuse, and current or future litigation. Dispose only after the period elapses,
+      and in a way that does not compromise confidentiality. On ceasing practice, either keep maintaining
+      the records or transfer them to another registrant or regulated professional who first agrees in
+      writing to comply with Principle IV.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ocswssw.org/sop/principle-iv-the-social-work-and-social-service-work-record/
+    source_quote: '"4.2.2 College registrants shall ensure that each client record is stored and preserved
+      in a secure location for at least ten years from the date of the last entry or, if the client was
+      less than eighteen years of age at the date of the last entry, at least ten years from the day the
+      client became or would have become eighteen." — OCSWSSW, Code of Ethics and Standards of Practice,
+      Principle IV, Interpretation 4.2.2 (effective 2023-09-08)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-retention-social-work
+  telepractice:
+  - &id014
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Standards of Professional Conduct (CPBAO)
+      bill_number: null
+      code_cite: Standard 16 (Cross-Jurisdictional Practice); Standard 17 (Use of Technology)
+      regulation_cite: O. Reg. 195/23 (Professional Misconduct), Psychology and Applied Behaviour Analysis
+        Act, 2021
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Anyone providing psychological services to a person PHYSICALLY IN ONTARIO
+      must be CPBAO-registered — telepsychology included, regardless of where the practitioner sits. Practising
+      outside Ontario: the registrant must be legally authorised in that jurisdiction, must comply with
+      Ontario''s requirements while practising elsewhere, must tell recipients the College can address
+      complaints and give College contact information on request, and must carry liability insurance covering
+      that service. Where two jurisdictions conflict, comply with whichever obligation gives the client
+      greater protection. Cloud services must be hosted where security features are consistent with Ontario
+      privacy law, and client identity must be verified where visual verification isn''t possible.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://cpbao.ca/members/professional-practice/standards-of-professional-conduct/
+    source_quote: '"16.2 Adherence to Local Jurisprudence — Registrants must be familiar with and adhere
+      to the local jurisprudence and standards for practice in the jurisdiction in which the service is
+      being delivered. Where a conflict exists between the requirements of two jurisdictions, the registrant
+      must comply with the obligations affording greater client protection." — CPBAO, Standards of Professional
+      Conduct, Standard 16.2 (in force 2024-07-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-telepractice-psychology
+  - &id015
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Professional Practice Standards (CRPO)
+      bill_number: null
+      code_cite: Standard 3.4 (Electronic Practice)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: All professional standards apply equally to electronic, telephonic,
+      in-person or hybrid practice. Obtain informed consent for the use of electronic media; take reasonable
+      steps to ensure the technology is secure, confidential and appropriate to the client; confirm liability
+      insurance covers electronic services BEFORE treating; comply with professional licensing requirements
+      in the jurisdictions where clients are located; keep written/text/email correspondence in the clinical
+      record; and do not rely on computer-generated assessments without exercising professional judgment.
+      There is no requirement to live or work in Ontario to hold CRPO registration.
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://crpo.ca/practice-standards/client-therapist-relationship/electronic-practice/
+    source_quote: '"3.4.5 Registrants comply with relevant professional licensing requirements in the
+      jurisdictions where clients are located." — CRPO, Professional Practice Standard 3.4 (Electronic
+      Practice), published 2024-09-18, last modified 2026-01-07'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-telepractice-psychotherapy
+  - &id016
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code of Ethics and Standards of Practice, Third Edition (OCSWSSW)
+      bill_number: null
+      code_cite: Principle V, Standard 5.3 (Electronic Practice)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2023-09-08'
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Explain the limits of confidentiality — including limits specific to
+      online platforms — before or during the first online meeting, and document that conversation. Ensure
+      collection, use and storage of client information complies with applicable privacy legislation.
+      Ensure client information is stored in a jurisdiction whose privacy laws are consistent with Ontario's
+      or, where applicable, Canada's. Verify client identity where impersonation is possible, establish
+      a discreet signal so a client can convey they are not alone or not safe, and develop a safety plan
+      including emergency contact permission.
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.ocswssw.org/wp-content/uploads/OCSWSSW_Code_of_Ethics_Standards_of_Practice_edition3.pdf
+    source_quote: '"5.3.1 College registrants using online platforms and providing virtual services shall:
+      explain to clients the limits of confidentiality (including any particular limits associated with
+      online platforms and/or virtual practice) prior to or during the first online meeting and document
+      this conversation; ensure that the collection, use and storage of client information complies with
+      applicable privacy legislation; and ensure that client information is stored in a jurisdiction where
+      the privacy laws are consistent with Ontario laws or, where applicable, Canadian federal laws."
+      — OCSWSSW, Code of Ethics and Standards of Practice, 3rd ed., Standard 5.3.1 (effective 2023-09-08)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-telepractice-social-work
 by_jurisdiction:
   ca-federal:
   - *id001
   - *id002
   - *id003
   - *id004
+  ca-on:
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
 records:
   ca-federal-tax-gst-hst-nursing: *id001
   ca-federal-tax-gst-hst-psychology: *id002
   ca-federal-tax-gst-hst-psychotherapy-counselling: *id003
   ca-federal-tax-gst-hst-social-work: *id004
+  ca-on-insurance-psychology: *id005
+  ca-on-insurance-psychotherapy: *id006
+  ca-on-insurance-social-work: *id007
+  ca-on-privacy-breach-notification: *id008
+  ca-on-privacy-custodian-status: *id009
+  ca-on-privacy-data-residency: *id010
+  ca-on-retention-psychology: *id011
+  ca-on-retention-psychotherapy: *id012
+  ca-on-retention-social-work: *id013
+  ca-on-telepractice-psychology: *id014
+  ca-on-telepractice-psychotherapy: *id015
+  ca-on-telepractice-social-work: *id016

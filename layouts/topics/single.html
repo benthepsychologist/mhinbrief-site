@@ -1,0 +1,117 @@
+{{ define "main" }}
+{{/* Cross-provincial matrix for a single topic (content/topics/<slug>.md).
+     Single-content-writer rule: every fact rendered below comes from
+     data/records.yaml at render time. This layout hand-writes nothing
+     about any obligation — only structural/navigational copy and the
+     hand-authored editorial prose in the page's own Markdown body. */}}
+
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
+{{ $topicKey := .Params.topic | default .File.BaseFileName }}
+{{ $data := .Site.Data.records }}
+{{ $topicLabel := index $data.topic_names $topicKey | default (title $topicKey) }}
+{{ $jurNames := $data.jurisdiction_names }}
+{{ $records := index $data.by_topic $topicKey }}
+{{ $records = sort $records "jurisdiction.code" }}
+
+{{ if $records }}
+{{ $jCount := 1 }}
+{{ range $i, $r := $records }}
+  {{ if gt $i 0 }}
+    {{ $prev := index $records (sub $i 1) }}
+    {{ if ne $r.jurisdiction.code $prev.jurisdiction.code }}{{ $jCount = add $jCount 1 }}{{ end }}
+  {{ end }}
+{{ end }}
+<p class="matrix-count">{{ len $records }} record{{ if ne (len $records) 1 }}s{{ end }}
+  traced and verified for {{ $topicLabel }}, across {{ $jCount }}
+  jurisdiction{{ if ne $jCount 1 }}s{{ end }}.
+  Every row below carries its own source and last-verified date.</p>
+
+<div class="table-scroll">
+  <table class="obligation-matrix">
+    <caption>{{ $topicLabel }} — obligations by jurisdiction and profession, each sourced to its
+      primary text and dated to the last check against it.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Jurisdiction</th>
+        <th scope="col">Applies to</th>
+        <th scope="col">The rule</th>
+        <th scope="col">Status</th>
+        <th scope="col">Last verified</th>
+        <th scope="col">Source &amp; citation</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $records }}
+      {{ $jurCode := .jurisdiction.code }}
+      {{ $jurLabel := index $jurNames $jurCode | default $jurCode }}
+      {{ $statusRaw := .status | default "unknown" }}
+      {{ $statusClass := replace $statusRaw "_" "-" }}
+      <tr>
+        <th scope="row">{{ $jurLabel }}</th>
+        <td data-label="Applies to">
+          {{ if .profession_scope }}
+            {{ range $i, $p := .profession_scope }}{{ if $i }}, {{ end }}{{ replace $p "_" " " | humanize }}{{ end }}
+          {{ else }}
+            <span class="matrix-note">Not limited to a listed profession</span>
+          {{ end }}
+        </td>
+        <td data-label="The rule">
+          {{ with .clinician_facing_obligations }}{{ . }}{{ else }}<span class="matrix-note">Not yet documented.</span>{{ end }}
+          {{ with .vendor_facing_obligations }}<p class="matrix-vendor"><strong>Vendor-facing:</strong> {{ . }}</p>{{ end }}
+        </td>
+        <td data-label="Status">
+          <span class="badge {{ $statusClass }}">{{ replace $statusClass "-" " " | title }}</span>
+        </td>
+        <td data-label="Last verified">
+          {{ with .last_verified }}{{ . }}{{ else }}<span class="matrix-note">not traced</span>{{ end }}
+        </td>
+        <td data-label="Source &amp; citation">
+          {{ if .source_url }}
+            <a href="{{ .source_url }}">{{ .statute_citation.short_title }}{{ with .statute_citation.code_cite }}, {{ . }}{{ end }}</a>
+          {{ else }}
+            {{ .statute_citation.short_title }}{{ with .statute_citation.code_cite }}, {{ . }}{{ end }}
+            <span class="matrix-note">source not traced</span>
+          {{ end }}
+          {{ $rec := . }}
+          {{ with .source_quote }}
+          <details class="quote-toggle">
+            <summary>Show statutory text</summary>
+            <blockquote>{{ . }}</blockquote>
+            <dl class="matrix-meta">
+              <div><dt>Regulatory model</dt><dd>{{ $rec.regulatory_model | default "—" }}</dd></div>
+              <div><dt>Authority basis</dt><dd>{{ $rec.authority_basis | default "—" }}</dd></div>
+              <div><dt>Enforcement body</dt><dd>{{ $rec.enforcement_body | default "—" }}</dd></div>
+              <div><dt>Enactment date</dt><dd>{{ $rec.enactment_date | default "not traced" }}</dd></div>
+              <div><dt>Effective date</dt><dd>{{ $rec.effective_date | default "not traced" }}</dd></div>
+              <div><dt>Penalties</dt><dd>{{ $rec.penalties | default "—" }}</dd></div>
+              <div><dt>Consent required</dt><dd>{{ if $rec.consent_required }}Yes{{ else }}No{{ end }}</dd></div>
+              <div><dt>Documentation required</dt><dd>{{ if $rec.documentation_required }}Yes{{ else }}No{{ end }}</dd></div>
+              <div><dt>Confidence</dt><dd>{{ $rec.confidence | default "—" }}</dd></div>
+              {{ with $rec.statute_citation.bill_number }}<div><dt>Bill</dt><dd>{{ . }}</dd></div>{{ end }}
+              {{ with $rec.statute_citation.regulation_cite }}<div><dt>Regulation</dt><dd>{{ . }}</dd></div>{{ end }}
+              <div><dt>Record ID</dt><dd>{{ $rec.record_id }}</dd></div>
+            </dl>
+          </details>
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ else }}
+<p class="empty-state">No {{ $topicLabel }} records have cleared verification for any jurisdiction yet.
+  Nothing ships here without a source and a last-verified date — this matrix is empty because
+  the registry has nothing sourced to show, not because the obligation doesn't exist.</p>
+{{ end }}
+
+<div class="disclaimer">
+  <strong>Not legal advice.</strong> This page states rules and quotes their sources; it does not
+  apply them to your situation. Confirm anything that matters with your college or regulator,
+  your accountant, or your insurer before acting on it.
+</div>
+{{ end }}

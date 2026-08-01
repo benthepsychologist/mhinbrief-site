@@ -7,15 +7,19 @@ the public launch call.
 
 ## Content-writer contract
 
-Registry-derived content — jurisdiction records, topic-matrix cells,
-changelog entries — is written ONLY by the kestrel publish core through
-the `therapybulletin` adapter (the single-content-writer invariant,
-design §1: "A site repo has exactly one content writer: the publish core,
-through that site's adapter"). Do not hand-edit those sections.
+Registry-derived content — `content/changelog/*.md`, `data/records.yaml`,
+`data/regulators.yaml` — is written ONLY by the `therapybulletin` adapter,
+which lives at `therapybulletin-data/publish/adapter.py` (instance code, not
+engine code) and calls kestrel's publish core for the guarantees. This is
+the single-content-writer invariant, design §1: "A site repo has exactly one
+content writer: the publish core, through that site's adapter." Do not
+hand-edit those files — edits belong upstream in the data repo.
 
 Editorial chrome — templates/layouts, CSS, and the hand-authored editorial
-pages (`method.md`, `newsletter.md`, section `_index.md` copy) — is normal
-repo-owned code, edited directly. The invariant governs generated
+pages (`method.md`, `newsletter.md`, `topics/tax.md`, section `_index.md`
+copy) — is normal repo-owned code, edited directly. Those pages carry
+framing prose only; record facts, citations and dates come from `data/` at
+render time, never typed into markdown. The invariant governs generated
 registry/changelog exports, not the site chrome.
 
 ## Build & deploy

@@ -1,24 +1,61 @@
+<!-- ⚠️ LOCAL OVERRIDE of the kit-rendered site agentdoc, 2026-08-01.
+     The rendered template described a DIFFERENT site: it named
+     content/threads|entities|map|claim as the generated dirs, content/about.md
+     and content/metric/* as the hand-authored ones, and assets/css/ as the
+     stylesheet location. NONE of those seven paths exist in this repo — they
+     are theprojection-site's content model, which is an attention-kind
+     instance. It also placed the adapter in kestrel, said this site was "fed
+     by" itself, and pointed "data/instance repo" at this repo rather than at
+     therapybulletin-data. Left as-is it would tell a session that
+     content/changelog (which IS generated) is safe to hand-edit, and send it
+     looking for directories that do not exist.
+
+     kit.py sync will flag this file DIRTY on the next library bump. Resolve
+     with `install --adopt` or `--skip`, never `--discard`. A correction for
+     the canonical template is filed in kestrel/INBOX/. -->
+
 # CLAUDE.md — therapybulletin-site
 
 This repo is the **published surface only** — a Hugo site with exactly one
-content writer: the kestrel engine's publish core, through therapybulletin's
-adapter (`/workspace/kestrel/tools/publish/`, fed by `/workspace/therapybulletin-site`).
+content writer: the `therapybulletin` adapter at
+`/workspace/therapybulletin-data/publish/adapter.py`, which calls kestrel's
+publish core (`/workspace/kestrel/tools/publish/core.py`) for the guarantees
+(secret scan, field allowlist, no-empty-wipe, provenance). The adapter is
+**instance code in the data repo**, not engine code.
 
-**Single-writer contract:** `data/` and `content/threads|entities|map|claim/*`
-are generated and overwritten wholesale on every publish run — never
-hand-edit them; edits belong upstream, in the data repo or the adapter.
-Hand-authored pages (`content/about.md`, `content/metric/*.md`) are this
-repo's own and are never touched by publish.
+**Single-writer contract — what is GENERATED here, never hand-edit:**
+- `content/changelog/*.md` — one page per changelog entry
+- `data/records.yaml` — allowlisted record fields
+- `data/regulators.yaml` — the jurisdiction map's regulator lists
 
-**What IS this repo's own code:** `layouts/`, `assets/css/`, `static/`,
-`hugo.yaml`, `wrangler.toml` — templates, brand system, and site config are
-edited and pushed here directly, same as any other Hugo site.
+Edits to any of those belong upstream, in `therapybulletin-data` (the
+records/changelog, or the adapter that renders them). A second writer into
+this site is the specific failure mode the contract exists to prevent — a
+temporary bridge script once produced `data/regulators.yaml` from inside
+this repo and was absorbed into the adapter and deleted on 2026-07-31.
 
-**Deploy:** the Cloudflare Workers Builds deploy hook, fired automatically
-by `/publish --push` in the data repo, builds and deploys this site. A
-bare template/CSS push does **not** auto-fire the hook — only a content
-publish run does; fire it by hand (`curl -X POST` the hook URL) after a
-template/CSS-only change.
+**Hand-authored pages that are this repo's own** and are never touched by
+publish: `content/_index.md`, `content/method.md`, `content/newsletter.md`,
+and the section framing pages `content/jurisdictions/_index.md`,
+`content/topics/_index.md`, `content/topics/tax.md`. These carry editorial
+prose only — never record facts, citations, dates, or figures, which must
+come from `data/` at render time.
+
+**What else IS this repo's own code:** `layouts/`, `static/` (including
+`static/css/main.css` — note `static/`, not `assets/`), `static/img/`,
+`static/js/`, `hugo.yaml`, `wrangler.toml`. Templates, brand system and
+site config are edited and pushed here directly, same as any Hugo site.
+
+**Deploy — the trap:** this site does **NOT** auto-deploy on git push. It
+builds only when its Cloudflare deploy hook fires. `/publish --push` from
+the data repo fires it; a bare template/CSS push does not. After any
+direct push here, fire it by hand:
+
+    source .env && curl -X POST "$THERAPYBULLETIN_DEPLOY_HOOK"
+
+The hook URL lives in this repo's gitignored `.env` (see `.env.example`).
+A clean `git push` is not evidence the site updated — verify against
+served content.
 
 **Upstream pointers:** engine — `/workspace/kestrel`; data/instance repo —
-`/workspace/therapybulletin-site`.
+`/workspace/therapybulletin-data`.
