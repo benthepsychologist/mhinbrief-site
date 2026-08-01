@@ -26,6 +26,9 @@ registry/changelog exports, not the site chrome.
 
 - Local: `hugo` (site builds with v0.111.3-extended; no theme deps, no
   modules, no external assets — fonts are self-hosted in `static/fonts/`).
+  **Verify with plain `hugo`, not `hugo --minify`** — production uses the
+  former, and minified output strips attribute quotes (`class=foo` vs
+  `class="foo"`), which silently breaks greps calibrated on the wrong one.
 - Cloudflare Pages: build command `hugo`, output directory `public`,
   environment variable `HUGO_VERSION=0.111.3`.
 - **Push does NOT auto-deploy.** Like theprojection-site, this project
