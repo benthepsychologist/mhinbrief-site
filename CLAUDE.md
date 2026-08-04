@@ -1,19 +1,3 @@
-<!-- ⚠️ LOCAL OVERRIDE of the kit-rendered site agentdoc, 2026-08-01.
-     The rendered template described a DIFFERENT site: it named
-     content/threads|entities|map|claim as the generated dirs, content/about.md
-     and content/metric/* as the hand-authored ones, and assets/css/ as the
-     stylesheet location. NONE of those seven paths exist in this repo — they
-     are theprojection-site's content model, which is an attention-kind
-     instance. It also placed the adapter in kestrel, said this site was "fed
-     by" itself, and pointed "data/instance repo" at this repo rather than at
-     therapybulletin-data. Left as-is it would tell a session that
-     content/changelog (which IS generated) is safe to hand-edit, and send it
-     looking for directories that do not exist.
-
-     kit.py sync will flag this file DIRTY on the next library bump. Resolve
-     with `install --adopt` or `--skip`, never `--discard`. A correction for
-     the canonical template is filed in kestrel/INBOX/. -->
-
 # CLAUDE.md — therapybulletin-site
 
 This repo is the **published surface only** — a Hugo site with exactly one
