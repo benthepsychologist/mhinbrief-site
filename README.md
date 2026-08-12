@@ -29,20 +29,39 @@ registry/changelog exports, not the site chrome.
   **Verify with plain `hugo`, not `hugo --minify`** — production uses the
   former, and minified output strips attribute quotes (`class=foo` vs
   `class="foo"`), which silently breaks greps calibrated on the wrong one.
-- Cloudflare Pages: build command `hugo`, output directory `public`,
-  environment variable `HUGO_VERSION=0.111.3`.
-- **Push does NOT auto-deploy.** Like theprojection-site, this project
-  builds only on its Cloudflare deploy hook, not on git push — a build
-  connected to the GitHub repo alone will sit un-triggered indefinitely
-  (found 2026-07-31: a real push of the jurisdiction-map/branding work
-  sat live-unchanged for several minutes with no way to tell from this
-  repo alone that a build hadn't even started). After every push that
-  should go live, fire the hook by hand:
-  `curl -X POST "$MHINBRIEF_DEPLOY_HOOK"` — the URL lives in this
-  repo's gitignored `.env` (see `.env.example` for the var name), never
-  committed. Response includes a `build_uuid`; Cloudflare's dashboard is
-  the only place to check build success/failure from here — no API
-  token is configured in this environment to poll it directly.
+- **Deploy target: a Cloudflare Worker with static assets — not
+  Cloudflare Pages**, despite what earlier docs here claimed. Checked
+  directly (2026-08-12) against Cloudflare's deployments API: every
+  deployment ever recorded for this site shows `source: wrangler`, none
+  show a connected build — the "Cloudflare Pages" framing was likely
+  never accurate, for the old `therapybulletin` site or this one.
+  `wrangler.toml`'s `[assets]` block points at `public/`,
+  `main = "worker/index.js"` handles the one dynamic route
+  (`/api/feedback`), everything else falls through to the static build.
+- **Deploy is a direct push to Cloudflare, not git-triggered at all:**
+
+      hugo                              # build
+      set -a && source .env && set +a   # exports CLOUDFLARE_API_TOKEN
+      npx wrangler deploy               # ships public/ + worker/index.js
+
+  `wrangler` authenticates non-interactively via `CLOUDFLARE_API_TOKEN`
+  in `.env` (gitignored — see `.env.example` for the var name) — no
+  `wrangler login` needed, and no separate build step happens on
+  Cloudflare's side. `mhinbrief.com` is bound to the Worker via
+  Cloudflare's Workers Custom Domains feature, which auto-manages the
+  DNS record and TLS cert for that binding.
+- **A `git push` alone deploys nothing.** `publish/adapter.py --push`
+  (data repo) commits generated content into this repo's git history,
+  which is real and useful, but is a separate action from the
+  `wrangler deploy` above — landing a commit here does not put it live.
+  Verify against served content (`curl -s https://mhinbrief.com/`) before
+  treating anything as deployed.
+- **Legacy, not currently functional:** `MHINBRIEF_DEPLOY_HOOK` in `.env`
+  is inherited from older docs describing a deploy-hook pattern the
+  evidence above says was likely never actually load-bearing. Firing it
+  does nothing — there's no connected build for it to trigger. Kept
+  rather than deleted in case a Workers Build connection is ever
+  deliberately added (optional, not required for this deploy path).
 - `static/_headers` carries the security headers; `enableRobotsTXT` and
   RSS/sitemap are on. No analytics.
 

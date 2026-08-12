@@ -30,16 +30,43 @@ come from `data/` at render time.
 `static/js/`, `hugo.yaml`, `wrangler.toml`. Templates, brand system and
 site config are edited and pushed here directly, same as any Hugo site.
 
-**Deploy — the trap:** this site does **NOT** auto-deploy on git push. It
-builds only when its Cloudflare deploy hook fires. `/publish --push` from
-the data repo fires it; a bare template/CSS push does not. After any
-direct push here, fire it by hand:
+**Deploy — the trap:** this site does **NOT** auto-deploy on git push, and
+it is **not** Cloudflare Pages or a git-connected build — checked directly
+against Cloudflare's deployments API (2026-08-12): every deployment ever
+recorded for this site, back to when it first went live 2026-07-31, shows
+`source: wrangler`, none show a connected build. The old docs described a
+"push → deploy hook → Cloudflare build" pipeline that the evidence says
+was likely never the real mechanism. `mhinbrief` is a Cloudflare
+**Worker with static assets**, deployed by pushing the build straight to
+Cloudflare, not by anything git-triggered — same as it's always actually
+been:
 
-    source .env && curl -X POST "$MHINBRIEF_DEPLOY_HOOK"
+    hugo                                  # build to public/
+    set -a && source .env && set +a       # exports CLOUDFLARE_API_TOKEN
+    npx wrangler deploy                   # uploads public/ + worker/index.js
 
-The hook URL lives in this repo's gitignored `.env` (see `.env.example`).
-A clean `git push` is not evidence the site updated — verify against
-served content.
+`wrangler deploy` authenticates non-interactively via `CLOUDFLARE_API_TOKEN`
+in this repo's gitignored `.env` — no `wrangler login` needed. `mhinbrief.com`
+is bound to the deployed Worker via Cloudflare's Workers Custom Domains
+feature (DNS + cert auto-managed by that binding — don't hand-edit DNS
+records for this zone, they're not meant to be edited directly).
+
+`publish/adapter.py --push` from the data repo still does something real —
+it builds and commits `content/changelog/*.md`, `data/records.yaml`,
+`data/regulators.yaml`, `data/review.yaml` into THIS repo's git history —
+but that commit alone does **not** put anything live anymore. Getting a
+change onto `mhinbrief.com` is the separate `hugo && wrangler deploy` pass
+above, run after the adapter's push has landed. A clean `git push` (from
+either repo) is not evidence the site updated — verify against served
+content, e.g. `curl -s https://mhinbrief.com/ | grep <marker>`.
+
+**Legacy, not currently functional:** `MHINBRIEF_DEPLOY_HOOK` in `.env` is
+inherited from older docs describing a deploy-hook pattern that, per the
+above, was likely never actually load-bearing. Firing it does nothing —
+no connected build exists to trigger. Left in `.env`/`.env.example`
+rather than deleted so it's not confused for missing config if a Workers
+Build connection is ever deliberately added (optional — the direct
+`wrangler deploy` path works fine without one).
 
 **Upstream pointers:** engine — `/workspace/kestrel`; data/instance repo —
 `/workspace/mhinbrief-corpus`.
