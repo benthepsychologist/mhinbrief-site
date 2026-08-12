@@ -2,8 +2,14 @@
 
 Hugo site for **MH in Brief** (mhinbrief.com) — the verified
 reference for the rules governing behavioural-health practice in Canada.
-Name locked 2026-07-31; domains (.org/.com/.ca) owned; repo private until
-the public launch call.
+Name locked 2026-07-31, renamed from Therapy Bulletin 2026-08-12.
+
+**This repo is public** (Ben, 2026-08-12, confirming what was already
+true on GitHub — no visibility change made). The "repo private until the
+public launch call" line this file previously carried was a launch-
+sequencing placeholder from before the site existed, never actually
+enforced on GitHub, and moot regardless now that the site is live. Same
+public-by-default stance as `theprojection-site`.
 
 ## Content-writer contract
 
