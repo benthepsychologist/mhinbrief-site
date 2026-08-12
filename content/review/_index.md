@@ -12,4 +12,5 @@ candidate someone still needs to read, check against the primary source,
 and confirm before it becomes a record.
 
 If something below looks wrong, out of scope, or like it needs a second
-look, use the note field on that item to say so.
+look, leave a comment on that item — it's attributed to your logged-in
+email automatically, nothing else to fill in.

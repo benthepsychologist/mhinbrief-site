@@ -1,8 +1,10 @@
 /* review-feedback.js — submits the /review/ page's per-item feedback form
-   to the Worker's /api/feedback route (worker/index.js), which opens a
-   GitHub issue on the submitter's behalf. No accounts, no backend beyond
-   that one route. Progressive: forms work with JS off too (they'd just
-   POST and reload on a browser default — acceptable degraded case for an
+   to the Worker's /api/feedback route (worker/index.js), which verifies
+   the submitter's Cloudflare Access login (server-side, from a signed
+   header — see access-jwt.js) and opens a GitHub issue attributed to that
+   verified email. No name field: identity comes from the login, not a
+   text box. Progressive: forms work with JS off too (they'd just POST
+   and reload on a browser default — acceptable degraded case for an
    internal review tool, not attempted to be prevented here). */
 (function () {
   var forms = document.querySelectorAll(".review-feedback");
@@ -11,9 +13,8 @@
       ev.preventDefault();
       var status = form.querySelector(".review-feedback-status");
       var candidateId = form.getAttribute("data-candidate-id");
-      var name = form.elements.name.value.trim();
       var comment = form.elements.comment.value.trim();
-      if (!name || !comment) return;
+      if (!comment) return;
 
       var button = form.querySelector("button");
       button.disabled = true;
@@ -22,7 +23,7 @@
       fetch("/api/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ candidate_id: candidateId, name: name, comment: comment }),
+        body: JSON.stringify({ candidate_id: candidateId, comment: comment }),
       })
         .then(function (res) {
           if (!res.ok) throw new Error("request failed");

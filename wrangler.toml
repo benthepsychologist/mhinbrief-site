@@ -1,6 +1,11 @@
 name = "mhinbrief"
 compatibility_date = "2026-07-22"
 
+# Deliberately no public route yet — bound to mhinbrief.com only after
+# Cloudflare Access is protecting /review/*, so the review-queue feedback
+# page is never reachable, even briefly, without its password gate.
+workers_dev = false
+
 # worker/index.js handles POST /api/feedback (the /review/ page's feedback
 # form) and falls through to ASSETS for everything else — added 2026-08-12,
 # see worker/index.js's header for why. Needs, set on the Worker itself
@@ -15,3 +20,6 @@ binding = "ASSETS"
 
 [vars]
 GITHUB_REPO = "benthepsychologist/mhinbrief-corpus"
+# Access application "MH in Brief — review queue", created 2026-08-12.
+ACCESS_AUD = "726f894ad6b28155546dd3e0c48ede539532b3d88f1063bf5a9e9838cfe3ee11"
+ACCESS_TEAM_DOMAIN = "mensio.cloudflareaccess.com"
