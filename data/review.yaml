@@ -1,0 +1,514 @@
+generated_by: therapybulletin publish adapter (publish/adapter.py)
+count: 72
+items:
+- candidate_id: 2026-07-31-canada-gazette-p2-1
+  title: Canada Gazette - Part II, July 29, 2026, volume 159, number 15
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-07-29/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-07-29T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-2
+  title: Canada Gazette - Part II, July 15, 2026, volume 159, number 14
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-07-15/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-07-15T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-3
+  title: Canada Gazette - Part II, July 1, 2026, volume 159, number 13
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-07-01T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-4
+  title: Canada Gazette - Consolidated Index of Statutory Instruments (January 1, 1955, to March 31, 2026)
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-03-31-c1/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-06-19T19:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-5
+  title: Canada Gazette - Part II, June 17, 2026, volume 159, number 12
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-06-17/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-06-17T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-6
+  title: Canada Gazette - Part II, June 8, 2026, volume 160, Extra number 1
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-06-08-x1/html/si-tr29-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-06-08T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-7
+  title: Canada Gazette - Part II, June 3, 2026, volume 159, number 11
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-06-03/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-06-03T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-8
+  title: Canada Gazette - Part II, May 20, 2026, volume 159, number 10
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-05-20/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-05-20T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-07-31-canada-gazette-p2-9
+  title: Canada Gazette - Part II, May 6, 2026, volume 159, number 9
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-05-06/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-05-06T14:00:00Z'
+  observed: '2026-07-31'
+  note: ''
+- candidate_id: 2026-08-12-ab-alberta-college-of-social-workers-1
+  title: Webinar – Practice Supervision Guidance
+  url: https://acsw.ab.ca/webinar-practice-supervision-guidance/
+  source_name: Alberta College of Social Workers
+  published: '2026-08-11T20:30:44Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ab-alberta-college-of-social-workers-2
+  title: Updated Details About the Important Changes to the Clinical Program and Application Process
+  url: https://acsw.ab.ca/important-changes-to-the-clinical-program-and-application-process/
+  source_name: Alberta College of Social Workers
+  published: '2026-07-31T14:57:48Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ab-alberta-college-of-social-workers-3
+  title: Bill 13 – Regulated Professions Neutrality Act (RPNA)
+  url: https://acsw.ab.ca/bill-13-regulated-professions-neutrality-act-rpna/
+  source_name: Alberta College of Social Workers
+  published: '2026-07-24T14:23:44Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-1
+  title: Canada Gazette - Part I, August 8, 2026, volume 160, number 32
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-08-08/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-08-08T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-10
+  title: Canada Gazette - Part I, June 13, 2026, volume 160, number 24
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-06-13/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-06-13T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-11
+  title: Canada Gazette - Part I, June 8, 2026, volume 160, extra number 5
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-06-08-x5/html/extra5-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-06-08T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-12
+  title: Canada Gazette - Part I, June 6, 2026, volume 160, number 23
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-06-06/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-06-06T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-13
+  title: Canada Gazette - Part I, May 30, 2026, volume 160, number 22
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-05-30/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-05-30T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-14
+  title: Canada Gazette - Part I, May 23, 2026, volume 160, number 21
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-05-23/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-05-23T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-15
+  title: Canada Gazette - Part I, May 16, 2026, volume 160, number 20
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-05-16/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-05-16T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-2
+  title: Canada Gazette - Part I, August 1, 2026, volume 160, number 31
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-08-01/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-08-01T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-3
+  title: Canada Gazette - Part I, July 31, 2026, volume 160, extra number 6
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-07-31-x6/html/extra6-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-07-31T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-4
+  title: Canada Gazette - Part I, July 25, 2026, volume 160, number 30
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-07-25/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-07-25T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-5
+  title: Canada Gazette - Part I, July 18, 2026, volume 160, number 29
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-07-18/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-07-18T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-6
+  title: Canada Gazette - Part I, July 11, 2026, volume 160, number 28
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-07-11/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-07-11T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-7
+  title: Canada Gazette - Part I, July 4, 2026, volume 160, number 27
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-07-04/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-07-04T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-8
+  title: Canada Gazette - Part I, June 27, 2026, volume 160, number 26
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-06-27/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-06-27T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-canada-gazette-p1-9
+  title: Canada Gazette - Part I, June 20, 2026, volume 160, number 25
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-06-20/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-06-20T19:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-1
+  title: New “Psychology Works” Fact Sheet
+  url: https://cpa.ca/new-psychology-works-fact-sheet-7/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-08-11T16:29:02Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-2
+  title: 'PSYCHOLOGY WORKS Fact Sheet: Tourette Syndrome and Other Tic Disorders'
+  url: https://cpa.ca/psychology-works-fact-sheet-tourette-syndrome-and-other-tic-disorders/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-08-11T16:00:54Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-3
+  title: 'Mind Full, a CPA Podcast: The Glass Cliff: One Transman’s Leadership Odyssey with Dr. Mel Rutherford'
+  url: https://cpa.ca/mind-full-a-cpa-podcast-the-glass-cliff-one-transmans-leadership-odyssey-with-dr-mel-rutherford/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-30T04:01:44Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-4
+  title: Psynopsis Vol.48, Issue 2 now available online
+  url: https://cpa.ca/psynopsis-vol-48-issue-2-now-available-online/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-24T19:45:56Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-5
+  title: Addiction, Substance Abuse and Mental Health
+  url: https://cpa.ca/addiction-substance-abuse-and-mental-health-3/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-15T16:03:15Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-6
+  title: 'The Glass Cliff: One Transman’s Leadership Odyssey with Dr. Mel Rutherford'
+  url: https://cpa.ca/the-glass-cliff-one-transmans-leadership-odyssey-with-dr-mel-rutherford/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-30T04:01:40Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-7
+  title: Are older buildings actually creepier? Infrasound with Dr. Rodney Schmaltz
+  url: https://cpa.ca/are-older-buildings-actually-creepier-infrasound-with-dr-rodney-schmaltz/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-16T04:01:37Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-8
+  title: Cognitive behaviour therapy (CBT) and exposure and response prevention for paediatric obsessive-compulsive
+    disorder (OCD)
+  url: https://cpa.ca/cognitive-behaviour-therapy-cbt-and-exposure-and-response-prevention-for-paediatric-obsessive-compulsive-disorder-ocd/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-06-05T15:54:39Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpa-national-9
+  title: 'Always online: Therapeutic approaches in the age of chronic screen use'
+  url: https://cpa.ca/always-online-therapeutic-approaches-in-the-age-of-chronic-screen-use/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-06-11T19:12:49Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-1
+  title: Chair’s Message
+  url: https://cpbao.ca/chairs-message-2/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T19:00:36Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-10
+  title: 'Discipline: Hearings & Ongoing Matters'
+  url: https://cpbao.ca/discipline-hearings-ongoing-matters-2/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:00:15Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-2
+  title: 'Board Effectiveness Review: What’s Next'
+  url: https://cpbao.ca/board-effectiveness-review-whats-next/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:46:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-3
+  title: 'CPD Opportunity: Intimate Partner Violence (IPV) Virtual Panel'
+  url: https://cpbao.ca/cpd-opportunity-intimate-partner-violence-virtual-panel/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:35:03Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-4
+  title: 2,100+ Behaviour Analysts registered!
+  url: https://cpbao.ca/2100-behaviour-analysts-registered/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:30:41Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-5
+  title: The Jurisprudence and Ethics Examination (JEE) is Changing
+  url: https://cpbao.ca/jurisprudence-and-ethics-examination-jee-is-changing/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:25:54Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-6
+  title: Examination for Professional Practice in Psychology (EPPP) Update
+  url: https://cpbao.ca/examination-for-professional-practice-in-psychology-eppp-update/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:20:35Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-7
+  title: 'QA Declarations of Completion: What Happens Next'
+  url: https://cpbao.ca/qa-declarations-of-completion-what-happens-next/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:15:26Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-8
+  title: QA Assessor Training Session
+  url: https://cpbao.ca/qa-assessor-training-session/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:10:48Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-cpbao-news-9
+  title: ICRC Insights
+  url: https://cpbao.ca/icrc-insights/
+  source_name: College of Psychologists and Behaviour Analysts of Ontario
+  published: '2026-07-17T18:05:48Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-nl-college-social-workers-1
+  title: NLCSW Staff Update – Associate Director of Quality and Practice
+  url: https://nlcsw.ca/nlcsw-staff-update-associate-director-of-quality-and-practice/?utm_source=rss&utm_medium=rss&utm_campaign=nlcsw-staff-update-associate-director-of-quality-and-practice
+  source_name: Newfoundland and Labrador College of Social Workers
+  published: '2026-06-05T17:30:18Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-nl-college-social-workers-2
+  title: 'Annual Report 2025-26 – The Road Ahead: Embracing Change and Opportunity'
+  url: https://nlcsw.ca/annual-report-2025-26-the-road-ahead-embracing-change-and-opportunity/?utm_source=rss&utm_medium=rss&utm_campaign=annual-report-2025-26-the-road-ahead-embracing-change-and-opportunity
+  source_name: Newfoundland and Labrador College of Social Workers
+  published: '2026-05-21T17:43:51Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-1
+  title: Queering Social Work Practice
+  url: https://nscsw.org/queering-social-work-practice/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-18T16:00:42Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-10
+  title: An open door, a lasting impact
+  url: https://nscsw.org/open-door-lasting-impact-wendy-roberts/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-04T15:00:03Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-2
+  title: 'Closing the Gap: New Duty-to-Report Standards Under the RHPA'
+  url: https://nscsw.org/rhpa-duty-to-report/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-17T15:00:01Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-3
+  title: Be part of the College’s Board of Examiners
+  url: https://nscsw.org/callforboe/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-16T15:00:51Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-4
+  title: Honouring History, Living Our Standards
+  url: https://nscsw.org/nihm-nipd-2026/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-15T15:00:19Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-5
+  title: 'Lunch & learn: Check me out – Sexual health in NS'
+  url: https://eventbrite.ca/e/1990015111769#new_tab
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-13T15:00:42Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-6
+  title: 'Candidacy Mentorship Program update: Learning agreement goals and the new Code'
+  url: https://nscsw.org/cmp-goals-new-code-grace-period/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-12T15:00:38Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-7
+  title: 'Digital Roadshow: The future of social work regulation in NS'
+  url: https://eventbrite.ca/e/1990018852959#new_tab
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-09T15:00:38Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-8
+  title: 'Lunch & learn: Peer support & helping practices'
+  url: https://eventbrite.ca/e/1990013453810#new_tab
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-09T15:00:07Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ns-college-social-workers-9
+  title: Cultivating our wellness
+  url: https://eventbrite.ca/e/1988079265601#new_tab
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-06-06T15:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-1
+  title: 2026-2027 Council Election Results in Electoral District No. 3
+  url: https://www.ocswssw.org/2026/07/09/2026-2027-council-election-results-in-electoral-district-no-3/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-07-09T16:44:19Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-2
+  title: 'College Update: No Increase to Registration and Renewal Fees for 2027 & Reminder on 2026 CCP
+    Required Resources'
+  url: https://www.ocswssw.org/2026/06/30/college-update-no-increase-to-registration-and-renewal-fees-for-2027-reminder-on-2026-ccp-required-resources/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-06-30T15:37:46Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-3
+  title: Become a non-Council Committee member for 2026-2028
+  url: https://www.ocswssw.org/2026/06/22/become-a-non-council-committee-member-for-2026-2028/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-06-22T17:45:16Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-4
+  title: Council Highlights for June 10, 2026
+  url: https://www.ocswssw.org/2026/06/18/council-highlights-for-june-10-2026/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-06-18T14:07:24Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-5
+  title: Message from the Registrar and CEO
+  url: https://www.ocswssw.org/2026/05/26/message-from-the-registrar-and-ceo-spring-2026/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-05-26T19:44:18Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-ocswssw-news-6
+  title: 'Trust in care during Mental Health Month: Why choosing a regulated professional matters'
+  url: https://www.ocswssw.org/2026/05/21/trust-in-care-during-mental-health-month-why-choosing-a-regulated-professional-matters/
+  source_name: Ontario College of Social Workers and Social Service Workers
+  published: '2026-05-21T13:50:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-opc-pipeda-1
+  title: Compliance Letter to the Office of the Privacy Commissioner of Canada (“OPC”) By WestJet, an
+    Alberta Partnership (“WestJet”)
+  url: /en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/2026-westjet-cl/
+  source_name: Office of the Privacy Commissioner of Canada — PIPEDA investigations & guidance
+  published: '2026-07-14T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-opc-pipeda-2
+  title: 'PIPEDA Findings #2026-004: Commissioner-initiated complaints concerning X Corp.’s and X.AI LLC’s
+    compliance with PIPEDA'
+  url: /en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-004/
+  source_name: Office of the Privacy Commissioner of Canada — PIPEDA investigations & guidance
+  published: '2026-06-11T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-1
+  title: 'Aide-mémoire déontologique :  Pour une utilisation conforme de l’intelligence artificielle'
+  url: https://www.orientation.qc.ca/actualite/ethique-et-deontologie-aide-memoire/aide-memoire-deontologique-pour-une-utilisation-conforme-de-lintelligence-artificielle
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-07-16T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-2
+  title: 'L’intelligence artificielle : encadrement, déontologie et ressources'
+  url: https://www.orientation.qc.ca/actualite/intelligence-artificielle/lintelligence-artificielle-encadrement-deontologie-et-ressources
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-07-14T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-3
+  title: 'L’utilisation de l’intelligence artificielle et les risques associés : vie privée, hallucinations,
+    biais et accompagnement dangereux'
+  url: https://www.orientation.qc.ca/actualite/intelligence-artificielle/lutilisation-de-lintelligence-artificielle-et-les-risques-associes-vie-privee-hallucinations-biais-et-accompagnement-dangereux
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-07-14T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-4
+  title: Un nouvel aide-mémoire pour encadrer votre utilisation de l'IA
+  url: https://www.orientation.qc.ca/actualite/intelligence-artificielle/publication-dun-aide-memoire-sur-lutilisation-conforme-de-lia
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-07-14T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-5
+  title: Avis au public - Utilisation de l’IA et des systèmes intelligents en orientation et en santé
+    mentale
+  url: https://www.orientation.qc.ca/actualite/communiques-et-prises-de-position/avis-au-public-utilisation-de-lia-et-des-systemes-intelligents-en-orientation-et-en-sante-mentale
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-07-14T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-12-qc-occoq-6
+  title: L'Ordre des conseillers et conseillères d'orientation du Québec dévoile les lauréates des Prix
+    de l'Ordre 2026
+  url: https://www.orientation.qc.ca/actualite/communiques-de-presse/lordre-des-conseillers-et-conseilleres-dorientation-du-quebec-devoile-les-laureates-des-prix-de-lordre-2026
+  source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
+  published: '2026-06-01T04:00:00Z'
+  observed: '2026-08-12'
+  note: ''

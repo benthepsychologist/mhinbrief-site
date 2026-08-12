@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ $review := .Site.Data.review }}
+<div class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <p class="entry-meta">{{ $review.count }} item{{ if ne $review.count 1 }}s{{ end }} pending.</p>
+</div>
+
+{{ if $review.items }}
+<div class="review-list">
+  {{ range $review.items }}
+  <div class="entry review-item" id="review-{{ .candidate_id }}" data-candidate-id="{{ .candidate_id }}">
+    <div class="entry-meta">
+      {{ with .observed }}<span>staged {{ . }}</span> · {{ end }}
+      {{ with .source_name }}<span>{{ . }}</span>{{ end }}
+    </div>
+    <div class="entry-title">
+      {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+    </div>
+    {{ with .note }}<p>{{ . }}</p>{{ end }}
+
+    <form class="review-feedback" data-candidate-id="{{ .candidate_id }}">
+      <label>
+        Your name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Comment (e.g. "looks right", "not in scope", "check this date")
+        <textarea name="comment" rows="2" required></textarea>
+      </label>
+      <button type="submit">Send feedback</button>
+      <span class="review-feedback-status" aria-live="polite"></span>
+    </form>
+  </div>
+  {{ end }}
+</div>
+{{ else }}
+<p class="empty-state">Nothing pending right now — the queue is empty.</p>
+{{ end }}
+
+<script src="/js/review-feedback.js" defer></script>
+{{ end }}

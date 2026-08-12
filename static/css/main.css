@@ -277,6 +277,48 @@ code {
 .badge.enacted { background: var(--brass); }
 .badge.revised { background: var(--revision); }
 
+/* ---- review queue (unlisted; /review/) ---- */
+
+.review-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.88rem;
+}
+.review-feedback label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  color: var(--ink-soft);
+}
+.review-feedback input,
+.review-feedback textarea {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  padding: 0.4rem 0.55rem;
+  background: #fff;
+}
+.review-feedback button {
+  align-self: flex-start;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--spruce);
+  border: none;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+}
+.review-feedback button:disabled { opacity: 0.6; cursor: default; }
+.review-feedback-status {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
 /* ---- furniture ---- */
 
 .verified-stamp {

@@ -1,6 +1,17 @@
 name = "therapybulletin"
 compatibility_date = "2026-07-22"
 
+# worker/index.js handles POST /api/feedback (the /review/ page's feedback
+# form) and falls through to ASSETS for everything else — added 2026-08-12,
+# see worker/index.js's header for why. Needs, set on the Worker itself
+# (not in this repo): secret GITHUB_TOKEN (fine-grained PAT, Issues:write
+# on GITHUB_REPO only) and var GITHUB_REPO below.
+main = "worker/index.js"
+
 [assets]
 directory = "public"
 not_found_handling = "404-page"
+binding = "ASSETS"
+
+[vars]
+GITHUB_REPO = "benthepsychologist/therapybulletin-data"
