@@ -1,13 +1,13 @@
 ---
 title: "Method"
-description: "How Therapy Bulletin verifies claims, what the stamps mean, and what this site is not."
+description: "How MH in Brief verifies claims, what the stamps mean, and what this site is not."
 date: 2026-07-31
 menu_note: "the provenance story"
 ---
 
 ## What this is
 
-Therapy Bulletin is a maintained registry of the compliance and
+MH in Brief is a maintained registry of the compliance and
 professional-ethics obligations that govern licensed behavioural-health
 practice — psychologists, psychotherapists, counsellors, social workers,
 and marriage and family therapists. Canada first, the United States to
@@ -70,6 +70,6 @@ with the old text preserved.
 
 ## Who maintains this
 
-Therapy Bulletin is maintained by a licensed, Canadian-registered clinical
+MH in Brief is maintained by a licensed, Canadian-registered clinical
 psychologist. It is independent: no regulator, association, or vendor
 directs its content.

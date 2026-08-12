@@ -1,8 +1,8 @@
-# CLAUDE.md — therapybulletin-site
+# CLAUDE.md — mhinbrief-site
 
 This repo is the **published surface only** — a Hugo site with exactly one
-content writer: the `therapybulletin` adapter at
-`/workspace/therapybulletin-data/publish/adapter.py`, which calls kestrel's
+content writer: the `mhinbrief` adapter at
+`/workspace/mhinbrief-corpus/publish/adapter.py`, which calls kestrel's
 publish core (`/workspace/kestrel/tools/publish/core.py`) for the guarantees
 (secret scan, field allowlist, no-empty-wipe, provenance). The adapter is
 **instance code in the data repo**, not engine code.
@@ -12,7 +12,7 @@ publish core (`/workspace/kestrel/tools/publish/core.py`) for the guarantees
 - `data/records.yaml` — allowlisted record fields
 - `data/regulators.yaml` — the jurisdiction map's regulator lists
 
-Edits to any of those belong upstream, in `therapybulletin-data` (the
+Edits to any of those belong upstream, in `mhinbrief-corpus` (the
 records/changelog, or the adapter that renders them). A second writer into
 this site is the specific failure mode the contract exists to prevent — a
 temporary bridge script once produced `data/regulators.yaml` from inside
@@ -35,11 +35,11 @@ builds only when its Cloudflare deploy hook fires. `/publish --push` from
 the data repo fires it; a bare template/CSS push does not. After any
 direct push here, fire it by hand:
 
-    source .env && curl -X POST "$THERAPYBULLETIN_DEPLOY_HOOK"
+    source .env && curl -X POST "$MHINBRIEF_DEPLOY_HOOK"
 
 The hook URL lives in this repo's gitignored `.env` (see `.env.example`).
 A clean `git push` is not evidence the site updated — verify against
 served content.
 
 **Upstream pointers:** engine — `/workspace/kestrel`; data/instance repo —
-`/workspace/therapybulletin-data`.
+`/workspace/mhinbrief-corpus`.

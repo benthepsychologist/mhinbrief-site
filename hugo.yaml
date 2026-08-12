@@ -1,7 +1,7 @@
-title: "Therapy Bulletin"
-baseURL: "https://therapybulletin.org/"
+title: "MH in Brief"
+baseURL: "https://mhinbrief.com/"
 languageCode: "en-ca"
-copyright: "Therapy Bulletin"
+copyright: "MH in Brief"
 
 # Self-contained by design: no analytics, no external fonts at runtime,
 # no CDN or module dependencies. Fonts are self-hosted under static/fonts/.

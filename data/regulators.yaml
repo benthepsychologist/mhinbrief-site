@@ -1,5 +1,5 @@
-generated_by: therapybulletin publish adapter (publish/adapter.py)
-source_manifest: therapybulletin-data/kestrel.yaml
+generated_by: mhinbrief publish adapter (publish/adapter.py)
+source_manifest: mhinbrief-corpus/kestrel.yaml
 jurisdictions:
   ca-federal:
   - id: canada-gazette-p1

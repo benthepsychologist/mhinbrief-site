@@ -13,7 +13,7 @@
  *                  ONE repo in GITHUB_REPO below. Do not reuse a
  *                  broader-scoped token here.
  *   GITHUB_REPO    "owner/repo" to open issues in, e.g.
- *                  "benthepsychologist/therapybulletin-data".
+ *                  "benthepsychologist/mhinbrief-corpus".
  *
  * Antispam: intentionally has none beyond basic input limits — the
  * /review/ page sits behind Cloudflare Access (see deploy notes), which
@@ -71,7 +71,7 @@ async function handleFeedback(request, env) {
     headers: {
       "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
       "Accept": "application/vnd.github+json",
-      "User-Agent": "therapybulletin-review-worker",
+      "User-Agent": "mhinbrief-review-worker",
       "Content-Type": "application/json",
     },
     body: JSON.stringify({

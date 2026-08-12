@@ -1,6 +1,6 @@
-# therapybulletin-site
+# mhinbrief-site
 
-Hugo site for **Therapy Bulletin** (therapybulletin.org) — the verified
+Hugo site for **MH in Brief** (mhinbrief.com) — the verified
 reference for the rules governing behavioural-health practice in Canada.
 Name locked 2026-07-31; domains (.org/.com/.ca) owned; repo private until
 the public launch call.
@@ -8,8 +8,8 @@ the public launch call.
 ## Content-writer contract
 
 Registry-derived content — `content/changelog/*.md`, `data/records.yaml`,
-`data/regulators.yaml` — is written ONLY by the `therapybulletin` adapter,
-which lives at `therapybulletin-data/publish/adapter.py` (instance code, not
+`data/regulators.yaml` — is written ONLY by the `mhinbrief` adapter,
+which lives at `mhinbrief-corpus/publish/adapter.py` (instance code, not
 engine code) and calls kestrel's publish core for the guarantees. This is
 the single-content-writer invariant, design §1: "A site repo has exactly one
 content writer: the publish core, through that site's adapter." Do not
@@ -38,7 +38,7 @@ registry/changelog exports, not the site chrome.
   sat live-unchanged for several minutes with no way to tell from this
   repo alone that a build hadn't even started). After every push that
   should go live, fire the hook by hand:
-  `curl -X POST "$THERAPYBULLETIN_DEPLOY_HOOK"` — the URL lives in this
+  `curl -X POST "$MHINBRIEF_DEPLOY_HOOK"` — the URL lives in this
   repo's gitignored `.env` (see `.env.example` for the var name), never
   committed. Response includes a `build_uuid`; Cloudflare's dashboard is
   the only place to check build success/failure from here — no API

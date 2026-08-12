@@ -1,4 +1,4 @@
-name = "therapybulletin"
+name = "mhinbrief"
 compatibility_date = "2026-07-22"
 
 # worker/index.js handles POST /api/feedback (the /review/ page's feedback
@@ -14,4 +14,4 @@ not_found_handling = "404-page"
 binding = "ASSETS"
 
 [vars]
-GITHUB_REPO = "benthepsychologist/therapybulletin-data"
+GITHUB_REPO = "benthepsychologist/mhinbrief-corpus"
