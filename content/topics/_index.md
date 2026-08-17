@@ -18,6 +18,9 @@ matrix beats thirteen hub pages. Planned first set, in build order:
   minor-client rules, and where no standard is published.
 - **[Liability insurance](/topics/insurance/)** — required coverage and,
   critically, coverage territory.
+- **[Licensure & registration](/topics/licensure/)** — registration
+  classes, the degree and supervised-hour requirements behind each, and
+  where the same title means different things in different provinces.
 - **AI in practice** — obligations that attach to the clinician using
   AI-enabled tools. One topic among the others, deliberately not the
   front door.
