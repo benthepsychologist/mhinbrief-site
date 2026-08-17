@@ -1,0 +1,15 @@
+---
+title: "Telepractice — social work (Quebec)"
+date: 2026-08-17
+jurisdiction: "Quebec"
+topic: "Telepractice"
+status: "in-effect"
+record_id: "ca-qc-telepractice-social-work"
+source_url: "https://www.otstcfq.org/wp-content/uploads/2017/06/normes_de_telepratique_pour_les_travailleurs_sociaux_et_les_therapeutes_conjugaux_et_familiaux.pdf"
+source_label: "Normes, section 3 (protection de la vie privée et confidentialité), aa. 3.01-3.10"
+last_verified: "2026-08-17"
+---
+
+Members providing electronic services must: inform clients of the risks of disclosing confidential information over the internet, social media, texting and videoconferencing sites, and of the possible consequences (3.01); use adequate protective measures INCLUDING ENCRYPTION when communicating confidential information by digital or electronic technology, and protect archived client information with adequate measures including secure firewalls, encryption software and passwords (3.02); comply with the laws and regulations on secure use of digital and electronic technologies BOTH in their own administrative jurisdiction AND in the one where the client is located (3.03); obtain client consent before using electronic search engines to gather information about them, except in emergencies to protect the client or third parties (3.04); prepare a confidentiality agreement summarising the exceptions to confidentiality and note the client's consent and acknowledgement in the file (3.05); inform clients they may not disclose or publish the professional's electronic communications without proper consent (3.06), and that the professional cannot guarantee all participants in a family, couple or group will respect those agreements (3.07); protect the confidentiality of all information obtained or archived electronically except where disclosure is necessary to protect against serious, foreseeable and imminent danger or to comply with law or court order (3.08); warn clients that third-party texting or messaging services may offer only limited security, and promptly indicate secure ways to make contact (3.09); and take measures including encryption to protect confidential digital communications, and develop and publish policies and procedures for promptly notifying a client of any breach of confidentiality (3.10).
+
+> "Ces normes décrivent les obligations auxquelles sont tenus de se conformer les membres de l'Ordre [...] Ces normes ne sont pas des dispositions légales en tant que telles, mais elles ont néanmoins un caractère exécutoire, car elles définissent les responsabilités professionnelles et servent de cadre de référence à la formation continue, à l'inspection professionnelle et aux fins disciplinaires" ... "3.02. Avoir recours à des mesures de protection adéquates, dont le cryptage, lors de la communication de renseignements confidentiels au moyen des technologies numériques et électroniques." — OTSTCFQ, Normes de télépratique pour les travailleurs sociaux et les thérapeutes conjugaux et familiaux

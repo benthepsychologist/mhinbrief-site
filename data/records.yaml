@@ -1,5 +1,5 @@
 generated_by: mhinbrief publish adapter (publish/adapter.py)
-record_count: 16
+record_count: 41
 topic_names:
   licensure: Licensure
   scope: Scope of practice
@@ -190,6 +190,127 @@ by_topic:
   - &id005
     jurisdiction:
       country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCCT Professional Liability Insurance (Registration and Licensing Policy)
+      bill_number: null
+      code_cite: Policy ss. 1.1, 1.1.1, 1.2, 2.0
+      regulation_cite: Counselling Therapists Act, S.N.S. 2008, c. 6, s. 12(1)(f); Counselling Therapists
+        Regulations, N.S. Reg. 287/2011, s. 7(2)(g)
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-09-20'
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: All licensed registrants, INCLUDING those on leave, must maintain professional
+      liability insurance covering all counselling-therapy services within their individual scope of practice.
+      Coverage must be not less than $2,000,000 per claim and not less than $5,000,000 aggregate, WITH
+      NO DEDUCTIBLE. Proof must be submitted at initial application and again at annual registration and
+      licence renewal, as a copy of the current policy or a letter from the insurer verifying amounts
+      and extent of coverage. Insurance provided through an employer or other third party is NOT sufficient
+      to meet this requirement. Registrants providing telecounselling outside Nova Scotia bear sole responsibility
+      for ensuring their coverage extends to out-of-province clients.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscct.ca/wp-content/uploads/2025/09/PROFESSIONAL-LIABILITY-INSURANCE-REGISTRATION-POLICY.pdf
+    source_quote: '"1.1.1 The coverage shall include a claim amount of not less than $2,000,000 and an
+      aggregate amount not less than $5,000,000 with no deductible." ... "2.0 Insurance policies provided
+      through an employer or other third party are not sufficient to meet the requirement of 1.1 of this
+      policy." — NSCCT, Professional Liability Insurance, Registration and Licensing Policy (revised 2025-09-20)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-counselling-therapy
+  - &id006
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 252/2025, s. 11(1)(a)(iii)
+      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-11-24'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold professional liability insurance (or other malpractice coverage
+      or liability protection) in the form and amount set by the Board. The minimum amount set by the
+      Board is $1,000,000 per occurrence. Applies to holders of a Practising Licence AND a Candidate Psychologist
+      Conditional Licence. Proof of coverage must be provided within 30 days of the licence being granted,
+      and maintaining coverage is a condition of annual renewal. Employer-provided coverage does not automatically
+      satisfy this — NSRP''s position is that institutional coverage may not cover all acts of an employee
+      and that psychologists employed by health institutions, school boards and universities still require
+      personal coverage. One standing exemption exists: Correctional Service Canada employees practising
+      only within CSC, under a monitored annual-declaration arrangement between NSRP and CSC. Other federal
+      employees must submit proof of their own coverage. Retired, relocated or career-changed registrants
+      are advised to maintain coverage or obtain extended-reporting (''tail'') coverage, because policies
+      are typically written on a claims-made basis.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ns-rp.ca/downloads/Insurance.pdf
+    source_quote: '"Under the Regulated Health Professions Act and the Psychology Regulations (s. 11(1)(a)(iii)),
+      an applicant for a licence must have professional liability insurance or another form of malpractice
+      coverage or liability protection in the form and amount set by the Board. This applies to holders
+      of a Practising Licence and a Candidate Psychologist Conditional Licence. The minimum amount set
+      by the Board is $1,000,000 per occurrence." — NSRP, Professional Liability Insurance Required of
+      All NSRP Registrants'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-psychology
+  - &id007
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCSW Code of Ethics and Standards of Practice
+      bill_number: null
+      code_cite: s. 5.5.1 (Guiding Principle 5.5 — social workers in private practice)
+      regulation_cite: Social Workers Act, S.N.S. 1993, c. 12
+    status: in_force
+    enactment_date: null
+    effective_date: '2026-02-01'
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Social workers IN PRIVATE PRACTICE must secure adequate malpractice,
+      defamation, and liability insurance, and maintain registration with the Nova Scotia College of Social
+      Workers. No minimum dollar amount is specified. Those providing clinical social work services in
+      a private setting must also hold Clinical Specialist registration and provide evidence of that status
+      (s. 5.5.2).
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://nscsw.org/wp-content/uploads/2025/09/NSCSW-Code-of-Ethics-and-Standards-of-Practice-August-2025.pdf
+    source_quote: '"5.5.1 securing adequate malpractice, defamation, and liability insurance and maintaining
+      registration with the Nova Scotia College of Social Workers" — NSCSW Code of Ethics and Standards
+      of Practice, s. 5.5.1, under Guiding Principle 5.5 ''Social workers in private practice act with
+      integrity in all business practices'' (effective 2026-02-01)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-social-work
+  - &id020
+    jurisdiction:
+      country: ca
       state_or_province: Ontario
       code: ca-on
     profession_scope:
@@ -225,7 +346,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-insurance-psychology
-  - &id006
+  - &id021
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -265,7 +386,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-insurance-psychotherapy
-  - &id007
+  - &id022
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -299,8 +420,458 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-insurance-social-work
-  privacy:
+  - &id032
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
+        des psychologues du Québec
+      bill_number: null
+      code_cite: 'montants: 1 000 000 $ par sinistre / 3 000 000 $ par période de garantie'
+      regulation_cite: made under the Code des professions, RLRQ c. C-26
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Psychologists, and holders of a psychotherapist permit who are not admissible
+      to another professional order, must adhere to the collective professional liability insurance contract
+      concluded by the Ordre. The minimum guarantee is $1,000,000 per claim (par sinistre) and $3,000,000
+      per guarantee period (par période de garantie); coverage may be increased optionally to $2,000,000
+      per claim and $4,000,000 per period. The obligation does NOT apply where the psychologist or psychotherapist-permit
+      holder holds insurance through their employer and furnishes proof of it.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ordrepsy.qc.ca/-/assurance-responsabilite-professionnelle-les-obligations-des-professionnels
+    source_quote: '"1 000 000 $ par sinistre et 3 000 000 $ par période de garantie" ... l''obligation
+      ne s''applique pas "lorsque le psychologue ou le détenteur de permis de psychothérapeute détient
+      une assurance via son employeur et qu''il en fournit la preuve." — Ordre des psychologues du Québec,
+      Assurance responsabilité professionnelle : les obligations des professionnels'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-qc-insurance-psychology
+  - &id033
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
+        professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+      bill_number: null
+      code_cite: RLRQ c. C-26, r. 283, a. 1 (adhésion obligatoire); a. 4(1°) (montants minimaux); a. 3
+        (exemptions)
+      regulation_cite: made under the Code des professions, RLRQ c. C-26
+    status: in_force
+    enactment_date: null
+    effective_date: '2000-04-01'
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Every social worker practising full-time, part-time OR OCCASIONALLY
+      must adhere to the collective professional liability insurance contract concluded by the Ordre (a.
+      1). The collective contract must provide a minimum guarantee of at least $500,000 per claim and
+      $1,000,000 for all claims arising in the guarantee period for which a claim is presented (a. 4(1°));
+      the contract must also cover claims presented against the insured's heirs after the guarantee period
+      in which they die, pay third-party damages up to the guarantee amount, and take up the insured's
+      defence and pay legal costs and interest in addition to the insured amount (a. 4(2°)-(4°)). In practice
+      the Ordre's collective contract provides higher limits than the regulatory floor — currently up
+      to $2,000,000 per claim and $2,000,000 for all claims per insurance period. Exemptions exist for
+      social workers in the exclusive service of certain employers, subject to filing with the Ordre's
+      secretary a certificate by which the employer stands as guarantor and answers financially for the
+      member's faults or negligence, with a guarantee meeting the minimum stipulations of a. 4.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%20283
+    source_quote: '"1. Tout travailleur social qui exerce sa profession à temps plein, à temps partiel
+      ou occasionnellement doit adhérer au contrat du régime collectif d''assurance de la responsabilité
+      professionnelle conclu par l''Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux
+      et familiaux du Québec [...]" ... "4. Le contrat d''assurance établissant un régime collectif d''assurance
+      de la responsabilité professionnelle souscrit par l''Ordre doit prévoir les conditions minimales
+      suivantes: 1° un montant de garantie d''au moins 500 000 $ par sinistre et de 1 000 000 $ pour l''ensemble
+      des sinistres qui surviennent au cours de la période de garantie et pour lesquels une réclamation
+      est présentée" — RLRQ c. C-26, r. 283, aa. 1 et 4 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-insurance-social-work
+  licensure:
   - &id008
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Counselling Therapists Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 287/2011, ss. 5-8 (O.I.C. 2011-368)
+      regulation_cite: made under the Counselling Therapists Act, S.N.S. 2008, c. 6
+    status: in_force
+    enactment_date: null
+    effective_date: '2011-10-11'
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a licence from the Nova Scotia College of Counselling Therapists
+      (NSCCT) to use the protected titles ''Counselling Therapist'', ''Registered Counselling Therapist''
+      / ''RCT'', or ''Registered Counselling Therapist - Candidate'' / ''RCT-C'', or to describe services
+      as ''counselling therapy''. Licence categories under s. 5: active-practising; active-practising
+      with conditions or restrictions; active-practising candidate; temporary; temporary with conditions
+      or restrictions. Registration criteria (s. 6(2)) include a recognised counselling-therapy education
+      programme, any registration examinations approved by the Board, no outstanding complaints in previous
+      jurisdictions, English-language proficiency, an ethics course, workshop or exam, and a supervised
+      practicum or internship with a minimum of 120 direct-contact practice hours. Entry to active-practising
+      (s. 7(2)) additionally requires at least two years of supervised experience, and s. 8 sets that
+      at a minimum of 2,000 hours including 50 direct-contact hours with a supervisor.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://novascotia.ca/just/regulations/regs/ctcounsther.htm
+    source_quote: '"5 The categories of licence are (a) active-practising; (b) active-practising with
+      conditions or restrictions; (c) active-practising candidate; (d) temporary; (e) temporary with conditions
+      or restrictions." / "7(2) ... the member has completed at least 2 years of supervised experience
+      in the practice of counselling therapy" — Counselling Therapists Regulations, N.S. Reg. 287/2011'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-licensure-counselling-therapy
+  - &id009
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 252/2025, ss. 8-10 (O.I.C. 2025-337)
+      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-11-24'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a licence from the Nova Scotia Regulator of Psychology (NSRP)
+      to practise psychology. Practising licence categories are set by s. 8 (psychologist practising licence,
+      plus any further category established in the bylaws); conditional licences by s. 9 (candidate psychologist
+      conditional licence, psychologist conditional licence, plus bylaw categories). Registration criteria
+      under s. 10(2)(a) require graduation from an approved master''s, PhD or PsyD programme, passing
+      the required examinations, English-language proficiency, Canadian citizenship or legal entitlement
+      to work in Canada, and the capacity, competence and character to practise safely and ethically.
+      Supervised-experience baseline per NSRP: two years post-doctoral, or four years at the master''s
+      level.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://novascotia.ca/just/REGULATIONS/regs/rhppsychology.htm
+    source_quote: '"8 The categories of practising licence are (a) psychologist practising licence; (b)
+      any other category of practising licence established in the bylaws." / "10(2)(a) ... capacity, competence
+      and character to safely and ethically engage in the practice of the profession." — Psychology Regulations,
+      N.S. Reg. 252/2025 (O.I.C. 2025-337), in force 2025-11-24'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-licensure-psychology
+  - &id010
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Social Workers Act (Nova Scotia)
+      bill_number: null
+      code_cite: S.N.S. 1993, c. 12, s. 22 (registration); private practice defined at s. 2(j)
+      regulation_cite: Social Worker Regulations made under the Social Workers Act, s. 8 (updated November
+        2021)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Register with the Nova Scotia College of Social Workers (NSCSW). Registered
+      Social Worker (RSW) requires a CASWE-accredited BSW or MSW plus 2,500 hours of post-graduation practice
+      experience within the scope of practice. Applicants without those hours are placed on the Social
+      Worker Candidate registry and must complete all or part of the Candidacy Mentorship Programme based
+      on prior experience. Providing CLINICAL social work services in a private setting requires an additional
+      level of registration — Registered Social Worker-Clinical Specialist — applied for through the Board
+      of Examiners, and members in private practice must provide evidence of that status.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscsw.org/applicants/
+    source_quote: '"5.5.2 securing registration with the College as a Clinical Specialist when they are
+      providing clinical social work services in a private setting and providing evidence of their status"
+      [footnote: "In Nova Scotia, providing clinical services in a private practice requires an additional
+      level of registration."] — NSCSW Code of Ethics and Standards of Practice, s. 5.5.2, effective 2026-02-01'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-ns-licensure-social-work
+  - &id034
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
+        désignés
+      bill_number: null
+      code_cite: RLRQ c. C-26 (Code des professions)
+      regulation_cite: RLRQ c. C-26, r. 2, a. 1.24
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Hold a permit from the Ordre des psychologues du Québec (OPQ) and be
+      entered on its roll (tableau) to use the reserved title of psychologist. The permit opens on a DOCTORATE
+      in psychology — Ph.D. (recherche et intervention) or D.Psy. — from a designated Quebec university,
+      listed exhaustively at s. 1.24 of the diploma regulation. Quebec has required a doctorate for the
+      psychologist permit since 2006; a master's degree no longer opens the permit. Candidates holding
+      a diploma from outside Quebec proceed by equivalence through the OPQ's admissions process. Practice
+      is also subject to the Code des professions, the Code de déontologie des psychologues (RLRQ c. C-26,
+      r. 212), and the record-keeping regulation (RLRQ c. C-26, r. 221).
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
+    source_quote: '"1.24. Donnent ouverture au permis délivré par l''Ordre des psychologues du Québec,
+      les diplômes suivants décernés par les établissements d''enseignement suivants: 1° Doctorat en psychologie,
+      recherche et intervention (Ph.D.) ou Doctorat en psychologie (D.Psy.) de l''Université de Montréal;
+      [...]" — Règlement sur les diplômes délivrés par les établissements d''enseignement désignés qui
+      donnent droit aux permis et aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26,
+      r. 2, a. 1.24 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-licensure-psychology
+  - &id035
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
+        désignés
+      bill_number: null
+      code_cite: RLRQ c. C-26 (Code des professions)
+      regulation_cite: RLRQ c. C-26, r. 2, a. 1.15
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Hold a permit from the Ordre des travailleurs sociaux et des thérapeutes
+      conjugaux et familiaux du Québec (OTSTCFQ) and be entered on its roll to use the reserved title
+      of travailleur social / social worker. The social worker permit opens on a Baccalauréat en service
+      social or Baccalauréat en travail social from a designated Quebec university, or in some cases a
+      Maîtrise en travail social, listed exhaustively at s. 1.15 of the diploma regulation. The same Ordre
+      separately issues the thérapeute conjugal et familial permit under the same section. Holders of
+      a related-field or out-of-province diploma proceed by equivalence. A social worker who wishes to
+      practise psychotherapy must additionally hold the psychotherapist permit issued by the Ordre des
+      psychologues du Québec — see ca-qc-scope-psychotherapy-permit-loi-21.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
+    source_quote: '"1.15. Donnent ouverture aux permis ci-après mentionnés, délivrés par l''Ordre professionnel
+      des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec, les diplômes suivants
+      décernés par les établissements d''enseignement ci-après désignés: 1° le permis de travailleur social:
+      a) Baccalauréat en service social (B.Serv.Soc.) de l''Université Laval; [...]" — Règlement sur les
+      diplômes délivrés par les établissements d''enseignement désignés qui donnent droit aux permis et
+      aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26, r. 2, a. 1.15 (à jour au
+      1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-licensure-social-work
+  privacy:
+  - &id011
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: disclosure
+    statute_citation:
+      short_title: Personal Health Information Act (Nova Scotia)
+      bill_number: null
+      code_cite: S.N.S. 2010, c. 41, ss. 69-70 (reporting of a privacy breach)
+      regulation_cite: Personal Health Information Regulations, N.S. Reg. 217/2012, as amended to N.S.
+        Reg. 63/2026 (effective 2026-03-03)
+    status: in_force
+    enactment_date: null
+    effective_date: '2013-06-01'
+    enforcement_body: Office of the Information and Privacy Commissioner for Nova Scotia (Review Officer)
+    authority_basis: privacy
+    penalties: null
+    clinician_facing_obligations: 'A custodian must notify the affected individual at the first reasonable
+      opportunity where it believes on a reasonable basis BOTH that the information was stolen, lost,
+      or subject to unauthorized access, use, disclosure, copying or modification, AND that as a result
+      there is potential for harm or embarrassment to the individual (s. 69). Where the custodian instead
+      determines that a breach is unlikely to have occurred, or that there is no potential for harm or
+      embarrassment, it may decide not to notify the individual — but it MUST then notify the Review Officer
+      (the Information and Privacy Commissioner) as soon as possible (s. 70). There is no threshold below
+      which a custodian may simply record nothing and tell no one: either the individual is notified,
+      or the regulator is.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nslegislature.ca/sites/default/files/legc/statutes/personal%20health%20information.pdf
+    source_quote: '"69 Subject to the exceptions and additional requirements, if any, that are prescribed,
+      a custodian that has custody or control of personal health information about an individual shall
+      notify the individual at the first reasonable opportunity if the custodian believes on a reasonable
+      basis that (a) the information is stolen, lost or subject to unauthorized access, use, disclosure,
+      copying or modification; and (b) as a result, there is potential for harm or embarrassment to the
+      individual." ... "70(2) Where a custodian makes the decision not to notify an individual pursuant
+      to this Section, the custodian shall notify the Review Officer as soon as possible." — Personal
+      Health Information Act, S.N.S. 2010, c. 41 (consolidation to April 1, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-privacy-breach-notification
+  - &id012
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Personal Health Information Act (Nova Scotia)
+      bill_number: null
+      code_cite: S.N.S. 2010, c. 41, ss. 3(1)(f), 3(1)(w), 3(1)(aaa), 6, 67, 68
+      regulation_cite: Personal Health Information Regulations, N.S. Reg. 217/2012, as amended to N.S.
+        Reg. 63/2026 (effective 2026-03-03)
+    status: in_force
+    enactment_date: null
+    effective_date: '2013-06-01'
+    enforcement_body: Office of the Information and Privacy Commissioner for Nova Scotia (Review Officer)
+    authority_basis: privacy
+    penalties: null
+    clinician_facing_obligations: 'A ''custodian'' includes a regulated health professional, or a person
+      who operates a group practice of regulated health professionals, who has custody or control of personal
+      health information in connection with their powers or duties (s. 3(1)(f)(i)). ''Regulated health
+      professional'' means a health professional licensed or registered to provide health care under a
+      provincial Act specific to their profession, who provides health care (s. 3(1)(w)). TWO CARVE-OUTS
+      DECIDE MOST REAL CASES. First, a regulated health professional who is NOT providing health care
+      is not a custodian (s. 6(1)(d)). Second, and far more commonly: a person is NOT a custodian in respect
+      of personal health information they collect, use or disclose while acting as an AGENT of a custodian
+      (s. 6(2)). An ''agent'' is anyone authorized to act for the custodian, for the custodian''s purposes,
+      whether or not paid — expressly including employees and volunteers (s. 3(1)(aaa)). So an employed
+      clinician at a health authority is an agent, and the institution is the custodian; a clinician in
+      private practice is the custodian themselves. A custodian must designate one or more contact persons
+      to facilitate compliance, inform agents of their duties, respond to inquiries and to access and
+      correction requests, receive complaints, train staff, and develop explanatory materials (s. 67(1))
+      — and a custodian who is a natural person and designates no one MUST perform those functions personally
+      (s. 67(2)). A custodian must also make available to the public a written statement describing its
+      information practices (s. 68).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nslegislature.ca/sites/default/files/legc/statutes/personal%20health%20information.pdf
+    source_quote: '"3(1)(w) ''regulated health professional'' means a health professional who is licensed
+      or registered to provide health care under an Act of the Province specific to his or her profession
+      and who provides health care or who is a member of a class of persons prescribed as regulated health
+      professionals" ... "6(2) Except as prescribed, a person described in subclause 3(f)(i) is not a
+      custodian in respect of personal health information that the person collects, uses or discloses
+      while performing the person''s powers or duties when an agent of a custodian." — Personal Health
+      Information Act, S.N.S. 2010, c. 41 (consolidation to April 1, 2026)'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-ns-privacy-custodian-status
+  - &id013
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    - counselling_therapist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: none
+    statute_citation:
+      short_title: Personal Health Information Act (Nova Scotia)
+      bill_number: null
+      code_cite: S.N.S. 2010, c. 41, ss. 44, 65 (and the absence of any residency provision)
+      regulation_cite: Personal Health Information Regulations, N.S. Reg. 217/2012, as amended to N.S.
+        Reg. 63/2026 (effective 2026-03-03), s. 10 (prescribed electronic-system safeguards)
+    status: in_force
+    enactment_date: null
+    effective_date: '2013-06-01'
+    enforcement_body: Office of the Information and Privacy Commissioner for Nova Scotia (Review Officer)
+    authority_basis: privacy
+    penalties: null
+    clinician_facing_obligations: 'Nova Scotia imposes NO data-residency requirement on personal health
+      information by statute or regulation. Neither PHIA nor the Personal Health Information Regulations
+      require that personal health information be stored, hosted, or processed within Nova Scotia or within
+      Canada. What the law does require instead is: (a) security safeguards — a custodian maintaining
+      an electronic information system must implement the prescribed safeguards (PHIA s. 65), which the
+      regulations set out as protection of network infrastructure including physical and wireless networks
+      to ensure secure access, protection of hardware and supporting operating systems, and protection
+      of the system''s software including user authentication (Regulations s. 10(1)); and (b) control
+      over DISCLOSURE across borders — a custodian may disclose personal health information to a person
+      outside the Province only on one of the grounds in s. 44, including the individual''s consent. One
+      profession-specific exception overrides this at the college level: NSCCT requires its registrants''
+      telecounselling platforms to be PIPEDA-compliant AND hosted on servers holding data exclusively
+      within Canadian jurisdiction. That binds counselling therapists only, not psychologists or social
+      workers.'
+    vendor_facing_obligations: No provincial residency obligation applies to vendors handling Nova Scotia
+      personal health information. Vendors serving NSCCT-registered counselling therapists for telecounselling
+      must host data on servers within Canada and be PIPEDA-compliant, per that College's policy.
+    consent_required: true
+    documentation_required: false
+    source_url: https://novascotia.ca/just/regulations/regs/phipershealth.htm
+    source_quote: '"10(1) The following safeguards are prescribed for an electronic information system
+      maintained by the custodian: (a) protection of network infrastructure, including physical and wireless
+      networks, to ensure secure access; (b) protection of hardware and its supporting operating systems
+      to ensure that the system functions consistently and only those authorized to access the system
+      have access; (c) protection of the system''s software, including the way it authenticates a user''s
+      identity before allowing access." — Personal Health Information Regulations, N.S. Reg. 217/2012,
+      s. 10(1). [No provision of the Act or the Regulations addresses storage, hosting or transfer of
+      personal health information outside Nova Scotia or outside Canada.]'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-privacy-data-residency
+  - &id023
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -348,7 +919,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-breach-notification
-  - &id009
+  - &id024
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -393,7 +964,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-custodian-status
-  - &id010
+  - &id025
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -440,8 +1011,206 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-data-residency
+  - &id036
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    - clinical_social_worker
+    topic: privacy
+    regulatory_model: disclosure
+    statute_citation:
+      short_title: Loi sur la protection des renseignements personnels dans le secteur privé (modifiée
+        par la Loi 25)
+      bill_number: Projet de loi 64 (2021, c. 25) — « Loi 25 »
+      code_cite: RLRQ c. P-39.1, aa. 3.1-3.8 (gouvernance, incidents), a. 17 (hors Québec), aa. 90.12,
+        91 (sanctions)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2023-09-22'
+    enforcement_body: Commission d'accès à l'information du Québec
+    authority_basis: privacy
+    penalties: Administrative monetary penalties up to $50,000 for a natural person and, otherwise, $10,000,000
+      or 2% of worldwide turnover, whichever is higher (a. 90.12). Penal fines of $5,000 to $100,000 for
+      a natural person and, otherwise, $15,000 to $25,000,000 or 4% of worldwide turnover, whichever is
+      higher (a. 91), including for failing to report a confidentiality incident when required.
+    clinician_facing_obligations: 'A clinician carrying on an enterprise (private practice) is responsible
+      for the personal information they hold (a. 3.1). The person with the highest authority in the enterprise
+      exercises the function of PERSON IN CHARGE of the protection of personal information — in a solo
+      practice, the clinician themselves — and may delegate it in writing; the title and contact details
+      of that person must be PUBLISHED ON THE ENTERPRISE''S WEBSITE, or made accessible by other appropriate
+      means if there is no website (a. 3.1). The enterprise must establish and implement governance policies
+      and practices for personal information that cover, among other things, RETENTION AND DESTRUCTION,
+      staff roles and responsibilities across the information life cycle, and a complaints-handling process;
+      they must be proportionate to the enterprise''s activities and approved by the person in charge
+      (a. 3.2). A privacy impact assessment (évaluation des facteurs relatifs à la vie privée) is required
+      for any project to acquire, develop or overhaul an information system or electronic service delivery
+      involving personal information, with the person in charge consulted from the outset (a. 3.3). CONFIDENTIALITY
+      INCIDENTS: where there are grounds to believe an incident has occurred, take reasonable measures
+      to reduce the risk of injury and prevent recurrence; and if the incident presents a RISK OF SERIOUS
+      INJURY, promptly notify the Commission d''accès à l''information AND every person concerned (a.
+      3.5). Risk is assessed on the sensitivity of the information, the apprehended consequences of its
+      use, and the likelihood of prejudicial use, in consultation with the person in charge (a. 3.7).
+      A REGISTER of confidentiality incidents must be kept and a copy sent to the Commission on request
+      (a. 3.8). OUTSIDE QUEBEC: before communicating personal information outside Quebec, the enterprise
+      must conduct a privacy impact assessment considering the sensitivity of the information, the purposes
+      of its use, the protection measures it would carry, and the legal framework of the destination.
+      The same applies where the enterprise entrusts a person or body outside Quebec with collecting,
+      using, communicating or KEEPING such information on its behalf (a. 17).'
+    vendor_facing_obligations: A service provider outside Quebec that collects, uses, communicates or
+      stores personal information on an enterprise's behalf brings the enterprise within a. 17, requiring
+      a privacy impact assessment before the arrangement proceeds and consideration of the destination's
+      legal framework.
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/lc/P-39.1
+    source_quote: '"3.5. [...] Si l''incident présente un risque qu''un préjudice sérieux soit causé,
+      elle doit, avec diligence, aviser la Commission d''accès à l''information [...]. Elle doit également
+      aviser toute personne dont un renseignement personnel est concerné par l''incident" ... "17. Avant
+      de communiquer à l''extérieur du Québec un renseignement personnel, la personne qui exploite une
+      entreprise doit procéder à une évaluation des facteurs relatifs à la vie privée. [...] Il en est
+      de même lorsque la personne qui exploite une entreprise confie à une personne ou à un organisme
+      à l''extérieur du Québec la tâche de recueillir, d''utiliser, de communiquer ou de conserver pour
+      son compte un tel renseignement." — Loi sur la protection des renseignements personnels dans le
+      secteur privé, RLRQ c. P-39.1 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-privacy-law25
   retention:
-  - &id011
+  - &id014
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: CCPA Standards of Practice (6th ed.), adopted by NSCCT
+      bill_number: null
+      code_cite: Standards of Practice, Records section (record security and preservation)
+      regulation_cite: Counselling Therapists Act, S.N.S. 2008, c. 6; Counselling Therapists Regulations,
+        N.S. Reg. 287/2011
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Ensure the security and preservation of client records for which the
+      counsellor/therapist has maintenance responsibility, and the records of those they supervise, for
+      the period stipulated by law in the jurisdiction and by employer protocol, whichever is LONGEST.
+      CCPA's own standard is 7 years after the last date of service provided, and 7 years after the age
+      of majority for children, where the legal and employment stipulations are shorter. Arrange for secure
+      preservation and disposition of records on retirement, death, or other departure; in private practice
+      records may be transferred to another counsellor/therapist with clients notified, or clients may
+      take possession. Never destroy records or notes after receiving a subpoena or having reason to expect
+      one — this may be treated as obstruction of justice or contempt of court.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscct.ca/wp-content/uploads/2023/08/CCPA-Standards-of-Practice-ENG-Sept-29-Web-file.pdf
+    source_quote: '"Counsellors/therapists shall ensure the security and preservation of client records
+      for which they have maintenance responsibility, and the records of those they supervise, for a period
+      stipulated by law in their jurisdiction and by protocol of their employer, whichever is longest.
+      CCPA''s standard of practice is to retain records for a period of seven years after the last date
+      of service provided, and for seven years after the age of majority for children when the stipulation
+      in law and by employment protocol is shorter than this length of time." — CCPA, Standards of Practice
+      (6th ed.)'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-ns-retention-counselling-therapy
+  - &id015
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Standards of Professional Conduct (NSRP)
+      bill_number: null
+      code_cite: s. 7.4 (record retention)
+      regulation_cite: Regulated Health Professions Act, S.N.S. 2021, c. 8; Psychology Regulations, N.S.
+        Reg. 252/2025
+    status: in_force
+    enactment_date: null
+    effective_date: '2007-02-19'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Retain both individual and corporate client records for at least 10
+      years following the last client contact. Where the client was under 18 at the time of last contact,
+      retain the individual client record for 10 years following the client's 18th birthday. Billing records
+      are retained on the same basis (s. 7.5). In private practice, a registrant who plans to or ceases
+      to provide services must take responsibility for maintenance and security of records or arrange
+      for another registrant to do so, and must inform NSRP of those arrangements at the earliest reasonable
+      opportunity; advance arrangements should also be made for incapacity or death (s. 7.7). In an employment
+      setting, the registrant must make reasonable efforts to ensure a policy exists covering records
+      on their departure (s. 7.8).
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ns-rp.ca/downloads/Binder_Standards_Legislation_Guidelines.pdf
+    source_quote: '"7.4 Unless otherwise required by law a registrant shall retain both individual and
+      corporate client records for at least ten years following the last client contact. If an individual
+      client was less than eighteen years of age at the time of last contact, the individual client record
+      shall be retained for ten years following the date of the client''s eighteenth birthday. In the
+      case of ongoing service to a corporate client, information more than ten years old may be destroyed
+      if it is not relevant to current services." — NSRP Standards of Professional Conduct, s. 7.4'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-retention-psychology
+  - &id016
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCSW Code of Ethics and Standards of Practice
+      bill_number: null
+      code_cite: s. 6.2.15 (record storage and preservation); see also ss. 6.2.11-6.2.14
+      regulation_cite: Social Workers Act, S.N.S. 1993, c. 12
+    status: in_force
+    enactment_date: null
+    effective_date: '2026-02-01'
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Ensure each service user record is stored and preserved in a secure
+      location for at least 7 years from the date of the LAST ENTRY. Where the service user was under
+      18 at the date of the last entry, retain for at least 7 years from the day they became or would
+      have become 18. Longer periods may be required by law or by employer or self-employed-member policy,
+      and such policies should be developed with a view to the potential future need for the record. Separately:
+      store records securely and prevent unauthorised access (s. 6.2.11); transfer or dispose of records
+      in a way that protects confidentiality and complies with applicable legislation (s. 6.2.12); take
+      reasonable precautions to protect confidential information on termination of practice, incapacity,
+      or death (s. 6.2.13); and comply with retention, storage, preservation and security requirements
+      in applicable privacy and other legislation, including a thorough understanding of an employing
+      organisation''s policies (s. 6.2.14).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscsw.org/wp-content/uploads/2025/09/NSCSW-Code-of-Ethics-and-Standards-of-Practice-August-2025.pdf
+    source_quote: '"6.2.15 ensuring that each service user record is stored and preserved in a secure
+      location for at least seven years from the date of the last entry or, if the service user was less
+      than eighteen years of age at the date of the last entry, at least seven years from the day the
+      service user became or would have become eighteen. Different periods of storage time may be required
+      by law." — NSCSW Code of Ethics and Standards of Practice, s. 6.2.15 (effective 2026-02-01)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-retention-social-work
+  - &id026
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -480,7 +1249,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychology
-  - &id012
+  - &id027
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -519,7 +1288,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychotherapy
-  - &id013
+  - &id028
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -559,8 +1328,235 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-social-work
+  - &id037
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur la tenue des dossiers et des cabinets de consultation des psychologues
+      bill_number: null
+      code_cite: RLRQ c. C-26, r. 221, a. 8 (conservation); a. 9 (destruction); a. 12 (établissements)
+      regulation_cite: made under the Code des professions, RLRQ c. C-26, a. 91
+    status: in_force
+    enactment_date: null
+    effective_date: '2012-09-01'
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Keep a file for each client at the place of practice, and keep each
+      file for AT LEAST 5 YEARS from the date of the last professional service provided (a. 8). Files
+      may be kept electronically provided confidentiality is assured (a. 2). Files must be stored in furniture
+      not freely accessible to the public and kept locked (a. 7). After the retention period a file may
+      be destroyed provided confidentiality of its contents is assured (a. 9). Where a client asks that
+      a copy of the file or information in it be sent to a THIRD PARTY, the psychologist may transmit
+      it only 15 DAYS after the client signs the consent, and the client may revoke consent within that
+      window — though in urgent cases the client may waive the 15-day delay (a. 10). A note of any such
+      transmission, signed and dated by the client, goes in the file. A psychologist practising in a public
+      health or social services établissement is treated as holding the institution's user file, and articles
+      8 to 10 do NOT apply to them (a. 12). The psychologist must display in the waiting room a copy of
+      the Code de déontologie, this regulation, and (where fees are charged to clients) the conciliation
+      and arbitration regulation, each marked with the Ordre's address (a. 18). Where the work environment
+      obstructs compliance, the psychologist must inform the employer in writing and notify the Ordre
+      (a. 21).
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%20221
+    source_quote: '"8. Le psychologue doit conserver chaque dossier pendant au moins 5 ans à compter de
+      la date du dernier service professionnel dispensé." — Règlement sur la tenue des dossiers et des
+      cabinets de consultation des psychologues, RLRQ c. C-26, r. 221, a. 8 (à jour au 1er avril 2026;
+      ce document a valeur officielle)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-retention-psychology
+  - &id038
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: retention
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur la tenue des dossiers et des cabinets de consultation des membres de
+        l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+      bill_number: null
+      code_cite: RLRQ c. C-26, r. 297, a. 6
+      regulation_cite: made under the Code des professions, RLRQ c. C-26, a. 91
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Keep a file for each client and keep each file for AT LEAST 5 YEARS
+      from the date of the last professional service rendered. On expiry of that period the file may be
+      eliminated, provided the confidentiality of the information it contains is assured.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%20297
+    source_quote: '"6. Le travailleur social doit conserver chaque dossier au moins 5 ans à compter de
+      la date du dernier service professionnel rendu. À l''expiration de ce délai, il peut procéder à
+      l''élimination d''un dossier en s''assurant de la confidentialité des renseignements qui y sont
+      contenus." — Règlement sur la tenue des dossiers et des cabinets de consultation des membres de
+      l''Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec,
+      RLRQ c. C-26, r. 297, a. 6 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-retention-social-work
   telepractice:
-  - &id014
+  - &id017
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCCT Interjurisdictional Telecounselling (Canada) — Counselling Practice Policy
+      bill_number: null
+      code_cite: Policy; Practice Expectations 1-3
+      regulation_cite: Counselling Therapists Act, S.N.S. 2008, c. 6
+    status: in_force
+    enactment_date: null
+    effective_date: '2023-01-01'
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'NSCCT registrants may provide telecounselling to clients resident anywhere
+      in Canada. NSCCT treats ''practice'' as occurring in the jurisdiction where the THERAPIST is registered,
+      not where the client sits, and retains oversight regardless of physical location or delivery mode.
+      An NSCCT registrant serving out-of-province clients must: tell clients they are located in Nova
+      Scotia and regulated by NSCCT, and give the College''s website, email and phone; obtain confirmation
+      from the regulator in the client''s province that its rules permit the service, and abide by any
+      limits it sets unless they conflict with NSCCT''s standards; practise telecounselling as an RCT-Candidate
+      only with the candidacy supervisor''s clear agreement; ensure liability insurance covers out-of-province
+      telecounselling; and ensure the platform is PIPEDA-compliant AND hosted on servers holding data
+      exclusively within Canada. Conversely, therapists registered elsewhere in regulated Canadian provinces
+      may serve Nova Scotian clients WITHOUT registering with NSCCT, provided they comply with their home
+      regulator''s requirements and disclose their location and regulator. Persons from non-regulated
+      provinces may not use the protected titles or advertise ''counselling therapy'' to Nova Scotians.'
+    vendor_facing_obligations: Telecounselling platforms used by NSCCT registrants must be secure and
+      PIPEDA-compliant, and must host data exclusively on servers within Canadian jurisdiction. NSCCT
+      states it cannot recommend or advise on the suitability of any particular platform.
+    consent_required: true
+    documentation_required: true
+    source_url: https://nscct.ca/wp-content/uploads/2023/11/Interjurisdictional-Telecounselling-Canada.pdf
+    source_quote: '"The NSCCT maintains jurisdiction and regulatory oversight of all Registered Counselling
+      Therapists (RCTs) and Registered Counselling Therapist-Candidates (RCTs) regardless of where (i.e.,
+      physical location) or how (i.e., in-person or via telecounselling) they deliver counselling therapy.
+      In the context of telecounselling, NSCCT interprets "service delivery" or "practice" as occurring
+      in the jurisdiction where the counselling therapist is registered." ... "ensure that the platform
+      used for telecounselling is PIPEDA compliant and that servers are located in Canada" — NSCCT, Interjurisdictional
+      Telecounselling (Canada)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-telepractice-counselling-therapy
+  - &id018
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: telepractice
+    regulatory_model: none
+    statute_citation:
+      short_title: Model Standards for Telepsychology Service (ACPRO), adopted by NSRP as a Practice Advisory
+      bill_number: null
+      code_cite: adopted 2013-04-05; ACPRO model adopted 2011-06-04
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2013-04-05'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: There is NO binding, telepractice-specific standard for Nova Scotia
+      psychologists. NSRP adopted ACPRO's Model Standards for Telepsychology Service as an ADVISORY only,
+      expressly not incorporated into its Standards of Practice. As advice, registrants are directed to
+      be licensed and in good standing in their home jurisdiction; to ensure they are legally entitled
+      to deliver services outside it; to tell clients which regulator to complain to; to be familiar with
+      the jurisprudence and standards where the service is received and follow the HIGHER standard where
+      they conflict; to carry liability insurance covering out-of-jurisdiction service; to be competent
+      in the technology; to use coded client identification where live visual verification is not possible;
+      and to plan with clients for technology failure. NSRP's separate 'Use of Technology by Psychologists'
+      guidance (revised June 2026, adding AI guidance and RHPA alignment) is likewise guidance, and states
+      that it applies existing standards rather than creating new ones. The generally binding Standards
+      of Practice — competence, consent, records, confidentiality — apply regardless of the medium of
+      delivery, and that is where enforceable obligation actually sits.
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.ns-rp.ca/downloads/Model_Standards_Telepsychology.pdf
+    source_quote: '"As an Advisory these are not incorporated into NSRP''s Standards of Practice, but
+      are provided as advice to Registrants regarding important issues to be carefully considered in offering
+      telepsychology services." ... "As ACPRO Model Standards, they have no force unless and until they
+      are adopted by the individual Canadian regulatory College or Board. At this time, NSRP has chosen
+      to adopt the ACPRO Model Standards as advice to Registrants. These may be incorporated into the
+      Standards of Practice in the future." — NSRP, Model Standards for Telepsychology Service (Advisory
+      for Psychological Practice)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-telepractice-psychology
+  - &id019
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCSW Code of Ethics and Standards of Practice
+      bill_number: null
+      code_cite: Guiding Principle 6.5, ss. 6.5.1-6.5.11 (electronic social work services); see also s.
+        5.5.5
+      regulation_cite: Social Workers Act, S.N.S. 1993, c. 12
+    status: in_force
+    enactment_date: null
+    effective_date: '2026-02-01'
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'When delivering electronic social work services, social workers must:
+      confirm service users can access and use the technology, understand its purpose and operation, have
+      their needs met and their identity protected (6.5.1); use safeguards such as password protection,
+      encryption and secure firewalls when sharing confidential information digitally or on storage devices
+      (6.5.2); follow applicable legislation in the province where they are regulated, where they practise,
+      AND where the service user resides (6.5.3); be aware of inter-jurisdictional issues and act to preserve
+      privacy and confidentiality (6.5.4); obtain informed consent before using search engines or social
+      media to gather information about service users, except in exceptional circumstances to protect
+      those at risk (6.5.5); make reasonable efforts to verify identity and contact information and represent
+      themselves accurately (6.5.6); and be competent in the technologies used, applying face-to-face
+      supervision standards to supervision delivered by technological means (6.5.7). Service users must
+      be informed: to be alone in a private area and refrain from cellular phone use during the encounter
+      (6.5.8); that telephone, video, text and electronic messaging provide limited security (6.5.9);
+      of the risks of sharing confidential information over the internet, social media, text and videoconferencing
+      (6.5.10); and that they may not disclose or post electronic communications from the encounter (6.5.11).'
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://nscsw.org/wp-content/uploads/2025/09/NSCSW-Code-of-Ethics-and-Standards-of-Practice-August-2025.pdf
+    source_quote: '"Guiding Principle 6.5: Social workers preserve privacy and confidentiality in the
+      provision of electronic social work services." ... "6.5.3 following applicable legislation governing
+      the provision of electronic social work services in the province or territory where they are regulated,
+      or practise, and where the service user resides" — NSCSW Code of Ethics and Standards of Practice
+      (effective 2026-02-01)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-telepractice-social-work
+  - &id029
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -601,7 +1597,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-psychology
-  - &id015
+  - &id030
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -638,7 +1634,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-psychotherapy
-  - &id016
+  - &id031
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -679,13 +1675,182 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-social-work
+  - &id040
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: telepractice
+    regulatory_model: none
+    statute_citation:
+      short_title: OPQ — Télépratique (lignes directrices et points de repère)
+      bill_number: null
+      code_cite: guidance; not a regulation
+      regulation_cite: Code de déontologie des psychologues, RLRQ c. C-26, r. 212 (applies regardless
+        of medium)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Quebec has no telepractice-specific REGULATION for psychologists. The
+      OPQ publishes lignes directrices and points de repère, and is explicit that it does not impose particular
+      tools or forms — ''l''Ordre ne prescrit, ne recommande, ni n''impose l''usage d''un formulaire préconçu''.
+      The binding obligations are the ordinary ones — the Code de déontologie, the record-keeping regulation,
+      competence — which apply whatever the medium. On INTERJURISDICTIONAL practice the OPQ does state
+      operative positions: a psychologist serving a client located outside Quebec must check whether the
+      regulator in the client''s jurisdiction requires a permit or legal authorisation there; and a person
+      who is PHYSICALLY IN QUEBEC offering services to Quebec clients must register with the OPQ, while
+      the OPQ accepts that psychologists located outside Quebec may offer online services to Quebec clientele.
+      No data-hosting, platform, or server-location requirement is specified.'
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.ordrepsy.qc.ca/telepratique
+    source_quote: '"Vous devez vérifier si vous avez l''obligation d''obtenir un permis ou une autorisation
+      légale d''exercer auprès de l''organisme de réglementation [...] dans la juridiction où se trouve
+      ce client." ... "Afin d''offrir des services à des clients du Québec [...] une personne qui est
+      physiquement au Québec doit s''inscrire auprès de l''Ordre des psychologues du Québec." ... "l''Ordre
+      ne prescrit, ne recommande, ni n''impose l''usage d''un formulaire préconçu." — Ordre des psychologues
+      du Québec, Télépratique'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-qc-telepractice-psychology
+  - &id041
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: telepractice
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: OTSTCFQ — Normes de télépratique pour les travailleurs sociaux et les thérapeutes conjugaux
+        et familiaux
+      bill_number: null
+      code_cite: Normes, section 3 (protection de la vie privée et confidentialité), aa. 3.01-3.10
+      regulation_cite: Code de déontologie, RLRQ c. C-26, r. 286.1 (applies regardless of medium)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Members providing electronic services must: inform clients of the risks
+      of disclosing confidential information over the internet, social media, texting and videoconferencing
+      sites, and of the possible consequences (3.01); use adequate protective measures INCLUDING ENCRYPTION
+      when communicating confidential information by digital or electronic technology, and protect archived
+      client information with adequate measures including secure firewalls, encryption software and passwords
+      (3.02); comply with the laws and regulations on secure use of digital and electronic technologies
+      BOTH in their own administrative jurisdiction AND in the one where the client is located (3.03);
+      obtain client consent before using electronic search engines to gather information about them, except
+      in emergencies to protect the client or third parties (3.04); prepare a confidentiality agreement
+      summarising the exceptions to confidentiality and note the client''s consent and acknowledgement
+      in the file (3.05); inform clients they may not disclose or publish the professional''s electronic
+      communications without proper consent (3.06), and that the professional cannot guarantee all participants
+      in a family, couple or group will respect those agreements (3.07); protect the confidentiality of
+      all information obtained or archived electronically except where disclosure is necessary to protect
+      against serious, foreseeable and imminent danger or to comply with law or court order (3.08); warn
+      clients that third-party texting or messaging services may offer only limited security, and promptly
+      indicate secure ways to make contact (3.09); and take measures including encryption to protect confidential
+      digital communications, and develop and publish policies and procedures for promptly notifying a
+      client of any breach of confidentiality (3.10).'
+    vendor_facing_obligations: null
+    consent_required: true
+    documentation_required: true
+    source_url: https://www.otstcfq.org/wp-content/uploads/2017/06/normes_de_telepratique_pour_les_travailleurs_sociaux_et_les_therapeutes_conjugaux_et_familiaux.pdf
+    source_quote: '"Ces normes décrivent les obligations auxquelles sont tenus de se conformer les membres
+      de l''Ordre [...] Ces normes ne sont pas des dispositions légales en tant que telles, mais elles
+      ont néanmoins un caractère exécutoire, car elles définissent les responsabilités professionnelles
+      et servent de cadre de référence à la formation continue, à l''inspection professionnelle et aux
+      fins disciplinaires" ... "3.02. Avoir recours à des mesures de protection adéquates, dont le cryptage,
+      lors de la communication de renseignements confidentiels au moyen des technologies numériques et
+      électroniques." — OTSTCFQ, Normes de télépratique pour les travailleurs sociaux et les thérapeutes
+      conjugaux et familiaux'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-telepractice-social-work
+  scope:
+  - &id039
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    - clinical_social_worker
+    topic: scope
+    regulatory_model: prohibition
+    statute_citation:
+      short_title: Code des professions — chapitre VI.1, Permis de psychothérapeute (Loi 21)
+      bill_number: Projet de loi 21 (2009, c. 28)
+      code_cite: RLRQ c. C-26, aa. 187.1-187.4.3, 187.5-187.5.2
+      regulation_cite: Règlement sur le permis de psychothérapeute
+    status: in_force
+    enactment_date: null
+    effective_date: '2012-06-21'
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: Penal prosecution for illegal practice of psychotherapy or usurpation of the title of psychothérapeute,
+      instituted by the Ordre des psychologues du Québec on a resolution of its board or executive committee
+      (a. 187.4.3).
+    clinician_facing_obligations: 'PSYCHOTHERAPY IN QUEBEC IS A RESERVED ACTIVITY, NOT A PROFESSION. Apart
+      from physicians and psychologists — who hold it by virtue of their own permits — no one may practise
+      psychotherapy, use the title psychothérapeute, or any title or abbreviation suggesting they are
+      one, unless they are a member of one of seven named ordres AND hold the psychotherapist permit:
+      conseillers et conseillères d''orientation, criminologues, ergothérapeutes, infirmières et infirmiers,
+      psychoéducateurs et psychoéducatrices, sexologues, and travailleurs sociaux et thérapeutes conjugaux
+      et familiaux (a. 187.1). Psychotherapy is defined in the statute as a psychological treatment for
+      a mental disorder, behavioural disturbance or other problem causing psychological suffering or distress,
+      aimed at significant change in the client''s cognitive, emotional or behavioural functioning, interpersonal
+      system, personality or health — going beyond help in coping with everyday difficulties or a relationship
+      of advice or support (a. 187.1 al. 2). The Office des professions establishes by regulation a list
+      of interventions that resemble but do not constitute psychotherapy (a. 187.1 al. 3). Anyone practising
+      psychotherapy must, beyond the laws and regulations governing them: establish a structured interactional
+      process with the client; conduct a rigorous initial assessment; apply therapeutic modalities based
+      on communication; and rely on scientifically recognised theoretical models and validated intervention
+      methods that respect human dignity (a. 187.2). The permit is applied for from the board of the Ordre
+      des psychologues du Québec, with annual fees set by that board (a. 187.3). The Office des professions
+      determines by regulation the conditions for using the title, the standards for issuing the permit,
+      and the continuing-education framework (a. 187.3.1). A permit may be suspended or revoked by the
+      OPQ board if the holder ceases to be a member of a professional order, fails to pay the annual fees,
+      or fails to respect the title conditions or issuing standards (a. 187.4.1), and must be suspended
+      or revoked where the holder''s own order or the Tribunal des professions has suspended or completely
+      limited their right to practise psychotherapy (a. 187.4.2). Professional inspection or investigation
+      of a permit holder by their own order must include an expert who is a member of the OPQ (a. 187.4).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26
+    source_quote: '"187.1. À l''exception du médecin et du psychologue, nul ne peut exercer la psychothérapie,
+      ni utiliser le titre de psychothérapeute ni un titre ou une abréviation pouvant laisser croire qu''il
+      l''est, s''il n''est membre de l''Ordre professionnel des conseillers et conseillères d''orientation
+      du Québec, de l''Ordre professionnel des criminologues du Québec, de l''Ordre professionnel des
+      ergothérapeutes du Québec, de l''Ordre professionnel des infirmières et infirmiers du Québec, de
+      l''Ordre professionnel des psychoéducateurs et psychoéducatrices du Québec, de l''Ordre professionnel
+      des sexologues du Québec ou de l''Ordre professionnel des travailleurs sociaux et des thérapeutes
+      conjugaux et familiaux du Québec et s''il n''est titulaire du permis de psychothérapeute. La psychothérapie
+      est un traitement psychologique pour un trouble mental, pour des perturbations comportementales
+      ou pour tout autre problème entraînant une souffrance ou une détresse psychologique qui a pour but
+      de favoriser chez le client des changements significatifs dans son fonctionnement cognitif, émotionnel
+      ou comportemental, dans son système interpersonnel, dans sa personnalité ou dans son état de santé.
+      Ce traitement va au-delà d''une aide visant à faire face aux difficultés courantes ou d''un rapport
+      de conseils ou de soutien." — Code des professions, RLRQ c. C-26, a. 187.1 (à jour au 1er avril
+      2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-scope-psychotherapy-permit-loi-21
 by_jurisdiction:
   ca-federal:
   - *id001
   - *id002
   - *id003
   - *id004
-  ca-on:
+  ca-ns:
   - *id005
   - *id006
   - *id007
@@ -698,20 +1863,72 @@ by_jurisdiction:
   - *id014
   - *id015
   - *id016
+  - *id017
+  - *id018
+  - *id019
+  ca-on:
+  - *id020
+  - *id021
+  - *id022
+  - *id023
+  - *id024
+  - *id025
+  - *id026
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+  ca-qc:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
 records:
   ca-federal-tax-gst-hst-nursing: *id001
   ca-federal-tax-gst-hst-psychology: *id002
   ca-federal-tax-gst-hst-psychotherapy-counselling: *id003
   ca-federal-tax-gst-hst-social-work: *id004
-  ca-on-insurance-psychology: *id005
-  ca-on-insurance-psychotherapy: *id006
-  ca-on-insurance-social-work: *id007
-  ca-on-privacy-breach-notification: *id008
-  ca-on-privacy-custodian-status: *id009
-  ca-on-privacy-data-residency: *id010
-  ca-on-retention-psychology: *id011
-  ca-on-retention-psychotherapy: *id012
-  ca-on-retention-social-work: *id013
-  ca-on-telepractice-psychology: *id014
-  ca-on-telepractice-psychotherapy: *id015
-  ca-on-telepractice-social-work: *id016
+  ca-ns-insurance-counselling-therapy: *id005
+  ca-ns-insurance-psychology: *id006
+  ca-ns-insurance-social-work: *id007
+  ca-ns-licensure-counselling-therapy: *id008
+  ca-ns-licensure-psychology: *id009
+  ca-ns-licensure-social-work: *id010
+  ca-ns-privacy-breach-notification: *id011
+  ca-ns-privacy-custodian-status: *id012
+  ca-ns-privacy-data-residency: *id013
+  ca-ns-retention-counselling-therapy: *id014
+  ca-ns-retention-psychology: *id015
+  ca-ns-retention-social-work: *id016
+  ca-ns-telepractice-counselling-therapy: *id017
+  ca-ns-telepractice-psychology: *id018
+  ca-ns-telepractice-social-work: *id019
+  ca-on-insurance-psychology: *id020
+  ca-on-insurance-psychotherapy: *id021
+  ca-on-insurance-social-work: *id022
+  ca-on-privacy-breach-notification: *id023
+  ca-on-privacy-custodian-status: *id024
+  ca-on-privacy-data-residency: *id025
+  ca-on-retention-psychology: *id026
+  ca-on-retention-psychotherapy: *id027
+  ca-on-retention-social-work: *id028
+  ca-on-telepractice-psychology: *id029
+  ca-on-telepractice-psychotherapy: *id030
+  ca-on-telepractice-social-work: *id031
+  ca-qc-insurance-psychology: *id032
+  ca-qc-insurance-social-work: *id033
+  ca-qc-licensure-psychology: *id034
+  ca-qc-licensure-social-work: *id035
+  ca-qc-privacy-law25: *id036
+  ca-qc-retention-psychology: *id037
+  ca-qc-retention-social-work: *id038
+  ca-qc-scope-psychotherapy-permit-loi-21: *id039
+  ca-qc-telepractice-psychology: *id040
+  ca-qc-telepractice-social-work: *id041

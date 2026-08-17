@@ -1,5 +1,5 @@
 generated_by: mhinbrief publish adapter (publish/adapter.py)
-count: 72
+count: 86
 items:
 - candidate_id: 2026-07-31-canada-gazette-p2-1
   title: Canada Gazette - Part II, July 29, 2026, volume 159, number 15
@@ -511,4 +511,104 @@ items:
   source_name: Ordre des conseillers et conseillères d'orientation du Québec (OCCOQ)
   published: '2026-06-01T04:00:00Z'
   observed: '2026-08-12'
+  note: ''
+- candidate_id: 2026-08-15-ab-alberta-college-of-social-workers-1
+  title: NEW – ACSW Peer Circles
+  url: https://acsw.ab.ca/peer-circles-post/
+  source_name: Alberta College of Social Workers
+  published: '2026-08-14T12:00:12Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-canada-gazette-p1-1
+  title: Canada Gazette - Part I, August 15, 2026, volume 160, number 33
+  url: https://gazette.gc.ca/rp-pr/p1/2026/2026-08-15/html/index-eng.html
+  source_name: Canada Gazette Part I
+  published: '2026-08-15T19:00:00Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-canada-gazette-p2-1
+  title: Canada Gazette - Part II, August 12, 2026, volume 159, number 16
+  url: https://gazette.gc.ca/rp-pr/p2/2026/2026-08-12/html/index-eng.html
+  source_name: Canada Gazette Part II
+  published: '2026-08-12T14:00:00Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-cpa-national-1
+  title: 'Mind Full, a CPA Podcast: The “mad genius” myth: Artists and mental health with Florence Khoriaty'
+  url: https://cpa.ca/mind-full-a-cpa-podcast-the-mad-genius-myth-artists-and-mental-health-with-florence-khoriaty/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-08-13T04:01:45Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-cpa-national-2
+  title: 'The “mad genius” myth: Artists and mental health with Florence Khoriaty'
+  url: https://cpa.ca/the-mad-genius-myth-artists-and-mental-health-with-florence-khoriaty/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-08-13T04:01:15Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-cpa-national-3
+  title: EMDR Basic Training 5-Day In-person Intensive
+  url: https://cpa.ca/emdr-basic-training-5-day-in-person-intensive/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-07-10T15:48:40Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-cpa-national-4
+  title: 7th Annual Edmonton First Responder Behavioural Health and Suicide Awareness Symposium
+  url: https://cpa.ca/7th-annual-edmonton-first-responder-behavioural-health-and-suicide-awareness-symposium/
+  source_name: Canadian Psychological Association (CPA)
+  published: '2026-06-11T18:11:25Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-nb-college-licensed-counselling-therapists-1
+  title: 'Job Opportunity/Offre d’emploi: Registrar / Registraire'
+  url: https://cctnb.ca/job-opportunity-registrar-registraire/
+  source_name: College of Licensed Counselling Therapists of New Brunswick
+  published: '2026-06-25T12:16:11Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-ns-college-social-workers-1
+  title: 'MEDIA RELEASE: Notice of NSCSW discipline decision regarding Philip Patey;  Registration suspended'
+  url: https://nscsw.org/media-release-notice-nscsw-discipline-decision-regarding-philip-patey-registration-suspended/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-08-14T15:00:56Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-15-ns-college-social-workers-2
+  title: Discipline decision regarding Philip Patey
+  url: https://nscsw.org/discipline-decision-regarding-philip-patey/
+  source_name: Nova Scotia College of Social Workers (NSCSW)
+  published: '2026-08-13T19:00:24Z'
+  observed: '2026-08-15'
+  note: ''
+- candidate_id: 2026-08-16-mb-mcsw-1
+  title: 'page changed: Manitoba College of Social Workers (MCSW) (+1/-1 lines)'
+  url: https://mcsw.ca/news-and-events/news/
+  source_name: mb-mcsw
+  published: '2026-08-16T13:00:44Z'
+  observed: '2026-08-16'
+  note: ''
+- candidate_id: 2026-08-16-ns-oipc-phia-1
+  title: 'page changed: Office of the Information and Privacy Commissioner for Nova Scotia (PHIA oversight)
+    (+5/-5 lines)'
+  url: https://oipc.novascotia.ca/news
+  source_name: ns-oipc-phia
+  published: '2026-08-16T13:00:44Z'
+  observed: '2026-08-16'
+  note: ''
+- candidate_id: 2026-08-17-mb-mcsw-1
+  title: 'page changed: Manitoba College of Social Workers (MCSW) (+1/-1 lines)'
+  url: https://mcsw.ca/news-and-events/news/
+  source_name: mb-mcsw
+  published: '2026-08-17T13:01:13Z'
+  observed: '2026-08-17'
+  note: ''
+- candidate_id: 2026-08-17-ns-oipc-phia-1
+  title: 'page changed: Office of the Information and Privacy Commissioner for Nova Scotia (PHIA oversight)
+    (+2/-2 lines)'
+  url: https://oipc.novascotia.ca/news
+  source_name: ns-oipc-phia
+  published: '2026-08-17T13:01:13Z'
+  observed: '2026-08-17'
   note: ''
