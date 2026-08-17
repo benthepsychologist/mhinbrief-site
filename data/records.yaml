@@ -1,5 +1,5 @@
 generated_by: mhinbrief publish adapter (publish/adapter.py)
-record_count: 41
+record_count: 44
 topic_names:
   licensure: Licensure
   scope: Scope of practice
@@ -420,7 +420,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-insurance-social-work
-  - &id032
+  - &id035
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -458,7 +458,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-qc-insurance-psychology
-  - &id033
+  - &id036
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -629,7 +629,179 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-ns-licensure-social-work
-  - &id034
+  - &id023
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology and Applied Behaviour Analysis Act, 2021
+      bill_number: null
+      code_cite: S.O. 2021, c. 27, Sched. 4
+      regulation_cite: O. Reg. 193/23 (Registration), ss. 1, 3, 5, 16; last amendment O. Reg. 225/24
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the College of Psychologists
+      and Behaviour Analysts of Ontario (CPBAO). The regulation prescribes TWELVE classes (s. 1), built
+      from three registrant types — psychologist, psychological associate, behaviour analyst — each crossed
+      with a practice authorization (autonomous, interim autonomous, supervised; behaviour analysts have
+      autonomous and supervised only), plus Academic, Inactive, Retired and a temporary emergency class.
+      PSYCHOLOGIST, AUTONOMOUS PRACTICE (s. 5(1)) — non-exemptible requirements: a DOCTORAL degree from
+      a psychology programme accredited by the Canadian Psychological Association (or one a Registration
+      Committee panel considers equivalent, or a substantially similar programme outside Canada/the USA);
+      a minimum of 1,500 hours of postdoctoral supervised practice performed while holding a supervised-practice
+      certificate; the Examination for Professional Practice in Psychology (EPPP) administered by ASPPB
+      or an approved alternative; an oral examination; the Jurisprudence and Ethics Examination; and any
+      further training a panel considers necessary for competence in the intended area of practice. PSYCHOLOGICAL
+      ASSOCIATE, AUTONOMOUS PRACTICE (s. 16(1)) — a MASTER''S degree in psychology from a qualifying institution,
+      where the programme required at least 576 hours of undergraduate psychology instruction for admission
+      (including at least 36 hours in each of psychological assessment, psychological intervention, professional
+      ethics and standards, research design/methodology/statistics, and the biological and social bases
+      of behaviour); then at least 6,000 HOURS of practice over at least FOUR YEARS post-degree under
+      the supervision of an autonomous-practice psychologist or psychological associate; plus at least
+      1,500 hours performed while holding a psychological-associate supervised-practice certificate; plus
+      the EPPP, the oral examination, and the Jurisprudence and Ethics Examination.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/230193
+    source_quote: '"5. (1) Subject to subsections (2) to (6), to qualify for a certificate of registration
+      for a psychologist authorizing autonomous practice, an applicant must comply with the following
+      non-exemptible registration requirements: 1. The applicant must have obtained a doctoral degree,
+      i. from a psychology program that is accredited by the Canadian Psychological Association or by
+      another accrediting body that has been approved by Council for that purpose [...] 2. The applicant
+      must have completed a minimum of 1,500 hours of postdoctoral supervised practice [...]" / "16. (1)
+      [...] 1. The applicant must have obtained a master''s degree from a psychology program [...] 2.
+      Following the awarding of the degree described in paragraph 1, the applicant must have performed
+      at least 6,000 hours of practice of the profession over at least four years [...]" — O. Reg. 193/23
+      (Registration), Psychology and Applied Behaviour Analysis Act, 2021 (consolidation period July 1,
+      2024; e-Laws currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-psychology
+  - &id024
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychotherapy Act, 2007
+      bill_number: null
+      code_cite: S.O. 2007, c. 10, Sched. R
+      regulation_cite: O. Reg. 67/15 (Registration), ss. 2, 6; last amendment O. Reg. 63/25
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-05-16'
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the College of Registered Psychotherapists
+      of Ontario (CRPO). Five classes are prescribed (s. 2): Registered Psychotherapist, Qualifying, Temporary,
+      Inactive, and Emergency. Only a member holding the Registered Psychotherapist certificate may use
+      the title ''Registered Psychotherapist'' or the abbreviation ''RP''; a Qualifying member may use
+      only ''Registered Psychotherapist (Qualifying)'' / ''RP (Qualifying)'' (or the French ''Psychothérapeute
+      autorisé (stagiaire)'' / ''PA (stagiaire)'') — abbreviating ''(Qualifying)'' to ''(Q)'' is not acceptable.
+      REGISTERED PSYCHOTHERAPIST (s. 6(1)) — non-exemptible requirements: successful completion of a psychotherapy
+      programme approved by the Registration Committee, OR a master''s degree in an approved programme,
+      OR a programme the Committee considers substantially equivalent, OR other education and training
+      that together evidences substantially equivalent completion; the registration examinations; clinical
+      experience in psychotherapy including AT LEAST 450 HOURS OF DIRECT PATIENT CONTACT and AT LEAST
+      100 HOURS OF CLINICAL SUPERVISION relating to those contact hours; and the jurisprudence course,
+      completed no earlier than TWO YEARS before the application. CURRENCY (s. 6(2)): where the education
+      or clinical-experience requirements were not completed within the one-year period immediately before
+      applying, the applicant must additionally have completed at least 750 currency hours in the preceding
+      three years, or upgrading activities approved by a Registration Committee panel. No programme may
+      be approved unless one of its CORE COMPONENTS is designed to develop competency in the safe and
+      effective use of self in a psychotherapeutic relationship (s. 6(3)).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/150067
+    source_quote: '"6. (1) Subject to section 7 and subsection 13 (2), the following are non-exemptible
+      registration requirements for a Registered Psychotherapist certificate of registration: [...] 3.
+      The applicant must have successfully completed clinical experience in psychotherapy that includes
+      at least 450 hours of direct patient contact and at least 100 hours of clinical supervision where
+      that clinical supervision relates to those hours of direct patient contact." ... "(3) No program
+      may be approved under paragraph 1 of subsection (1) unless one of the core components of the program
+      is designed to develop competency in the safe and effective use of self in a psychotherapeutic relationship."
+      — O. Reg. 67/15 (Registration), Psychotherapy Act, 2007 (consolidation period May 16, 2025; e-Laws
+      currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-psychotherapy
+  - &id025
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Social Work and Social Service Work Act, 1998
+      bill_number: null
+      code_cite: S.O. 1998, c. 31, s. 18(1)
+      regulation_cite: O. Reg. 383/00 (Registration), ss. 1, 5(2), 7, 9; last amendment O. Reg. 382/25
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-12-17'
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the Ontario College of Social
+      Workers and Social Service Workers (OCSWSSW). Three classes are prescribed for social work — General,
+      Inactive, Retired — and three separately for SOCIAL SERVICE WORK, which is a distinct regulated
+      profession under the same college (s. 1). GENERAL CERTIFICATE, SOCIAL WORK (s. 7(1)) — the applicant
+      must produce documentation satisfactory to the Registrar showing either: a degree in social work
+      from a programme accredited by the Canadian Association for Social Work Education (CASWE), or a
+      Canadian programme Council has approved as equivalent; or a degree from a social work or equivalent
+      programme offered OUTSIDE Canada that Council has approved as equivalent to a CASWE-accredited programme;
+      or a COMBINATION of academic qualifications and experience performing the role of a social worker
+      that the Registrar determines is substantially equivalent to the qualifications required for a CASWE-accredited
+      degree. The applicant must also have passed any social work examinations set or approved by Council.
+      ALL CLASSES (s. 5(2)) additionally require: disclosure — at application and at issuance — of every
+      finding of professional misconduct, incompetence or incapacity and every current such proceeding,
+      in any jurisdiction and including findings by non-statutory professional bodies; disclosure of every
+      finding of guilt for a criminal offence, an offence under the Controlled Drugs and Substances Act
+      or the Food and Drugs Act, or any other offence relevant to suitability to practise; past and present
+      conduct affording reasonable grounds to believe the applicant has no physical or mental condition
+      affecting safe practice, will practise with decency, integrity and honesty and in accordance with
+      the law, and has sufficient knowledge, skill and judgment; reasonable fluency in speaking and writing
+      English or French; and Canadian citizenship, permanent residence, or authorization under the Immigration
+      and Refugee Protection Act to practise. A General certificate holder must, whenever the College
+      requires, provide evidence satisfactory to the College of continuing competence to practise (s.
+      9).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/000383
+    source_quote: '"7. (1) In addition to the requirements set out in sections 4 and 5, the following
+      are registration requirements for a general certificate of registration for social work to be issued
+      under subsection 18 (1) of the Act: 1. The applicant must produce documentation satisfactory to
+      the Registrar that shows that the applicant, i. has obtained a degree in social work from a social
+      work program accredited by the Canadian Association for Social Work Education [...] iii. has a combination
+      of academic qualifications and experience performing the role of a social worker that the Registrar
+      determines is substantially equivalent to the qualifications required for a degree in social work
+      from a social work program accredited by the Canadian Association for Social Work Education." —
+      O. Reg. 383/00 (Registration), Social Work and Social Service Work Act, 1998 (consolidation period
+      December 17, 2025; e-Laws currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-social-work
+  - &id037
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -671,7 +843,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-qc-licensure-psychology
-  - &id035
+  - &id038
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -871,7 +1043,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-privacy-data-residency
-  - &id023
+  - &id026
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -919,7 +1091,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-breach-notification
-  - &id024
+  - &id027
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -964,7 +1136,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-custodian-status
-  - &id025
+  - &id028
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1011,7 +1183,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-data-residency
-  - &id036
+  - &id039
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1210,7 +1382,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-retention-social-work
-  - &id026
+  - &id029
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1249,7 +1421,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychology
-  - &id027
+  - &id030
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1288,7 +1460,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychotherapy
-  - &id028
+  - &id031
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1328,7 +1500,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-social-work
-  - &id037
+  - &id040
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1374,7 +1546,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-qc-retention-psychology
-  - &id038
+  - &id041
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1556,7 +1728,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-telepractice-social-work
-  - &id029
+  - &id032
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1597,7 +1769,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-psychology
-  - &id030
+  - &id033
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1634,7 +1806,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-psychotherapy
-  - &id031
+  - &id034
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1675,7 +1847,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-telepractice-social-work
-  - &id040
+  - &id043
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1719,7 +1891,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-qc-telepractice-psychology
-  - &id041
+  - &id044
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1775,7 +1947,7 @@ by_topic:
     confidence: high
     record_id: ca-qc-telepractice-social-work
   scope:
-  - &id039
+  - &id042
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1879,10 +2051,10 @@ by_jurisdiction:
   - *id029
   - *id030
   - *id031
-  ca-qc:
   - *id032
   - *id033
   - *id034
+  ca-qc:
   - *id035
   - *id036
   - *id037
@@ -1890,6 +2062,9 @@ by_jurisdiction:
   - *id039
   - *id040
   - *id041
+  - *id042
+  - *id043
+  - *id044
 records:
   ca-federal-tax-gst-hst-nursing: *id001
   ca-federal-tax-gst-hst-psychology: *id002
@@ -1913,22 +2088,25 @@ records:
   ca-on-insurance-psychology: *id020
   ca-on-insurance-psychotherapy: *id021
   ca-on-insurance-social-work: *id022
-  ca-on-privacy-breach-notification: *id023
-  ca-on-privacy-custodian-status: *id024
-  ca-on-privacy-data-residency: *id025
-  ca-on-retention-psychology: *id026
-  ca-on-retention-psychotherapy: *id027
-  ca-on-retention-social-work: *id028
-  ca-on-telepractice-psychology: *id029
-  ca-on-telepractice-psychotherapy: *id030
-  ca-on-telepractice-social-work: *id031
-  ca-qc-insurance-psychology: *id032
-  ca-qc-insurance-social-work: *id033
-  ca-qc-licensure-psychology: *id034
-  ca-qc-licensure-social-work: *id035
-  ca-qc-privacy-law25: *id036
-  ca-qc-retention-psychology: *id037
-  ca-qc-retention-social-work: *id038
-  ca-qc-scope-psychotherapy-permit-loi-21: *id039
-  ca-qc-telepractice-psychology: *id040
-  ca-qc-telepractice-social-work: *id041
+  ca-on-licensure-psychology: *id023
+  ca-on-licensure-psychotherapy: *id024
+  ca-on-licensure-social-work: *id025
+  ca-on-privacy-breach-notification: *id026
+  ca-on-privacy-custodian-status: *id027
+  ca-on-privacy-data-residency: *id028
+  ca-on-retention-psychology: *id029
+  ca-on-retention-psychotherapy: *id030
+  ca-on-retention-social-work: *id031
+  ca-on-telepractice-psychology: *id032
+  ca-on-telepractice-psychotherapy: *id033
+  ca-on-telepractice-social-work: *id034
+  ca-qc-insurance-psychology: *id035
+  ca-qc-insurance-social-work: *id036
+  ca-qc-licensure-psychology: *id037
+  ca-qc-licensure-social-work: *id038
+  ca-qc-privacy-law25: *id039
+  ca-qc-retention-psychology: *id040
+  ca-qc-retention-social-work: *id041
+  ca-qc-scope-psychotherapy-permit-loi-21: *id042
+  ca-qc-telepractice-psychology: *id043
+  ca-qc-telepractice-social-work: *id044
