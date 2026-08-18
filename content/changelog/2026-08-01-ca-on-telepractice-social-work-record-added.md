@@ -7,7 +7,7 @@ status: "in-effect"
 record_id: "ca-on-telepractice-social-work"
 source_url: "https://www.ocswssw.org/wp-content/uploads/OCSWSSW_Code_of_Ethics_Standards_of_Practice_edition3.pdf"
 source_label: "Principle V, Standard 5.3 (Electronic Practice)"
-last_verified: "2026-07-31"
+last_verified: "2026-08-17"
 ---
 
 Explain the limits of confidentiality — including limits specific to online platforms — before or during the first online meeting, and document that conversation. Ensure collection, use and storage of client information complies with applicable privacy legislation. Ensure client information is stored in a jurisdiction whose privacy laws are consistent with Ontario's or, where applicable, Canada's. Verify client identity where impersonation is possible, establish a discreet signal so a client can convey they are not alone or not safe, and develop a safety plan including emergency contact permission.

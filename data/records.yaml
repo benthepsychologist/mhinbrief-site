@@ -1,5 +1,5 @@
 generated_by: mhinbrief publish adapter (publish/adapter.py)
-record_count: 44
+record_count: 45
 topic_names:
   licensure: Licensure
   scope: Scope of practice
@@ -26,869 +26,90 @@ jurisdiction_names:
   ca-nt: Northwest Territories
   ca-nu: Nunavut
 by_topic:
-  tax:
+  privacy:
   - &id001
     jurisdiction:
       country: ca
       state_or_province: null
       code: ca-federal
-    profession_scope: []
-    topic: tax
-    regulatory_model: none
-    statute_citation:
-      short_title: Excise Tax Act
-      bill_number: null
-      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 6
-      regulation_cite: null
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Canada Revenue Agency
-    authority_basis: tax
-    penalties: null
-    clinician_facing_obligations: Nursing services rendered to an individual within a nurse-patient relationship
-      are exempt from GST/HST. This matters to behavioural-health practice because where provincial law
-      permits a nurse to provide psychotherapy within their scope of nursing practice, CRA treats the
-      nursing exemption at s. 6 as the applicable provision rather than the psychotherapy exemption added
-      in 2024 — so the test is the nurse-patient relationship, not the s. 7 practitioner definition.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
-    source_quote: '"6 A supply of a nursing service rendered to an individual by a registered nurse, a
-      registered nursing assistant, a licensed or registered practical nurse or a registered psychiatric
-      nurse, if the service is rendered within a nurse-patient relationship." — Excise Tax Act, Schedule
-      V, Part II, s. 6 (Justice Laws consolidation, Act current to 2026-06-14)'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-federal-tax-gst-hst-nursing
-  - &id002
-    jurisdiction:
-      country: ca
-      state_or_province: null
-      code: ca-federal
     profession_scope:
     - psychologist
-    topic: tax
-    regulatory_model: none
-    statute_citation:
-      short_title: Excise Tax Act
-      bill_number: null
-      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j)
-      regulation_cite: null
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Canada Revenue Agency
-    authority_basis: tax
-    penalties: null
-    clinician_facing_obligations: Psychological services rendered to an individual by a practitioner of
-      the service are exempt supplies — GST/HST is not charged on them. This exemption is long-standing
-      and was NOT created or altered by the 2024 Bill C-59 amendment that added psychotherapy and counselling
-      therapy; psychologists were already exempt before it and are unaffected by it.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
-    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
-      by a practitioner of the service: (a) optometric services; ... (i) occupational therapy services;
-      (j) psychological services; (j.1) psychotherapy services; (j.2) counselling therapy services; ..."
-      — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws consolidation, Act current to 2026-06-14).
-      Paragraph (j) sits immediately before the two paragraphs added by S.C. 2024, c. 15, and was not
-      amended by it.'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-federal-tax-gst-hst-psychology
-  - &id003
-    jurisdiction:
-      country: ca
-      state_or_province: null
-      code: ca-federal
-    profession_scope:
     - psychotherapist
     - counselling_therapist
-    topic: tax
-    regulatory_model: none
-    statute_citation:
-      short_title: Excise Tax Act
-      bill_number: C-59
-      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j.1)-(j.2)
-      regulation_cite: null
-    status: in_force
-    enactment_date: '2024-06-20'
-    effective_date: '2024-06-20'
-    enforcement_body: Canada Revenue Agency
-    authority_basis: tax
-    penalties: null
-    clinician_facing_obligations: 'Psychotherapy and counselling therapy services rendered to an individual
-      by a "practitioner" of the service are exempt supplies — GST/HST is not charged on them. On becoming
-      exempt, three consequences follow that practitioners routinely miss: input tax credits are no longer
-      claimable on inputs acquired to make these supplies; a change in use of capital property may trigger
-      a deemed sale and repurchase; and a registrant whose supplies are all exempt is not required to
-      be registered and may close the GST/HST account.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
-    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
-      by a practitioner of the service: (a) optometric services; ... (j) psychological services; (j.1)
-      psychotherapy services; (j.2) counselling therapy services; (k) midwifery services; (l) acupuncture
-      services; and (m) naturopathic services." — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws
-      consolidation, Act current to 2026-06-14)'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-federal-tax-gst-hst-psychotherapy-counselling
-  - &id004
-    jurisdiction:
-      country: ca
-      state_or_province: null
-      code: ca-federal
-    profession_scope:
     - clinical_social_worker
-    topic: tax
-    regulatory_model: none
+    topic: privacy
+    regulatory_model: disclosure
     statute_citation:
-      short_title: Excise Tax Act
+      short_title: Personal Information Protection and Electronic Documents Act (PIPEDA)
       bill_number: null
-      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7.2
-      regulation_cite: null
+      code_cite: S.C. 2000, c. 5, ss. 2 (definitions), 4 (application), 10.1-10.3 (breach of security
+        safeguards), 26(2)(b) (substantially similar exemption), 28 (offence)
+      regulation_cite: Breach of Security Safeguards Regulations, SOR/2018-64, s. 6; Personal Health Information
+        Custodians in Nova Scotia Exemption Order, SOR/2016-62
     status: in_force
     enactment_date: null
-    effective_date: null
-    enforcement_body: Canada Revenue Agency
-    authority_basis: tax
-    penalties: null
-    clinician_facing_obligations: 'Social work services are exempt from GST/HST, but under a materially
-      narrower test than the psychotherapy and counselling therapy exemptions. Two conditions must both
-      hold: the service is rendered within a professional-client relationship AND is provided for the
-      prevention, assessment or remediation of — or to assist the individual in coping with — a physical,
-      emotional, behavioural or mental disorder or disability. The disorder may be the client''s own or
-      that of a related person the client cares for or supervises otherwise than professionally. Separately,
-      the practitioner must be licensed where the province requires it, or hold equivalent qualifications
-      where it does not. A social work service outside that clinical purpose test is not exempt under
-      this provision.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
-    source_quote: '"7.2 A supply of a service rendered in the practice of the profession of social work
-      where (a) the service is rendered to an individual within a professional-client relationship between
-      the particular individual who renders the service and the individual and is provided for the prevention,
-      assessment or remediation of, or to assist the individual in coping with, a physical, emotional,
-      behavioural or mental disorder or disability of the individual or of another individual to whom
-      the individual is related or to whom the individual provides care or supervision otherwise than
-      in a professional capacity; and (b) either (i) if the particular individual is required to be licensed
-      or otherwise certified to practise the profession of social work in the province in which the service
-      is supplied, the particular individual is so licensed or certified, or (ii) if the particular individual
-      is not required to be licensed or otherwise certified to practise that profession in that province,
-      the particular individual has the qualifications equivalent to those..." — Excise Tax Act, Schedule
-      V, Part II, s. 7.2 (Justice Laws consolidation, Act current to 2026-06-14)'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-federal-tax-gst-hst-social-work
-  insurance:
-  - &id005
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - counselling_therapist
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: NSCCT Professional Liability Insurance (Registration and Licensing Policy)
-      bill_number: null
-      code_cite: Policy ss. 1.1, 1.1.1, 1.2, 2.0
-      regulation_cite: Counselling Therapists Act, S.N.S. 2008, c. 6, s. 12(1)(f); Counselling Therapists
-        Regulations, N.S. Reg. 287/2011, s. 7(2)(g)
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-09-20'
-    enforcement_body: Nova Scotia College of Counselling Therapists
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: All licensed registrants, INCLUDING those on leave, must maintain professional
-      liability insurance covering all counselling-therapy services within their individual scope of practice.
-      Coverage must be not less than $2,000,000 per claim and not less than $5,000,000 aggregate, WITH
-      NO DEDUCTIBLE. Proof must be submitted at initial application and again at annual registration and
-      licence renewal, as a copy of the current policy or a letter from the insurer verifying amounts
-      and extent of coverage. Insurance provided through an employer or other third party is NOT sufficient
-      to meet this requirement. Registrants providing telecounselling outside Nova Scotia bear sole responsibility
-      for ensuring their coverage extends to out-of-province clients.
-    vendor_facing_obligations: null
-    consent_required: false
+    effective_date: '2004-01-01'
+    enforcement_body: Office of the Privacy Commissioner of Canada
+    authority_basis: privacy
+    penalties: 'Knowingly contravening s. 10.1 (breach reporting and notification) or s. 10.3(1) (keeping
+      a record of every breach), or obstructing the Commissioner in an investigation or audit, is an offence:
+      a fine up to $10,000 on summary conviction, or up to $100,000 on indictment (s. 28). Failing to
+      KEEP THE BREACH LOG is therefore prosecutable in its own right, independently of whether any breach
+      was reportable.'
+    clinician_facing_obligations: 'PIPEDA applies to every organization in respect of personal information
+      it collects, uses or discloses IN THE COURSE OF COMMERCIAL ACTIVITY (s. 4(1)(a)) — ''commercial
+      activity'' meaning any transaction, act or conduct, or regular course of conduct, of a commercial
+      character (s. 2). A fee-charging private practice is such an organization. It does not apply to
+      government institutions covered by the Privacy Act, to purely personal or domestic collection, or
+      to journalistic, artistic or literary purposes (s. 4(2)). WHERE A PROVINCIAL LAW HAS BEEN DECLARED
+      SUBSTANTIALLY SIMILAR, the Governor in Council may exempt organizations or activities from PIPEDA
+      — BUT ONLY ''in respect of the collection, use or disclosure of personal information that occurs
+      within that province'' (s. 26(2)(b)). Four provincial HEALTH information laws are recognised for
+      personal health information (Ontario PHIPA, Nova Scotia PHIA, New Brunswick PHIPAA, Newfoundland
+      and Labrador PHIA), and Alberta, British Columbia and Quebec have general private-sector laws recognised.
+      Nova Scotia''s order is concrete: any PHIA custodian is exempt from PIPEDA Part 1 for personal health
+      information ''that occurs in Nova Scotia'' (SOR/2016-62). PIPEDA CONTINUES TO APPLY, even to organizations
+      in those provinces, to personal information transferred ACROSS BORDERS (interprovincial or international),
+      to federal works, undertakings and businesses, and to organizations in the NORTHWEST TERRITORIES,
+      YUKON AND NUNAVUT, which are treated as federally regulated. BREACH OBLIGATIONS. Report to the Privacy
+      Commissioner any breach of security safeguards involving personal information under the organization''s
+      control where it is reasonable in the circumstances to believe the breach creates a REAL RISK OF
+      SIGNIFICANT HARM to an individual, as soon as feasible after determining the breach occurred (s.
+      10.1(1)-(2)); notify the affected individual on the same threshold unless otherwise prohibited by
+      law (s. 10.1(3)); and notify any other organization or government institution that may be able to
+      reduce or mitigate the risk of harm (s. 10.2(1)). Separately and regardless of threshold, KEEP AND
+      MAINTAIN A RECORD OF EVERY BREACH of security safeguards (s. 10.3(1)), for 24 months after the day
+      the organization determines the breach occurred, containing information sufficient to let the Commissioner
+      verify compliance with the reporting and notification duties (SOR/2018-64, s. 6). The Commissioner
+      may demand access to or a copy of that record at any time (s. 10.3(2)).'
+    vendor_facing_obligations: A vendor processing personal information on a clinician's behalf across
+      a provincial or national boundary brings that transfer within PIPEDA even where the practice is
+      otherwise covered by a substantially similar provincial law, because the s. 26(2)(b) exemption reaches
+      only what occurs within the province.
+    consent_required: true
     documentation_required: true
-    source_url: https://nscct.ca/wp-content/uploads/2025/09/PROFESSIONAL-LIABILITY-INSURANCE-REGISTRATION-POLICY.pdf
-    source_quote: '"1.1.1 The coverage shall include a claim amount of not less than $2,000,000 and an
-      aggregate amount not less than $5,000,000 with no deductible." ... "2.0 Insurance policies provided
-      through an employer or other third party are not sufficient to meet the requirement of 1.1 of this
-      policy." — NSCCT, Professional Liability Insurance, Registration and Licensing Policy (revised 2025-09-20)'
-    last_verified: '2026-08-17'
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html
+    source_quote: '"4 (1) This Part applies to every organization in respect of personal information that
+      (a) the organization collects, uses or discloses in the course of commercial activities" ... "26
+      (2) The Governor in Council may, by order, ... (b) if satisfied that legislation of a province that
+      is substantially similar to this Part applies to an organization, a class of organizations, an activity
+      or a class of activities, exempt the organization, activity or class from the application of this
+      Part in respect of the collection, use or disclosure of personal information that occurs within
+      that province" ... "10.3 (1) An organization shall, in accordance with any prescribed requirements,
+      keep and maintain a record of every breach of security safeguards involving personal information
+      under its control." — Personal Information Protection and Electronic Documents Act, S.C. 2000, c.
+      5. And: "6 (1) For the purposes of subsection 10.3(1) of the Act, an organization must maintain
+      a record of every breach of security safeguards for 24 months after the day on which the organization
+      determines that the breach has occurred." — Breach of Security Safeguards Regulations, SOR/2018-64,
+      s. 6(1). And: "1 Any personal health information custodian to which the Personal Health Information
+      Act, SNS 2010, c. 41, of Nova Scotia applies is exempt from the application of Part 1 of the Personal
+      Information Protection and Electronic Documents Act in respect of the collection, use and disclosure
+      of personal health information that occurs in Nova Scotia." — Personal Health Information Custodians
+      in Nova Scotia Exemption Order, SOR/2016-62'
+    last_verified: '2026-08-18'
     confidence: high
-    record_id: ca-ns-insurance-counselling-therapy
-  - &id006
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - psychologist
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Psychology Regulations (Nova Scotia)
-      bill_number: null
-      code_cite: N.S. Reg. 252/2025, s. 11(1)(a)(iii)
-      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-11-24'
-    enforcement_body: Nova Scotia Regulator of Psychology
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold professional liability insurance (or other malpractice coverage
-      or liability protection) in the form and amount set by the Board. The minimum amount set by the
-      Board is $1,000,000 per occurrence. Applies to holders of a Practising Licence AND a Candidate Psychologist
-      Conditional Licence. Proof of coverage must be provided within 30 days of the licence being granted,
-      and maintaining coverage is a condition of annual renewal. Employer-provided coverage does not automatically
-      satisfy this — NSRP''s position is that institutional coverage may not cover all acts of an employee
-      and that psychologists employed by health institutions, school boards and universities still require
-      personal coverage. One standing exemption exists: Correctional Service Canada employees practising
-      only within CSC, under a monitored annual-declaration arrangement between NSRP and CSC. Other federal
-      employees must submit proof of their own coverage. Retired, relocated or career-changed registrants
-      are advised to maintain coverage or obtain extended-reporting (''tail'') coverage, because policies
-      are typically written on a claims-made basis.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.ns-rp.ca/downloads/Insurance.pdf
-    source_quote: '"Under the Regulated Health Professions Act and the Psychology Regulations (s. 11(1)(a)(iii)),
-      an applicant for a licence must have professional liability insurance or another form of malpractice
-      coverage or liability protection in the form and amount set by the Board. This applies to holders
-      of a Practising Licence and a Candidate Psychologist Conditional Licence. The minimum amount set
-      by the Board is $1,000,000 per occurrence." — NSRP, Professional Liability Insurance Required of
-      All NSRP Registrants'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-ns-insurance-psychology
-  - &id007
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - clinical_social_worker
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: NSCSW Code of Ethics and Standards of Practice
-      bill_number: null
-      code_cite: s. 5.5.1 (Guiding Principle 5.5 — social workers in private practice)
-      regulation_cite: Social Workers Act, S.N.S. 1993, c. 12
-    status: in_force
-    enactment_date: null
-    effective_date: '2026-02-01'
-    enforcement_body: Nova Scotia College of Social Workers
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Social workers IN PRIVATE PRACTICE must secure adequate malpractice,
-      defamation, and liability insurance, and maintain registration with the Nova Scotia College of Social
-      Workers. No minimum dollar amount is specified. Those providing clinical social work services in
-      a private setting must also hold Clinical Specialist registration and provide evidence of that status
-      (s. 5.5.2).
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://nscsw.org/wp-content/uploads/2025/09/NSCSW-Code-of-Ethics-and-Standards-of-Practice-August-2025.pdf
-    source_quote: '"5.5.1 securing adequate malpractice, defamation, and liability insurance and maintaining
-      registration with the Nova Scotia College of Social Workers" — NSCSW Code of Ethics and Standards
-      of Practice, s. 5.5.1, under Guiding Principle 5.5 ''Social workers in private practice act with
-      integrity in all business practices'' (effective 2026-02-01)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-ns-insurance-social-work
-  - &id020
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - psychologist
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: By-laws of the College of Psychologists of Ontario
-      bill_number: null
-      code_cite: By-law 22 (Professional Liability Insurance), ss. 22.1-22.3, 22.6
-      regulation_cite: null
-    status: in_force
-    enactment_date: null
-    effective_date: '2024-07-01'
-    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
-    authority_basis: insurance
-    penalties: null
-    clinician_facing_obligations: MANDATORY. Registrants holding a certificate authorising autonomous,
-      interim autonomous or supervised practice must hold or be covered by professional liability insurance
-      IN ALL SETTINGS IN WHICH THEY PRACTISE. Minimum coverage $2,000,000. No deductible is permitted.
-      The only exemption is for a registrant who resides outside Ontario AND provides no services within
-      Ontario at any time during the registration year, nor supervises anyone providing services in Ontario.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://cpbao.ca/wp-content/uploads/College-of-Psychologists-of-Ontario-By-laws-Effective-July-1-2024.pdf
-    source_quote: '"22.1 Subject to Section 6, each member of the College registered with a certificate
-      of registration authorizing autonomous practice, interim autonomous practice or supervised practice
-      shall hold, or otherwise be covered by professional liability insurance in all settings in which
-      the member practices. 22.2 The amount of insurance coverage shall be no less than $2,000,000. 22.3
-      The insurance shall have no deductible." — CPBAO By-laws, By-law 22 (revised 2024-03-21, effective
-      2024-07-01)'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-on-insurance-psychology
-  - &id021
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - psychotherapist
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: By-laws of the College of Registered Psychotherapists and Registered Mental Health
-        Therapists of Ontario
-      bill_number: null
-      code_cite: s. 20.01 (Requirement to Carry Insurance)
-      regulation_cite: null
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-01-01'
-    enforcement_body: College of Registered Psychotherapists of Ontario
-    authority_basis: insurance
-    penalties: null
-    clinician_facing_obligations: 'MANDATORY for all registrants except inactive registrants who have
-      purchased run-off coverage. The policy must carry: at least $1,000,000 per occurrence; at least
-      $5,000,000 annual aggregate; NO deductible; run-off coverage for a minimum of two years; an insurer
-      licensed with FSRA Ontario or OSFI Canada; and a sexual abuse therapy and counselling fund endorsement
-      covering persons eligible under s. 85.7(4) of the Code.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://crpo.ca/wp-content/uploads/2025/10/CRPO-By-laws-Amended-Oct125-2026-fees.pdf
-    source_quote: '"(1) A Registrant, other than an Inactive Registrant who has purchased any run-off
-      coverage contemplated by these by-laws, must carry professional liability insurance with the following
-      characteristics: (i) a minimum of no less than $1,000,000 per occurrence; (ii) annual aggregate
-      coverage of no less than $5,000,000; (iii) no deductible; (iv) run-off coverage for a minimum of
-      two (2) years; (v) provided by an insurer licensed with the Financial Services Regulatory Authority
-      of Ontario or the office of the Superintendent of Financial Institutions Canada..." — CRPO By-laws,
-      s. 20.01 (made 2024-12-12, effective 2025-01-01, amended 2025-10-01)'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-on-insurance-psychotherapy
-  - &id022
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - clinical_social_worker
-    topic: insurance
-    regulatory_model: none
-    statute_citation:
-      short_title: Social Work and Social Service Work Act, 1998
-      bill_number: null
-      code_cite: no insurance provision — see notes
-      regulation_cite: O. Reg. 383/00 (Registration)
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Ontario College of Social Workers and Social Service Workers
-    authority_basis: insurance
-    penalties: null
-    clinician_facing_obligations: NOT MANDATORY. Professional liability insurance is not a registration
-      requirement for OCSWSSW registrants. The College strongly encourages it but does not require it,
-      and there is no by-law or regulation imposing it. A social worker in Ontario private practice may
-      register and practise without professional liability insurance.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: false
-    source_url: https://www.ocswssw.org/registrants/private-practice/
-    source_quote: '"Although not required by the College, registrants are strongly encouraged to obtain
-      professional liability insurance, which can be purchased through a professional association or another
-      insurance carrier." — OCSWSSW, Private Practice page'
-    last_verified: '2026-07-31'
-    confidence: high
-    record_id: ca-on-insurance-social-work
-  - &id035
-    jurisdiction:
-      country: ca
-      state_or_province: Québec
-      code: ca-qc
-    profession_scope:
-    - psychologist
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
-        des psychologues du Québec
-      bill_number: null
-      code_cite: 'montants: 1 000 000 $ par sinistre / 3 000 000 $ par période de garantie'
-      regulation_cite: made under the Code des professions, RLRQ c. C-26
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Ordre des psychologues du Québec
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Psychologists, and holders of a psychotherapist permit who are not admissible
-      to another professional order, must adhere to the collective professional liability insurance contract
-      concluded by the Ordre. The minimum guarantee is $1,000,000 per claim (par sinistre) and $3,000,000
-      per guarantee period (par période de garantie); coverage may be increased optionally to $2,000,000
-      per claim and $4,000,000 per period. The obligation does NOT apply where the psychologist or psychotherapist-permit
-      holder holds insurance through their employer and furnishes proof of it.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.ordrepsy.qc.ca/-/assurance-responsabilite-professionnelle-les-obligations-des-professionnels
-    source_quote: '"1 000 000 $ par sinistre et 3 000 000 $ par période de garantie" ... l''obligation
-      ne s''applique pas "lorsque le psychologue ou le détenteur de permis de psychothérapeute détient
-      une assurance via son employeur et qu''il en fournit la preuve." — Ordre des psychologues du Québec,
-      Assurance responsabilité professionnelle : les obligations des professionnels'
-    last_verified: '2026-08-17'
-    confidence: medium
-    record_id: ca-qc-insurance-psychology
-  - &id036
-    jurisdiction:
-      country: ca
-      state_or_province: Québec
-      code: ca-qc
-    profession_scope:
-    - clinical_social_worker
-    topic: insurance
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
-        professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
-      bill_number: null
-      code_cite: RLRQ c. C-26, r. 283, a. 1 (adhésion obligatoire); a. 4(1°) (montants minimaux); a. 3
-        (exemptions)
-      regulation_cite: made under the Code des professions, RLRQ c. C-26
-    status: in_force
-    enactment_date: null
-    effective_date: '2000-04-01'
-    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Every social worker practising full-time, part-time OR OCCASIONALLY
-      must adhere to the collective professional liability insurance contract concluded by the Ordre (a.
-      1). The collective contract must provide a minimum guarantee of at least $500,000 per claim and
-      $1,000,000 for all claims arising in the guarantee period for which a claim is presented (a. 4(1°));
-      the contract must also cover claims presented against the insured's heirs after the guarantee period
-      in which they die, pay third-party damages up to the guarantee amount, and take up the insured's
-      defence and pay legal costs and interest in addition to the insured amount (a. 4(2°)-(4°)). In practice
-      the Ordre's collective contract provides higher limits than the regulatory floor — currently up
-      to $2,000,000 per claim and $2,000,000 for all claims per insurance period. Exemptions exist for
-      social workers in the exclusive service of certain employers, subject to filing with the Ordre's
-      secretary a certificate by which the employer stands as guarantor and answers financially for the
-      member's faults or negligence, with a guarantee meeting the minimum stipulations of a. 4.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%20283
-    source_quote: '"1. Tout travailleur social qui exerce sa profession à temps plein, à temps partiel
-      ou occasionnellement doit adhérer au contrat du régime collectif d''assurance de la responsabilité
-      professionnelle conclu par l''Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux
-      et familiaux du Québec [...]" ... "4. Le contrat d''assurance établissant un régime collectif d''assurance
-      de la responsabilité professionnelle souscrit par l''Ordre doit prévoir les conditions minimales
-      suivantes: 1° un montant de garantie d''au moins 500 000 $ par sinistre et de 1 000 000 $ pour l''ensemble
-      des sinistres qui surviennent au cours de la période de garantie et pour lesquels une réclamation
-      est présentée" — RLRQ c. C-26, r. 283, aa. 1 et 4 (à jour au 1er avril 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-qc-insurance-social-work
-  licensure:
-  - &id008
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - counselling_therapist
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Counselling Therapists Regulations (Nova Scotia)
-      bill_number: null
-      code_cite: N.S. Reg. 287/2011, ss. 5-8 (O.I.C. 2011-368)
-      regulation_cite: made under the Counselling Therapists Act, S.N.S. 2008, c. 6
-    status: in_force
-    enactment_date: null
-    effective_date: '2011-10-11'
-    enforcement_body: Nova Scotia College of Counselling Therapists
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold a licence from the Nova Scotia College of Counselling Therapists
-      (NSCCT) to use the protected titles ''Counselling Therapist'', ''Registered Counselling Therapist''
-      / ''RCT'', or ''Registered Counselling Therapist - Candidate'' / ''RCT-C'', or to describe services
-      as ''counselling therapy''. Licence categories under s. 5: active-practising; active-practising
-      with conditions or restrictions; active-practising candidate; temporary; temporary with conditions
-      or restrictions. Registration criteria (s. 6(2)) include a recognised counselling-therapy education
-      programme, any registration examinations approved by the Board, no outstanding complaints in previous
-      jurisdictions, English-language proficiency, an ethics course, workshop or exam, and a supervised
-      practicum or internship with a minimum of 120 direct-contact practice hours. Entry to active-practising
-      (s. 7(2)) additionally requires at least two years of supervised experience, and s. 8 sets that
-      at a minimum of 2,000 hours including 50 direct-contact hours with a supervisor.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://novascotia.ca/just/regulations/regs/ctcounsther.htm
-    source_quote: '"5 The categories of licence are (a) active-practising; (b) active-practising with
-      conditions or restrictions; (c) active-practising candidate; (d) temporary; (e) temporary with conditions
-      or restrictions." / "7(2) ... the member has completed at least 2 years of supervised experience
-      in the practice of counselling therapy" — Counselling Therapists Regulations, N.S. Reg. 287/2011'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-ns-licensure-counselling-therapy
-  - &id009
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - psychologist
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Psychology Regulations (Nova Scotia)
-      bill_number: null
-      code_cite: N.S. Reg. 252/2025, ss. 8-10 (O.I.C. 2025-337)
-      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-11-24'
-    enforcement_body: Nova Scotia Regulator of Psychology
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold a licence from the Nova Scotia Regulator of Psychology (NSRP)
-      to practise psychology. Practising licence categories are set by s. 8 (psychologist practising licence,
-      plus any further category established in the bylaws); conditional licences by s. 9 (candidate psychologist
-      conditional licence, psychologist conditional licence, plus bylaw categories). Registration criteria
-      under s. 10(2)(a) require graduation from an approved master''s, PhD or PsyD programme, passing
-      the required examinations, English-language proficiency, Canadian citizenship or legal entitlement
-      to work in Canada, and the capacity, competence and character to practise safely and ethically.
-      Supervised-experience baseline per NSRP: two years post-doctoral, or four years at the master''s
-      level.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://novascotia.ca/just/REGULATIONS/regs/rhppsychology.htm
-    source_quote: '"8 The categories of practising licence are (a) psychologist practising licence; (b)
-      any other category of practising licence established in the bylaws." / "10(2)(a) ... capacity, competence
-      and character to safely and ethically engage in the practice of the profession." — Psychology Regulations,
-      N.S. Reg. 252/2025 (O.I.C. 2025-337), in force 2025-11-24'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-ns-licensure-psychology
-  - &id010
-    jurisdiction:
-      country: ca
-      state_or_province: Nova Scotia
-      code: ca-ns
-    profession_scope:
-    - clinical_social_worker
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Social Workers Act (Nova Scotia)
-      bill_number: null
-      code_cite: S.N.S. 1993, c. 12, s. 22 (registration); private practice defined at s. 2(j)
-      regulation_cite: Social Worker Regulations made under the Social Workers Act, s. 8 (updated November
-        2021)
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Nova Scotia College of Social Workers
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Register with the Nova Scotia College of Social Workers (NSCSW). Registered
-      Social Worker (RSW) requires a CASWE-accredited BSW or MSW plus 2,500 hours of post-graduation practice
-      experience within the scope of practice. Applicants without those hours are placed on the Social
-      Worker Candidate registry and must complete all or part of the Candidacy Mentorship Programme based
-      on prior experience. Providing CLINICAL social work services in a private setting requires an additional
-      level of registration — Registered Social Worker-Clinical Specialist — applied for through the Board
-      of Examiners, and members in private practice must provide evidence of that status.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://nscsw.org/applicants/
-    source_quote: '"5.5.2 securing registration with the College as a Clinical Specialist when they are
-      providing clinical social work services in a private setting and providing evidence of their status"
-      [footnote: "In Nova Scotia, providing clinical services in a private practice requires an additional
-      level of registration."] — NSCSW Code of Ethics and Standards of Practice, s. 5.5.2, effective 2026-02-01'
-    last_verified: '2026-08-17'
-    confidence: medium
-    record_id: ca-ns-licensure-social-work
-  - &id023
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - psychologist
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Psychology and Applied Behaviour Analysis Act, 2021
-      bill_number: null
-      code_cite: S.O. 2021, c. 27, Sched. 4
-      regulation_cite: O. Reg. 193/23 (Registration), ss. 1, 3, 5, 16; last amendment O. Reg. 225/24
-    status: in_force
-    enactment_date: null
-    effective_date: '2024-07-01'
-    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold a certificate of registration from the College of Psychologists
-      and Behaviour Analysts of Ontario (CPBAO). The regulation prescribes TWELVE classes (s. 1), built
-      from three registrant types — psychologist, psychological associate, behaviour analyst — each crossed
-      with a practice authorization (autonomous, interim autonomous, supervised; behaviour analysts have
-      autonomous and supervised only), plus Academic, Inactive, Retired and a temporary emergency class.
-      PSYCHOLOGIST, AUTONOMOUS PRACTICE (s. 5(1)) — non-exemptible requirements: a DOCTORAL degree from
-      a psychology programme accredited by the Canadian Psychological Association (or one a Registration
-      Committee panel considers equivalent, or a substantially similar programme outside Canada/the USA);
-      a minimum of 1,500 hours of postdoctoral supervised practice performed while holding a supervised-practice
-      certificate; the Examination for Professional Practice in Psychology (EPPP) administered by ASPPB
-      or an approved alternative; an oral examination; the Jurisprudence and Ethics Examination; and any
-      further training a panel considers necessary for competence in the intended area of practice. PSYCHOLOGICAL
-      ASSOCIATE, AUTONOMOUS PRACTICE (s. 16(1)) — a MASTER''S degree in psychology from a qualifying institution,
-      where the programme required at least 576 hours of undergraduate psychology instruction for admission
-      (including at least 36 hours in each of psychological assessment, psychological intervention, professional
-      ethics and standards, research design/methodology/statistics, and the biological and social bases
-      of behaviour); then at least 6,000 HOURS of practice over at least FOUR YEARS post-degree under
-      the supervision of an autonomous-practice psychologist or psychological associate; plus at least
-      1,500 hours performed while holding a psychological-associate supervised-practice certificate; plus
-      the EPPP, the oral examination, and the Jurisprudence and Ethics Examination.'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.ontario.ca/laws/regulation/230193
-    source_quote: '"5. (1) Subject to subsections (2) to (6), to qualify for a certificate of registration
-      for a psychologist authorizing autonomous practice, an applicant must comply with the following
-      non-exemptible registration requirements: 1. The applicant must have obtained a doctoral degree,
-      i. from a psychology program that is accredited by the Canadian Psychological Association or by
-      another accrediting body that has been approved by Council for that purpose [...] 2. The applicant
-      must have completed a minimum of 1,500 hours of postdoctoral supervised practice [...]" / "16. (1)
-      [...] 1. The applicant must have obtained a master''s degree from a psychology program [...] 2.
-      Following the awarding of the degree described in paragraph 1, the applicant must have performed
-      at least 6,000 hours of practice of the profession over at least four years [...]" — O. Reg. 193/23
-      (Registration), Psychology and Applied Behaviour Analysis Act, 2021 (consolidation period July 1,
-      2024; e-Laws currency date August 12, 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-on-licensure-psychology
-  - &id024
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - psychotherapist
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Psychotherapy Act, 2007
-      bill_number: null
-      code_cite: S.O. 2007, c. 10, Sched. R
-      regulation_cite: O. Reg. 67/15 (Registration), ss. 2, 6; last amendment O. Reg. 63/25
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-05-16'
-    enforcement_body: College of Registered Psychotherapists of Ontario
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold a certificate of registration from the College of Registered Psychotherapists
-      of Ontario (CRPO). Five classes are prescribed (s. 2): Registered Psychotherapist, Qualifying, Temporary,
-      Inactive, and Emergency. Only a member holding the Registered Psychotherapist certificate may use
-      the title ''Registered Psychotherapist'' or the abbreviation ''RP''; a Qualifying member may use
-      only ''Registered Psychotherapist (Qualifying)'' / ''RP (Qualifying)'' (or the French ''Psychothérapeute
-      autorisé (stagiaire)'' / ''PA (stagiaire)'') — abbreviating ''(Qualifying)'' to ''(Q)'' is not acceptable.
-      REGISTERED PSYCHOTHERAPIST (s. 6(1)) — non-exemptible requirements: successful completion of a psychotherapy
-      programme approved by the Registration Committee, OR a master''s degree in an approved programme,
-      OR a programme the Committee considers substantially equivalent, OR other education and training
-      that together evidences substantially equivalent completion; the registration examinations; clinical
-      experience in psychotherapy including AT LEAST 450 HOURS OF DIRECT PATIENT CONTACT and AT LEAST
-      100 HOURS OF CLINICAL SUPERVISION relating to those contact hours; and the jurisprudence course,
-      completed no earlier than TWO YEARS before the application. CURRENCY (s. 6(2)): where the education
-      or clinical-experience requirements were not completed within the one-year period immediately before
-      applying, the applicant must additionally have completed at least 750 currency hours in the preceding
-      three years, or upgrading activities approved by a Registration Committee panel. No programme may
-      be approved unless one of its CORE COMPONENTS is designed to develop competency in the safe and
-      effective use of self in a psychotherapeutic relationship (s. 6(3)).'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.ontario.ca/laws/regulation/150067
-    source_quote: '"6. (1) Subject to section 7 and subsection 13 (2), the following are non-exemptible
-      registration requirements for a Registered Psychotherapist certificate of registration: [...] 3.
-      The applicant must have successfully completed clinical experience in psychotherapy that includes
-      at least 450 hours of direct patient contact and at least 100 hours of clinical supervision where
-      that clinical supervision relates to those hours of direct patient contact." ... "(3) No program
-      may be approved under paragraph 1 of subsection (1) unless one of the core components of the program
-      is designed to develop competency in the safe and effective use of self in a psychotherapeutic relationship."
-      — O. Reg. 67/15 (Registration), Psychotherapy Act, 2007 (consolidation period May 16, 2025; e-Laws
-      currency date August 12, 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-on-licensure-psychotherapy
-  - &id025
-    jurisdiction:
-      country: ca
-      state_or_province: Ontario
-      code: ca-on
-    profession_scope:
-    - clinical_social_worker
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Social Work and Social Service Work Act, 1998
-      bill_number: null
-      code_cite: S.O. 1998, c. 31, s. 18(1)
-      regulation_cite: O. Reg. 383/00 (Registration), ss. 1, 5(2), 7, 9; last amendment O. Reg. 382/25
-    status: in_force
-    enactment_date: null
-    effective_date: '2025-12-17'
-    enforcement_body: Ontario College of Social Workers and Social Service Workers
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: 'Hold a certificate of registration from the Ontario College of Social
-      Workers and Social Service Workers (OCSWSSW). Three classes are prescribed for social work — General,
-      Inactive, Retired — and three separately for SOCIAL SERVICE WORK, which is a distinct regulated
-      profession under the same college (s. 1). GENERAL CERTIFICATE, SOCIAL WORK (s. 7(1)) — the applicant
-      must produce documentation satisfactory to the Registrar showing either: a degree in social work
-      from a programme accredited by the Canadian Association for Social Work Education (CASWE), or a
-      Canadian programme Council has approved as equivalent; or a degree from a social work or equivalent
-      programme offered OUTSIDE Canada that Council has approved as equivalent to a CASWE-accredited programme;
-      or a COMBINATION of academic qualifications and experience performing the role of a social worker
-      that the Registrar determines is substantially equivalent to the qualifications required for a CASWE-accredited
-      degree. The applicant must also have passed any social work examinations set or approved by Council.
-      ALL CLASSES (s. 5(2)) additionally require: disclosure — at application and at issuance — of every
-      finding of professional misconduct, incompetence or incapacity and every current such proceeding,
-      in any jurisdiction and including findings by non-statutory professional bodies; disclosure of every
-      finding of guilt for a criminal offence, an offence under the Controlled Drugs and Substances Act
-      or the Food and Drugs Act, or any other offence relevant to suitability to practise; past and present
-      conduct affording reasonable grounds to believe the applicant has no physical or mental condition
-      affecting safe practice, will practise with decency, integrity and honesty and in accordance with
-      the law, and has sufficient knowledge, skill and judgment; reasonable fluency in speaking and writing
-      English or French; and Canadian citizenship, permanent residence, or authorization under the Immigration
-      and Refugee Protection Act to practise. A General certificate holder must, whenever the College
-      requires, provide evidence satisfactory to the College of continuing competence to practise (s.
-      9).'
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.ontario.ca/laws/regulation/000383
-    source_quote: '"7. (1) In addition to the requirements set out in sections 4 and 5, the following
-      are registration requirements for a general certificate of registration for social work to be issued
-      under subsection 18 (1) of the Act: 1. The applicant must produce documentation satisfactory to
-      the Registrar that shows that the applicant, i. has obtained a degree in social work from a social
-      work program accredited by the Canadian Association for Social Work Education [...] iii. has a combination
-      of academic qualifications and experience performing the role of a social worker that the Registrar
-      determines is substantially equivalent to the qualifications required for a degree in social work
-      from a social work program accredited by the Canadian Association for Social Work Education." —
-      O. Reg. 383/00 (Registration), Social Work and Social Service Work Act, 1998 (consolidation period
-      December 17, 2025; e-Laws currency date August 12, 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-on-licensure-social-work
-  - &id037
-    jurisdiction:
-      country: ca
-      state_or_province: Québec
-      code: ca-qc
-    profession_scope:
-    - psychologist
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
-        désignés
-      bill_number: null
-      code_cite: RLRQ c. C-26 (Code des professions)
-      regulation_cite: RLRQ c. C-26, r. 2, a. 1.24
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Ordre des psychologues du Québec
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Hold a permit from the Ordre des psychologues du Québec (OPQ) and be
-      entered on its roll (tableau) to use the reserved title of psychologist. The permit opens on a DOCTORATE
-      in psychology — Ph.D. (recherche et intervention) or D.Psy. — from a designated Quebec university,
-      listed exhaustively at s. 1.24 of the diploma regulation. Quebec has required a doctorate for the
-      psychologist permit since 2006; a master's degree no longer opens the permit. Candidates holding
-      a diploma from outside Quebec proceed by equivalence through the OPQ's admissions process. Practice
-      is also subject to the Code des professions, the Code de déontologie des psychologues (RLRQ c. C-26,
-      r. 212), and the record-keeping regulation (RLRQ c. C-26, r. 221).
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
-    source_quote: '"1.24. Donnent ouverture au permis délivré par l''Ordre des psychologues du Québec,
-      les diplômes suivants décernés par les établissements d''enseignement suivants: 1° Doctorat en psychologie,
-      recherche et intervention (Ph.D.) ou Doctorat en psychologie (D.Psy.) de l''Université de Montréal;
-      [...]" — Règlement sur les diplômes délivrés par les établissements d''enseignement désignés qui
-      donnent droit aux permis et aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26,
-      r. 2, a. 1.24 (à jour au 1er avril 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-qc-licensure-psychology
-  - &id038
-    jurisdiction:
-      country: ca
-      state_or_province: Québec
-      code: ca-qc
-    profession_scope:
-    - clinical_social_worker
-    topic: licensure
-    regulatory_model: clinician_restriction
-    statute_citation:
-      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
-        désignés
-      bill_number: null
-      code_cite: RLRQ c. C-26 (Code des professions)
-      regulation_cite: RLRQ c. C-26, r. 2, a. 1.15
-    status: in_force
-    enactment_date: null
-    effective_date: null
-    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
-    authority_basis: licensure
-    penalties: null
-    clinician_facing_obligations: Hold a permit from the Ordre des travailleurs sociaux et des thérapeutes
-      conjugaux et familiaux du Québec (OTSTCFQ) and be entered on its roll to use the reserved title
-      of travailleur social / social worker. The social worker permit opens on a Baccalauréat en service
-      social or Baccalauréat en travail social from a designated Quebec university, or in some cases a
-      Maîtrise en travail social, listed exhaustively at s. 1.15 of the diploma regulation. The same Ordre
-      separately issues the thérapeute conjugal et familial permit under the same section. Holders of
-      a related-field or out-of-province diploma proceed by equivalence. A social worker who wishes to
-      practise psychotherapy must additionally hold the psychotherapist permit issued by the Ordre des
-      psychologues du Québec — see ca-qc-scope-psychotherapy-permit-loi-21.
-    vendor_facing_obligations: null
-    consent_required: false
-    documentation_required: true
-    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
-    source_quote: '"1.15. Donnent ouverture aux permis ci-après mentionnés, délivrés par l''Ordre professionnel
-      des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec, les diplômes suivants
-      décernés par les établissements d''enseignement ci-après désignés: 1° le permis de travailleur social:
-      a) Baccalauréat en service social (B.Serv.Soc.) de l''Université Laval; [...]" — Règlement sur les
-      diplômes délivrés par les établissements d''enseignement désignés qui donnent droit aux permis et
-      aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26, r. 2, a. 1.15 (à jour au
-      1er avril 2026)'
-    last_verified: '2026-08-17'
-    confidence: high
-    record_id: ca-qc-licensure-social-work
-  privacy:
-  - &id011
+    record_id: ca-federal-privacy-pipeda
+  - &id012
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -935,7 +156,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-privacy-breach-notification
-  - &id012
+  - &id013
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -989,7 +210,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-ns-privacy-custodian-status
-  - &id013
+  - &id014
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1043,7 +264,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-privacy-data-residency
-  - &id026
+  - &id027
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1091,7 +312,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-breach-notification
-  - &id027
+  - &id028
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1136,7 +357,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-custodian-status
-  - &id028
+  - &id029
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1183,7 +404,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-privacy-data-residency
-  - &id039
+  - &id040
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1251,8 +472,869 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-qc-privacy-law25
+  tax:
+  - &id002
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope: []
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 6
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: Nursing services rendered to an individual within a nurse-patient relationship
+      are exempt from GST/HST. This matters to behavioural-health practice because where provincial law
+      permits a nurse to provide psychotherapy within their scope of nursing practice, CRA treats the
+      nursing exemption at s. 6 as the applicable provision rather than the psychotherapy exemption added
+      in 2024 — so the test is the nurse-patient relationship, not the s. 7 practitioner definition.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"6 A supply of a nursing service rendered to an individual by a registered nurse, a
+      registered nursing assistant, a licensed or registered practical nurse or a registered psychiatric
+      nurse, if the service is rendered within a nurse-patient relationship." — Excise Tax Act, Schedule
+      V, Part II, s. 6 (Justice Laws consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-nursing
+  - &id003
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - psychologist
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: Psychological services rendered to an individual by a practitioner of
+      the service are exempt supplies — GST/HST is not charged on them. This exemption is long-standing
+      and was NOT created or altered by the 2024 Bill C-59 amendment that added psychotherapy and counselling
+      therapy; psychologists were already exempt before it and are unaffected by it.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
+      by a practitioner of the service: (a) optometric services; ... (i) occupational therapy services;
+      (j) psychological services; (j.1) psychotherapy services; (j.2) counselling therapy services; ..."
+      — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws consolidation, Act current to 2026-06-14).
+      Paragraph (j) sits immediately before the two paragraphs added by S.C. 2024, c. 15, and was not
+      amended by it.'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-psychology
+  - &id004
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - psychotherapist
+    - counselling_therapist
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: C-59
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7(j.1)-(j.2)
+      regulation_cite: null
+    status: in_force
+    enactment_date: '2024-06-20'
+    effective_date: '2024-06-20'
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: 'Psychotherapy and counselling therapy services rendered to an individual
+      by a "practitioner" of the service are exempt supplies — GST/HST is not charged on them. On becoming
+      exempt, three consequences follow that practitioners routinely miss: input tax credits are no longer
+      claimable on inputs acquired to make these supplies; a change in use of capital property may trigger
+      a deemed sale and repurchase; and a registrant whose supplies are all exempt is not required to
+      be registered and may close the GST/HST account.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7 A supply of any of the following services if the service is rendered to an individual
+      by a practitioner of the service: (a) optometric services; ... (j) psychological services; (j.1)
+      psychotherapy services; (j.2) counselling therapy services; (k) midwifery services; (l) acupuncture
+      services; and (m) naturopathic services." — Excise Tax Act, Schedule V, Part II, s. 7 (Justice Laws
+      consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-psychotherapy-counselling
+  - &id005
+    jurisdiction:
+      country: ca
+      state_or_province: null
+      code: ca-federal
+    profession_scope:
+    - clinical_social_worker
+    topic: tax
+    regulatory_model: none
+    statute_citation:
+      short_title: Excise Tax Act
+      bill_number: null
+      code_cite: R.S.C., 1985, c. E-15, Sch. V, Pt. II, s. 7.2
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Canada Revenue Agency
+    authority_basis: tax
+    penalties: null
+    clinician_facing_obligations: 'Social work services are exempt from GST/HST, but under a materially
+      narrower test than the psychotherapy and counselling therapy exemptions. Two conditions must both
+      hold: the service is rendered within a professional-client relationship AND is provided for the
+      prevention, assessment or remediation of — or to assist the individual in coping with — a physical,
+      emotional, behavioural or mental disorder or disability. The disorder may be the client''s own or
+      that of a related person the client cares for or supervises otherwise than professionally. Separately,
+      the practitioner must be licensed where the province requires it, or hold equivalent qualifications
+      where it does not. A social work service outside that clinical purpose test is not exempt under
+      this provision.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://laws-lois.justice.gc.ca/eng/acts/e-15/page-120.html
+    source_quote: '"7.2 A supply of a service rendered in the practice of the profession of social work
+      where (a) the service is rendered to an individual within a professional-client relationship between
+      the particular individual who renders the service and the individual and is provided for the prevention,
+      assessment or remediation of, or to assist the individual in coping with, a physical, emotional,
+      behavioural or mental disorder or disability of the individual or of another individual to whom
+      the individual is related or to whom the individual provides care or supervision otherwise than
+      in a professional capacity; and (b) either (i) if the particular individual is required to be licensed
+      or otherwise certified to practise the profession of social work in the province in which the service
+      is supplied, the particular individual is so licensed or certified, or (ii) if the particular individual
+      is not required to be licensed or otherwise certified to practise that profession in that province,
+      the particular individual has the qualifications equivalent to those..." — Excise Tax Act, Schedule
+      V, Part II, s. 7.2 (Justice Laws consolidation, Act current to 2026-06-14)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-federal-tax-gst-hst-social-work
+  insurance:
+  - &id006
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCCT Professional Liability Insurance (Registration and Licensing Policy)
+      bill_number: null
+      code_cite: Policy ss. 1.1, 1.1.1, 1.2, 2.0
+      regulation_cite: Counselling Therapists Act, S.N.S. 2008, c. 6, s. 12(1)(f); Counselling Therapists
+        Regulations, N.S. Reg. 287/2011, s. 7(2)(g)
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-09-20'
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: All licensed registrants, INCLUDING those on leave, must maintain professional
+      liability insurance covering all counselling-therapy services within their individual scope of practice.
+      Coverage must be not less than $2,000,000 per claim and not less than $5,000,000 aggregate, WITH
+      NO DEDUCTIBLE. Proof must be submitted at initial application and again at annual registration and
+      licence renewal, as a copy of the current policy or a letter from the insurer verifying amounts
+      and extent of coverage. Insurance provided through an employer or other third party is NOT sufficient
+      to meet this requirement. Registrants providing telecounselling outside Nova Scotia bear sole responsibility
+      for ensuring their coverage extends to out-of-province clients.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscct.ca/wp-content/uploads/2025/09/PROFESSIONAL-LIABILITY-INSURANCE-REGISTRATION-POLICY.pdf
+    source_quote: '"1.1.1 The coverage shall include a claim amount of not less than $2,000,000 and an
+      aggregate amount not less than $5,000,000 with no deductible." ... "2.0 Insurance policies provided
+      through an employer or other third party are not sufficient to meet the requirement of 1.1 of this
+      policy." — NSCCT, Professional Liability Insurance, Registration and Licensing Policy (revised 2025-09-20)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-counselling-therapy
+  - &id007
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 252/2025, s. 11(1)(a)(iii)
+      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-11-24'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold professional liability insurance (or other malpractice coverage
+      or liability protection) in the form and amount set by the Board. The minimum amount set by the
+      Board is $1,000,000 per occurrence. Applies to holders of a Practising Licence AND a Candidate Psychologist
+      Conditional Licence. Proof of coverage must be provided within 30 days of the licence being granted,
+      and maintaining coverage is a condition of annual renewal. Employer-provided coverage does not automatically
+      satisfy this — NSRP''s position is that institutional coverage may not cover all acts of an employee
+      and that psychologists employed by health institutions, school boards and universities still require
+      personal coverage. One standing exemption exists: Correctional Service Canada employees practising
+      only within CSC, under a monitored annual-declaration arrangement between NSRP and CSC. Other federal
+      employees must submit proof of their own coverage. Retired, relocated or career-changed registrants
+      are advised to maintain coverage or obtain extended-reporting (''tail'') coverage, because policies
+      are typically written on a claims-made basis.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ns-rp.ca/downloads/Insurance.pdf
+    source_quote: '"Under the Regulated Health Professions Act and the Psychology Regulations (s. 11(1)(a)(iii)),
+      an applicant for a licence must have professional liability insurance or another form of malpractice
+      coverage or liability protection in the form and amount set by the Board. This applies to holders
+      of a Practising Licence and a Candidate Psychologist Conditional Licence. The minimum amount set
+      by the Board is $1,000,000 per occurrence." — NSRP, Professional Liability Insurance Required of
+      All NSRP Registrants'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-psychology
+  - &id008
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: NSCSW Code of Ethics and Standards of Practice
+      bill_number: null
+      code_cite: s. 5.5.1 (Guiding Principle 5.5 — social workers in private practice)
+      regulation_cite: Social Workers Act, S.N.S. 1993, c. 12
+    status: in_force
+    enactment_date: null
+    effective_date: '2026-02-01'
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Social workers IN PRIVATE PRACTICE must secure adequate malpractice,
+      defamation, and liability insurance, and maintain registration with the Nova Scotia College of Social
+      Workers. No minimum dollar amount is specified. Those providing clinical social work services in
+      a private setting must also hold Clinical Specialist registration and provide evidence of that status
+      (s. 5.5.2).
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://nscsw.org/wp-content/uploads/2025/09/NSCSW-Code-of-Ethics-and-Standards-of-Practice-August-2025.pdf
+    source_quote: '"5.5.1 securing adequate malpractice, defamation, and liability insurance and maintaining
+      registration with the Nova Scotia College of Social Workers" — NSCSW Code of Ethics and Standards
+      of Practice, s. 5.5.1, under Guiding Principle 5.5 ''Social workers in private practice act with
+      integrity in all business practices'' (effective 2026-02-01)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-insurance-social-work
+  - &id021
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: By-laws of the College of Psychologists of Ontario
+      bill_number: null
+      code_cite: By-law 22 (Professional Liability Insurance), ss. 22.1-22.3, 22.6
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: MANDATORY. Registrants holding a certificate authorising autonomous,
+      interim autonomous or supervised practice must hold or be covered by professional liability insurance
+      IN ALL SETTINGS IN WHICH THEY PRACTISE. Minimum coverage $2,000,000. No deductible is permitted.
+      The only exemption is for a registrant who resides outside Ontario AND provides no services within
+      Ontario at any time during the registration year, nor supervises anyone providing services in Ontario.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://cpbao.ca/wp-content/uploads/College-of-Psychologists-of-Ontario-By-laws-Effective-July-1-2024.pdf
+    source_quote: '"22.1 Subject to Section 6, each member of the College registered with a certificate
+      of registration authorizing autonomous practice, interim autonomous practice or supervised practice
+      shall hold, or otherwise be covered by professional liability insurance in all settings in which
+      the member practices. 22.2 The amount of insurance coverage shall be no less than $2,000,000. 22.3
+      The insurance shall have no deductible." — CPBAO By-laws, By-law 22 (revised 2024-03-21, effective
+      2024-07-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-psychology
+  - &id022
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: By-laws of the College of Registered Psychotherapists and Registered Mental Health
+        Therapists of Ontario
+      bill_number: null
+      code_cite: s. 20.01 (Requirement to Carry Insurance)
+      regulation_cite: null
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-01-01'
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: 'MANDATORY for all registrants except inactive registrants who have
+      purchased run-off coverage. The policy must carry: at least $1,000,000 per occurrence; at least
+      $5,000,000 annual aggregate; NO deductible; run-off coverage for a minimum of two years; an insurer
+      licensed with FSRA Ontario or OSFI Canada; and a sexual abuse therapy and counselling fund endorsement
+      covering persons eligible under s. 85.7(4) of the Code.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://crpo.ca/wp-content/uploads/2025/10/CRPO-By-laws-Amended-Oct125-2026-fees.pdf
+    source_quote: '"(1) A Registrant, other than an Inactive Registrant who has purchased any run-off
+      coverage contemplated by these by-laws, must carry professional liability insurance with the following
+      characteristics: (i) a minimum of no less than $1,000,000 per occurrence; (ii) annual aggregate
+      coverage of no less than $5,000,000; (iii) no deductible; (iv) run-off coverage for a minimum of
+      two (2) years; (v) provided by an insurer licensed with the Financial Services Regulatory Authority
+      of Ontario or the office of the Superintendent of Financial Institutions Canada..." — CRPO By-laws,
+      s. 20.01 (made 2024-12-12, effective 2025-01-01, amended 2025-10-01)'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-psychotherapy
+  - &id023
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: none
+    statute_citation:
+      short_title: Social Work and Social Service Work Act, 1998
+      bill_number: null
+      code_cite: no insurance provision — see notes
+      regulation_cite: O. Reg. 383/00 (Registration)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: insurance
+    penalties: null
+    clinician_facing_obligations: NOT MANDATORY. Professional liability insurance is not a registration
+      requirement for OCSWSSW registrants. The College strongly encourages it but does not require it,
+      and there is no by-law or regulation imposing it. A social worker in Ontario private practice may
+      register and practise without professional liability insurance.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: false
+    source_url: https://www.ocswssw.org/registrants/private-practice/
+    source_quote: '"Although not required by the College, registrants are strongly encouraged to obtain
+      professional liability insurance, which can be purchased through a professional association or another
+      insurance carrier." — OCSWSSW, Private Practice page'
+    last_verified: '2026-07-31'
+    confidence: high
+    record_id: ca-on-insurance-social-work
+  - &id036
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
+        des psychologues du Québec
+      bill_number: null
+      code_cite: 'montants: 1 000 000 $ par sinistre / 3 000 000 $ par période de garantie'
+      regulation_cite: made under the Code des professions, RLRQ c. C-26
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Psychologists, and holders of a psychotherapist permit who are not admissible
+      to another professional order, must adhere to the collective professional liability insurance contract
+      concluded by the Ordre. The minimum guarantee is $1,000,000 per claim (par sinistre) and $3,000,000
+      per guarantee period (par période de garantie); coverage may be increased optionally to $2,000,000
+      per claim and $4,000,000 per period. The obligation does NOT apply where the psychologist or psychotherapist-permit
+      holder holds insurance through their employer and furnishes proof of it.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ordrepsy.qc.ca/-/assurance-responsabilite-professionnelle-les-obligations-des-professionnels
+    source_quote: '"1 000 000 $ par sinistre et 3 000 000 $ par période de garantie" ... l''obligation
+      ne s''applique pas "lorsque le psychologue ou le détenteur de permis de psychothérapeute détient
+      une assurance via son employeur et qu''il en fournit la preuve." — Ordre des psychologues du Québec,
+      Assurance responsabilité professionnelle : les obligations des professionnels'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-qc-insurance-psychology
+  - &id037
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: insurance
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Règlement sur l'assurance de la responsabilité professionnelle des membres de l'Ordre
+        professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+      bill_number: null
+      code_cite: RLRQ c. C-26, r. 283, a. 1 (adhésion obligatoire); a. 4(1°) (montants minimaux); a. 3
+        (exemptions)
+      regulation_cite: made under the Code des professions, RLRQ c. C-26
+    status: in_force
+    enactment_date: null
+    effective_date: '2000-04-01'
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Every social worker practising full-time, part-time OR OCCASIONALLY
+      must adhere to the collective professional liability insurance contract concluded by the Ordre (a.
+      1). The collective contract must provide a minimum guarantee of at least $500,000 per claim and
+      $1,000,000 for all claims arising in the guarantee period for which a claim is presented (a. 4(1°));
+      the contract must also cover claims presented against the insured's heirs after the guarantee period
+      in which they die, pay third-party damages up to the guarantee amount, and take up the insured's
+      defence and pay legal costs and interest in addition to the insured amount (a. 4(2°)-(4°)). In practice
+      the Ordre's collective contract provides higher limits than the regulatory floor — currently up
+      to $2,000,000 per claim and $2,000,000 for all claims per insurance period. Exemptions exist for
+      social workers in the exclusive service of certain employers, subject to filing with the Ordre's
+      secretary a certificate by which the employer stands as guarantor and answers financially for the
+      member's faults or negligence, with a guarantee meeting the minimum stipulations of a. 4.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%20283
+    source_quote: '"1. Tout travailleur social qui exerce sa profession à temps plein, à temps partiel
+      ou occasionnellement doit adhérer au contrat du régime collectif d''assurance de la responsabilité
+      professionnelle conclu par l''Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux
+      et familiaux du Québec [...]" ... "4. Le contrat d''assurance établissant un régime collectif d''assurance
+      de la responsabilité professionnelle souscrit par l''Ordre doit prévoir les conditions minimales
+      suivantes: 1° un montant de garantie d''au moins 500 000 $ par sinistre et de 1 000 000 $ pour l''ensemble
+      des sinistres qui surviennent au cours de la période de garantie et pour lesquels une réclamation
+      est présentée" — RLRQ c. C-26, r. 283, aa. 1 et 4 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-insurance-social-work
+  licensure:
+  - &id009
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - counselling_therapist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Counselling Therapists Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 287/2011, ss. 5-8 (O.I.C. 2011-368)
+      regulation_cite: made under the Counselling Therapists Act, S.N.S. 2008, c. 6
+    status: in_force
+    enactment_date: null
+    effective_date: '2011-10-11'
+    enforcement_body: Nova Scotia College of Counselling Therapists
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a licence from the Nova Scotia College of Counselling Therapists
+      (NSCCT) to use the protected titles ''Counselling Therapist'', ''Registered Counselling Therapist''
+      / ''RCT'', or ''Registered Counselling Therapist - Candidate'' / ''RCT-C'', or to describe services
+      as ''counselling therapy''. Licence categories under s. 5: active-practising; active-practising
+      with conditions or restrictions; active-practising candidate; temporary; temporary with conditions
+      or restrictions. Registration criteria (s. 6(2)) include a recognised counselling-therapy education
+      programme, any registration examinations approved by the Board, no outstanding complaints in previous
+      jurisdictions, English-language proficiency, an ethics course, workshop or exam, and a supervised
+      practicum or internship with a minimum of 120 direct-contact practice hours. Entry to active-practising
+      (s. 7(2)) additionally requires at least two years of supervised experience, and s. 8 sets that
+      at a minimum of 2,000 hours including 50 direct-contact hours with a supervisor.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://novascotia.ca/just/regulations/regs/ctcounsther.htm
+    source_quote: '"5 The categories of licence are (a) active-practising; (b) active-practising with
+      conditions or restrictions; (c) active-practising candidate; (d) temporary; (e) temporary with conditions
+      or restrictions." / "7(2) ... the member has completed at least 2 years of supervised experience
+      in the practice of counselling therapy" — Counselling Therapists Regulations, N.S. Reg. 287/2011'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-licensure-counselling-therapy
+  - &id010
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology Regulations (Nova Scotia)
+      bill_number: null
+      code_cite: N.S. Reg. 252/2025, ss. 8-10 (O.I.C. 2025-337)
+      regulation_cite: made under the Regulated Health Professions Act, S.N.S. 2021, c. 8
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-11-24'
+    enforcement_body: Nova Scotia Regulator of Psychology
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a licence from the Nova Scotia Regulator of Psychology (NSRP)
+      to practise psychology. Practising licence categories are set by s. 8 (psychologist practising licence,
+      plus any further category established in the bylaws); conditional licences by s. 9 (candidate psychologist
+      conditional licence, psychologist conditional licence, plus bylaw categories). Registration criteria
+      under s. 10(2)(a) require graduation from an approved master''s, PhD or PsyD programme, passing
+      the required examinations, English-language proficiency, Canadian citizenship or legal entitlement
+      to work in Canada, and the capacity, competence and character to practise safely and ethically.
+      Supervised-experience baseline per NSRP: two years post-doctoral, or four years at the master''s
+      level.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://novascotia.ca/just/REGULATIONS/regs/rhppsychology.htm
+    source_quote: '"8 The categories of practising licence are (a) psychologist practising licence; (b)
+      any other category of practising licence established in the bylaws." / "10(2)(a) ... capacity, competence
+      and character to safely and ethically engage in the practice of the profession." — Psychology Regulations,
+      N.S. Reg. 252/2025 (O.I.C. 2025-337), in force 2025-11-24'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-ns-licensure-psychology
+  - &id011
+    jurisdiction:
+      country: ca
+      state_or_province: Nova Scotia
+      code: ca-ns
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Social Workers Act (Nova Scotia)
+      bill_number: null
+      code_cite: S.N.S. 1993, c. 12, s. 22 (registration); private practice defined at s. 2(j)
+      regulation_cite: Social Worker Regulations made under the Social Workers Act, s. 8 (updated November
+        2021)
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Nova Scotia College of Social Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Register with the Nova Scotia College of Social Workers (NSCSW). Registered
+      Social Worker (RSW) requires a CASWE-accredited BSW or MSW plus 2,500 hours of post-graduation practice
+      experience within the scope of practice. Applicants without those hours are placed on the Social
+      Worker Candidate registry and must complete all or part of the Candidacy Mentorship Programme based
+      on prior experience. Providing CLINICAL social work services in a private setting requires an additional
+      level of registration — Registered Social Worker-Clinical Specialist — applied for through the Board
+      of Examiners, and members in private practice must provide evidence of that status.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://nscsw.org/applicants/
+    source_quote: '"5.5.2 securing registration with the College as a Clinical Specialist when they are
+      providing clinical social work services in a private setting and providing evidence of their status"
+      [footnote: "In Nova Scotia, providing clinical services in a private practice requires an additional
+      level of registration."] — NSCSW Code of Ethics and Standards of Practice, s. 5.5.2, effective 2026-02-01'
+    last_verified: '2026-08-17'
+    confidence: medium
+    record_id: ca-ns-licensure-social-work
+  - &id024
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychology and Applied Behaviour Analysis Act, 2021
+      bill_number: null
+      code_cite: S.O. 2021, c. 27, Sched. 4
+      regulation_cite: O. Reg. 193/23 (Registration), ss. 1, 3, 5, 16; last amendment O. Reg. 225/24
+    status: in_force
+    enactment_date: null
+    effective_date: '2024-07-01'
+    enforcement_body: College of Psychologists and Behaviour Analysts of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the College of Psychologists
+      and Behaviour Analysts of Ontario (CPBAO). The regulation prescribes TWELVE classes (s. 1), built
+      from three registrant types — psychologist, psychological associate, behaviour analyst — each crossed
+      with a practice authorization (autonomous, interim autonomous, supervised; behaviour analysts have
+      autonomous and supervised only), plus Academic, Inactive, Retired and a temporary emergency class.
+      PSYCHOLOGIST, AUTONOMOUS PRACTICE (s. 5(1)) — non-exemptible requirements: a DOCTORAL degree from
+      a psychology programme accredited by the Canadian Psychological Association (or one a Registration
+      Committee panel considers equivalent, or a substantially similar programme outside Canada/the USA);
+      a minimum of 1,500 hours of postdoctoral supervised practice performed while holding a supervised-practice
+      certificate; the Examination for Professional Practice in Psychology (EPPP) administered by ASPPB
+      or an approved alternative; an oral examination; the Jurisprudence and Ethics Examination; and any
+      further training a panel considers necessary for competence in the intended area of practice. PSYCHOLOGICAL
+      ASSOCIATE, AUTONOMOUS PRACTICE (s. 16(1)) — a MASTER''S degree in psychology from a qualifying institution,
+      where the programme required at least 576 hours of undergraduate psychology instruction for admission
+      (including at least 36 hours in each of psychological assessment, psychological intervention, professional
+      ethics and standards, research design/methodology/statistics, and the biological and social bases
+      of behaviour); then at least 6,000 HOURS of practice over at least FOUR YEARS post-degree under
+      the supervision of an autonomous-practice psychologist or psychological associate; plus at least
+      1,500 hours performed while holding a psychological-associate supervised-practice certificate; plus
+      the EPPP, the oral examination, and the Jurisprudence and Ethics Examination.'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/230193
+    source_quote: '"5. (1) Subject to subsections (2) to (6), to qualify for a certificate of registration
+      for a psychologist authorizing autonomous practice, an applicant must comply with the following
+      non-exemptible registration requirements: 1. The applicant must have obtained a doctoral degree,
+      i. from a psychology program that is accredited by the Canadian Psychological Association or by
+      another accrediting body that has been approved by Council for that purpose [...] 2. The applicant
+      must have completed a minimum of 1,500 hours of postdoctoral supervised practice [...]" / "16. (1)
+      [...] 1. The applicant must have obtained a master''s degree from a psychology program [...] 2.
+      Following the awarding of the degree described in paragraph 1, the applicant must have performed
+      at least 6,000 hours of practice of the profession over at least four years [...]" — O. Reg. 193/23
+      (Registration), Psychology and Applied Behaviour Analysis Act, 2021 (consolidation period July 1,
+      2024; e-Laws currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-psychology
+  - &id025
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - psychotherapist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Psychotherapy Act, 2007
+      bill_number: null
+      code_cite: S.O. 2007, c. 10, Sched. R
+      regulation_cite: O. Reg. 67/15 (Registration), ss. 2, 6; last amendment O. Reg. 63/25
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-05-16'
+    enforcement_body: College of Registered Psychotherapists of Ontario
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the College of Registered Psychotherapists
+      of Ontario (CRPO). Five classes are prescribed (s. 2): Registered Psychotherapist, Qualifying, Temporary,
+      Inactive, and Emergency. Only a member holding the Registered Psychotherapist certificate may use
+      the title ''Registered Psychotherapist'' or the abbreviation ''RP''; a Qualifying member may use
+      only ''Registered Psychotherapist (Qualifying)'' / ''RP (Qualifying)'' (or the French ''Psychothérapeute
+      autorisé (stagiaire)'' / ''PA (stagiaire)'') — abbreviating ''(Qualifying)'' to ''(Q)'' is not acceptable.
+      REGISTERED PSYCHOTHERAPIST (s. 6(1)) — non-exemptible requirements: successful completion of a psychotherapy
+      programme approved by the Registration Committee, OR a master''s degree in an approved programme,
+      OR a programme the Committee considers substantially equivalent, OR other education and training
+      that together evidences substantially equivalent completion; the registration examinations; clinical
+      experience in psychotherapy including AT LEAST 450 HOURS OF DIRECT PATIENT CONTACT and AT LEAST
+      100 HOURS OF CLINICAL SUPERVISION relating to those contact hours; and the jurisprudence course,
+      completed no earlier than TWO YEARS before the application. CURRENCY (s. 6(2)): where the education
+      or clinical-experience requirements were not completed within the one-year period immediately before
+      applying, the applicant must additionally have completed at least 750 currency hours in the preceding
+      three years, or upgrading activities approved by a Registration Committee panel. No programme may
+      be approved unless one of its CORE COMPONENTS is designed to develop competency in the safe and
+      effective use of self in a psychotherapeutic relationship (s. 6(3)).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/150067
+    source_quote: '"6. (1) Subject to section 7 and subsection 13 (2), the following are non-exemptible
+      registration requirements for a Registered Psychotherapist certificate of registration: [...] 3.
+      The applicant must have successfully completed clinical experience in psychotherapy that includes
+      at least 450 hours of direct patient contact and at least 100 hours of clinical supervision where
+      that clinical supervision relates to those hours of direct patient contact." ... "(3) No program
+      may be approved under paragraph 1 of subsection (1) unless one of the core components of the program
+      is designed to develop competency in the safe and effective use of self in a psychotherapeutic relationship."
+      — O. Reg. 67/15 (Registration), Psychotherapy Act, 2007 (consolidation period May 16, 2025; e-Laws
+      currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-psychotherapy
+  - &id026
+    jurisdiction:
+      country: ca
+      state_or_province: Ontario
+      code: ca-on
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Social Work and Social Service Work Act, 1998
+      bill_number: null
+      code_cite: S.O. 1998, c. 31, s. 18(1)
+      regulation_cite: O. Reg. 383/00 (Registration), ss. 1, 5(2), 7, 9; last amendment O. Reg. 382/25
+    status: in_force
+    enactment_date: null
+    effective_date: '2025-12-17'
+    enforcement_body: Ontario College of Social Workers and Social Service Workers
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: 'Hold a certificate of registration from the Ontario College of Social
+      Workers and Social Service Workers (OCSWSSW). Three classes are prescribed for social work — General,
+      Inactive, Retired — and three separately for SOCIAL SERVICE WORK, which is a distinct regulated
+      profession under the same college (s. 1). GENERAL CERTIFICATE, SOCIAL WORK (s. 7(1)) — the applicant
+      must produce documentation satisfactory to the Registrar showing either: a degree in social work
+      from a programme accredited by the Canadian Association for Social Work Education (CASWE), or a
+      Canadian programme Council has approved as equivalent; or a degree from a social work or equivalent
+      programme offered OUTSIDE Canada that Council has approved as equivalent to a CASWE-accredited programme;
+      or a COMBINATION of academic qualifications and experience performing the role of a social worker
+      that the Registrar determines is substantially equivalent to the qualifications required for a CASWE-accredited
+      degree. The applicant must also have passed any social work examinations set or approved by Council.
+      ALL CLASSES (s. 5(2)) additionally require: disclosure — at application and at issuance — of every
+      finding of professional misconduct, incompetence or incapacity and every current such proceeding,
+      in any jurisdiction and including findings by non-statutory professional bodies; disclosure of every
+      finding of guilt for a criminal offence, an offence under the Controlled Drugs and Substances Act
+      or the Food and Drugs Act, or any other offence relevant to suitability to practise; past and present
+      conduct affording reasonable grounds to believe the applicant has no physical or mental condition
+      affecting safe practice, will practise with decency, integrity and honesty and in accordance with
+      the law, and has sufficient knowledge, skill and judgment; reasonable fluency in speaking and writing
+      English or French; and Canadian citizenship, permanent residence, or authorization under the Immigration
+      and Refugee Protection Act to practise. A General certificate holder must, whenever the College
+      requires, provide evidence satisfactory to the College of continuing competence to practise (s.
+      9).'
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.ontario.ca/laws/regulation/000383
+    source_quote: '"7. (1) In addition to the requirements set out in sections 4 and 5, the following
+      are registration requirements for a general certificate of registration for social work to be issued
+      under subsection 18 (1) of the Act: 1. The applicant must produce documentation satisfactory to
+      the Registrar that shows that the applicant, i. has obtained a degree in social work from a social
+      work program accredited by the Canadian Association for Social Work Education [...] iii. has a combination
+      of academic qualifications and experience performing the role of a social worker that the Registrar
+      determines is substantially equivalent to the qualifications required for a degree in social work
+      from a social work program accredited by the Canadian Association for Social Work Education." —
+      O. Reg. 383/00 (Registration), Social Work and Social Service Work Act, 1998 (consolidation period
+      December 17, 2025; e-Laws currency date August 12, 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-on-licensure-social-work
+  - &id038
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - psychologist
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
+        désignés
+      bill_number: null
+      code_cite: RLRQ c. C-26 (Code des professions)
+      regulation_cite: RLRQ c. C-26, r. 2, a. 1.24
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des psychologues du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Hold a permit from the Ordre des psychologues du Québec (OPQ) and be
+      entered on its roll (tableau) to use the reserved title of psychologist. The permit opens on a DOCTORATE
+      in psychology — Ph.D. (recherche et intervention) or D.Psy. — from a designated Quebec university,
+      listed exhaustively at s. 1.24 of the diploma regulation. Quebec has required a doctorate for the
+      psychologist permit since 2006; a master's degree no longer opens the permit. Candidates holding
+      a diploma from outside Quebec proceed by equivalence through the OPQ's admissions process. Practice
+      is also subject to the Code des professions, the Code de déontologie des psychologues (RLRQ c. C-26,
+      r. 212), and the record-keeping regulation (RLRQ c. C-26, r. 221).
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
+    source_quote: '"1.24. Donnent ouverture au permis délivré par l''Ordre des psychologues du Québec,
+      les diplômes suivants décernés par les établissements d''enseignement suivants: 1° Doctorat en psychologie,
+      recherche et intervention (Ph.D.) ou Doctorat en psychologie (D.Psy.) de l''Université de Montréal;
+      [...]" — Règlement sur les diplômes délivrés par les établissements d''enseignement désignés qui
+      donnent droit aux permis et aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26,
+      r. 2, a. 1.24 (à jour au 1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-licensure-psychology
+  - &id039
+    jurisdiction:
+      country: ca
+      state_or_province: Québec
+      code: ca-qc
+    profession_scope:
+    - clinical_social_worker
+    topic: licensure
+    regulatory_model: clinician_restriction
+    statute_citation:
+      short_title: Code des professions / Règlement sur les diplômes délivrés par les établissements d'enseignement
+        désignés
+      bill_number: null
+      code_cite: RLRQ c. C-26 (Code des professions)
+      regulation_cite: RLRQ c. C-26, r. 2, a. 1.15
+    status: in_force
+    enactment_date: null
+    effective_date: null
+    enforcement_body: Ordre des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec
+    authority_basis: licensure
+    penalties: null
+    clinician_facing_obligations: Hold a permit from the Ordre des travailleurs sociaux et des thérapeutes
+      conjugaux et familiaux du Québec (OTSTCFQ) and be entered on its roll to use the reserved title
+      of travailleur social / social worker. The social worker permit opens on a Baccalauréat en service
+      social or Baccalauréat en travail social from a designated Quebec university, or in some cases a
+      Maîtrise en travail social, listed exhaustively at s. 1.15 of the diploma regulation. The same Ordre
+      separately issues the thérapeute conjugal et familial permit under the same section. Holders of
+      a related-field or out-of-province diploma proceed by equivalence. A social worker who wishes to
+      practise psychotherapy must additionally hold the psychotherapist permit issued by the Ordre des
+      psychologues du Québec — see ca-qc-scope-psychotherapy-permit-loi-21.
+    vendor_facing_obligations: null
+    consent_required: false
+    documentation_required: true
+    source_url: https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26,%20r.%202
+    source_quote: '"1.15. Donnent ouverture aux permis ci-après mentionnés, délivrés par l''Ordre professionnel
+      des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec, les diplômes suivants
+      décernés par les établissements d''enseignement ci-après désignés: 1° le permis de travailleur social:
+      a) Baccalauréat en service social (B.Serv.Soc.) de l''Université Laval; [...]" — Règlement sur les
+      diplômes délivrés par les établissements d''enseignement désignés qui donnent droit aux permis et
+      aux certificats de spécialistes des ordres professionnels, RLRQ c. C-26, r. 2, a. 1.15 (à jour au
+      1er avril 2026)'
+    last_verified: '2026-08-17'
+    confidence: high
+    record_id: ca-qc-licensure-social-work
   retention:
-  - &id014
+  - &id015
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1296,7 +1378,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-ns-retention-counselling-therapy
-  - &id015
+  - &id016
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1339,7 +1421,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-retention-psychology
-  - &id016
+  - &id017
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1382,7 +1464,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-retention-social-work
-  - &id029
+  - &id030
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1421,7 +1503,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychology
-  - &id030
+  - &id031
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1460,7 +1542,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-psychotherapy
-  - &id031
+  - &id032
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1500,7 +1582,7 @@ by_topic:
     last_verified: '2026-07-31'
     confidence: high
     record_id: ca-on-retention-social-work
-  - &id040
+  - &id041
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1546,7 +1628,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-qc-retention-psychology
-  - &id041
+  - &id042
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1584,7 +1666,7 @@ by_topic:
     confidence: high
     record_id: ca-qc-retention-social-work
   telepractice:
-  - &id017
+  - &id018
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1633,7 +1715,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-telepractice-counselling-therapy
-  - &id018
+  - &id019
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1680,7 +1762,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-telepractice-psychology
-  - &id019
+  - &id020
     jurisdiction:
       country: ca
       state_or_province: Nova Scotia
@@ -1728,7 +1810,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: high
     record_id: ca-ns-telepractice-social-work
-  - &id032
+  - &id033
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1766,10 +1848,10 @@ by_topic:
       being delivered. Where a conflict exists between the requirements of two jurisdictions, the registrant
       must comply with the obligations affording greater client protection." — CPBAO, Standards of Professional
       Conduct, Standard 16.2 (in force 2024-07-01)'
-    last_verified: '2026-07-31'
+    last_verified: '2026-08-17'
     confidence: high
     record_id: ca-on-telepractice-psychology
-  - &id033
+  - &id034
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1803,10 +1885,10 @@ by_topic:
     source_quote: '"3.4.5 Registrants comply with relevant professional licensing requirements in the
       jurisdictions where clients are located." — CRPO, Professional Practice Standard 3.4 (Electronic
       Practice), published 2024-09-18, last modified 2026-01-07'
-    last_verified: '2026-07-31'
+    last_verified: '2026-08-17'
     confidence: high
     record_id: ca-on-telepractice-psychotherapy
-  - &id034
+  - &id035
     jurisdiction:
       country: ca
       state_or_province: Ontario
@@ -1844,10 +1926,10 @@ by_topic:
       applicable privacy legislation; and ensure that client information is stored in a jurisdiction where
       the privacy laws are consistent with Ontario laws or, where applicable, Canadian federal laws."
       — OCSWSSW, Code of Ethics and Standards of Practice, 3rd ed., Standard 5.3.1 (effective 2023-09-08)'
-    last_verified: '2026-07-31'
+    last_verified: '2026-08-17'
     confidence: high
     record_id: ca-on-telepractice-social-work
-  - &id043
+  - &id044
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1919,7 +2001,7 @@ by_topic:
     last_verified: '2026-08-17'
     confidence: medium
     record_id: ca-qc-telepractice-psychology
-  - &id044
+  - &id045
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -1975,7 +2057,7 @@ by_topic:
     confidence: high
     record_id: ca-qc-telepractice-social-work
   scope:
-  - &id042
+  - &id043
     jurisdiction:
       country: ca
       state_or_province: Québec
@@ -2050,8 +2132,8 @@ by_jurisdiction:
   - *id002
   - *id003
   - *id004
-  ca-ns:
   - *id005
+  ca-ns:
   - *id006
   - *id007
   - *id008
@@ -2066,8 +2148,8 @@ by_jurisdiction:
   - *id017
   - *id018
   - *id019
-  ca-on:
   - *id020
+  ca-on:
   - *id021
   - *id022
   - *id023
@@ -2082,8 +2164,8 @@ by_jurisdiction:
   - *id032
   - *id033
   - *id034
-  ca-qc:
   - *id035
+  ca-qc:
   - *id036
   - *id037
   - *id038
@@ -2093,48 +2175,50 @@ by_jurisdiction:
   - *id042
   - *id043
   - *id044
+  - *id045
 records:
-  ca-federal-tax-gst-hst-nursing: *id001
-  ca-federal-tax-gst-hst-psychology: *id002
-  ca-federal-tax-gst-hst-psychotherapy-counselling: *id003
-  ca-federal-tax-gst-hst-social-work: *id004
-  ca-ns-insurance-counselling-therapy: *id005
-  ca-ns-insurance-psychology: *id006
-  ca-ns-insurance-social-work: *id007
-  ca-ns-licensure-counselling-therapy: *id008
-  ca-ns-licensure-psychology: *id009
-  ca-ns-licensure-social-work: *id010
-  ca-ns-privacy-breach-notification: *id011
-  ca-ns-privacy-custodian-status: *id012
-  ca-ns-privacy-data-residency: *id013
-  ca-ns-retention-counselling-therapy: *id014
-  ca-ns-retention-psychology: *id015
-  ca-ns-retention-social-work: *id016
-  ca-ns-telepractice-counselling-therapy: *id017
-  ca-ns-telepractice-psychology: *id018
-  ca-ns-telepractice-social-work: *id019
-  ca-on-insurance-psychology: *id020
-  ca-on-insurance-psychotherapy: *id021
-  ca-on-insurance-social-work: *id022
-  ca-on-licensure-psychology: *id023
-  ca-on-licensure-psychotherapy: *id024
-  ca-on-licensure-social-work: *id025
-  ca-on-privacy-breach-notification: *id026
-  ca-on-privacy-custodian-status: *id027
-  ca-on-privacy-data-residency: *id028
-  ca-on-retention-psychology: *id029
-  ca-on-retention-psychotherapy: *id030
-  ca-on-retention-social-work: *id031
-  ca-on-telepractice-psychology: *id032
-  ca-on-telepractice-psychotherapy: *id033
-  ca-on-telepractice-social-work: *id034
-  ca-qc-insurance-psychology: *id035
-  ca-qc-insurance-social-work: *id036
-  ca-qc-licensure-psychology: *id037
-  ca-qc-licensure-social-work: *id038
-  ca-qc-privacy-law25: *id039
-  ca-qc-retention-psychology: *id040
-  ca-qc-retention-social-work: *id041
-  ca-qc-scope-psychotherapy-permit-loi-21: *id042
-  ca-qc-telepractice-psychology: *id043
-  ca-qc-telepractice-social-work: *id044
+  ca-federal-privacy-pipeda: *id001
+  ca-federal-tax-gst-hst-nursing: *id002
+  ca-federal-tax-gst-hst-psychology: *id003
+  ca-federal-tax-gst-hst-psychotherapy-counselling: *id004
+  ca-federal-tax-gst-hst-social-work: *id005
+  ca-ns-insurance-counselling-therapy: *id006
+  ca-ns-insurance-psychology: *id007
+  ca-ns-insurance-social-work: *id008
+  ca-ns-licensure-counselling-therapy: *id009
+  ca-ns-licensure-psychology: *id010
+  ca-ns-licensure-social-work: *id011
+  ca-ns-privacy-breach-notification: *id012
+  ca-ns-privacy-custodian-status: *id013
+  ca-ns-privacy-data-residency: *id014
+  ca-ns-retention-counselling-therapy: *id015
+  ca-ns-retention-psychology: *id016
+  ca-ns-retention-social-work: *id017
+  ca-ns-telepractice-counselling-therapy: *id018
+  ca-ns-telepractice-psychology: *id019
+  ca-ns-telepractice-social-work: *id020
+  ca-on-insurance-psychology: *id021
+  ca-on-insurance-psychotherapy: *id022
+  ca-on-insurance-social-work: *id023
+  ca-on-licensure-psychology: *id024
+  ca-on-licensure-psychotherapy: *id025
+  ca-on-licensure-social-work: *id026
+  ca-on-privacy-breach-notification: *id027
+  ca-on-privacy-custodian-status: *id028
+  ca-on-privacy-data-residency: *id029
+  ca-on-retention-psychology: *id030
+  ca-on-retention-psychotherapy: *id031
+  ca-on-retention-social-work: *id032
+  ca-on-telepractice-psychology: *id033
+  ca-on-telepractice-psychotherapy: *id034
+  ca-on-telepractice-social-work: *id035
+  ca-qc-insurance-psychology: *id036
+  ca-qc-insurance-social-work: *id037
+  ca-qc-licensure-psychology: *id038
+  ca-qc-licensure-social-work: *id039
+  ca-qc-privacy-law25: *id040
+  ca-qc-retention-psychology: *id041
+  ca-qc-retention-social-work: *id042
+  ca-qc-scope-psychotherapy-permit-loi-21: *id043
+  ca-qc-telepractice-psychology: *id044
+  ca-qc-telepractice-social-work: *id045
