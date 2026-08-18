@@ -1,0 +1,116 @@
+generated_by: mhinbrief publish adapter (publish/adapter.py)
+count: 1
+blocks:
+- id: ca-on-retention-psychology
+  title: Ontario — records retention, psychology (CPBAO)
+  cell: ca-on / psychologist / retention
+  method: STAMP v0.2 (pm claim-verification-method-spec)
+  checked: '2026-08-18'
+  statements:
+  - id: st-01
+    claim_ref: claim:ca-on-retention-psychology:st-01
+    text: An Ontario psychologist must retain individual client service records for a minimum of 10 years
+      after the service recipient reaches the age of 18, or after the last professional contact, whichever
+      comes later.
+    statement_type: sourced
+    location: s. 9.4 (Record Storage and Retention), first bullet
+    quote: Individual Client Service records must be retained for a minimum of 10 years after the service
+      recipient reaches the age of 18 or after the last professional contact, whichever comes later;
+    context: First bullet of s. 9.4, the section governing record storage and retention.
+    source_identity: College of Psychologists and Behaviour Analysts of Ontario, Standards of Professional
+      Conduct (in force 2024-07-01)
+    source_url: https://cpbao.ca/members/professional-practice/standards-of-professional-conduct/
+    m_check: pass
+    m_reason: Quote located verbatim in retained text after declared normalisation.
+    s_check: supports
+    s_reason: Quote states the period, both trigger events, and the whichever-comes-later rule, which
+      is the whole of the statement. Nothing in the statement exceeds the quote.
+    signed_off_by: null
+    signed_off_when: null
+  - id: st-02
+    claim_ref: claim:ca-on-retention-psychology:st-02
+    text: Organizational service records must be maintained for at least ten years following the organizational
+      client's last contact.
+    statement_type: sourced
+    location: s. 9.4, second bullet
+    quote: Unless otherwise required by law, organizational service records must be maintained for at
+      least ten years following the organizational client's last contact.
+    context: Second bullet of s. 9.4. The same bullet continues with a carve-out for ongoing organizational
+      clients.
+    source_identity: College of Psychologists and Behaviour Analysts of Ontario, Standards of Professional
+      Conduct (in force 2024-07-01)
+    source_url: https://cpbao.ca/members/professional-practice/standards-of-professional-conduct/
+    m_check: pass
+    m_reason: Quote located verbatim in retained text after declared normalisation.
+    s_check: partially-supports
+    s_reason: 'The quote supports the ten-year period, but the statement DROPS the quote''s opening qualifier
+      ''Unless otherwise required by law'', and omits the rest of the same bullet: where an organizational
+      client has been receiving service for more than ten years, record content older than ten years may
+      be destroyed if not relevant to services currently being provided. As written the statement is stricter
+      than the Standard.'
+    signed_off_by: null
+    signed_off_when: null
+  - id: st-03
+    claim_ref: claim:ca-on-retention-psychology:st-03
+    text: A registrant who is a health information custodian must arrange for the security and maintenance
+      of client records in case of expected or unexpected incapacity or death, and must inform the College
+      of those arrangements prior to ceasing to provide services or at the earliest reasonable opportunity.
+    statement_type: sourced
+    location: s. 9.6 (Maintenance of Client Records)
+    quote: Registrants who are HICs must arrange for the security and maintenance of client records in
+      case of expected or unexpected incapacity or death, and inform the College of these arrangements
+      prior to ceasing to provide services or at the earliest reasonable opportunity.
+    context: 'Opening sentence of s. 9.6, a section distinct from the retention section 9.4. Continues:
+      where possible the designate should be a registrant of the College.'
+    source_identity: College of Psychologists and Behaviour Analysts of Ontario, Standards of Professional
+      Conduct (in force 2024-07-01)
+    source_url: https://cpbao.ca/members/professional-practice/standards-of-professional-conduct/
+    m_check: pass
+    m_reason: Quote located verbatim in retained text after declared normalisation.
+    s_check: supports
+    s_reason: 'Quote supports the statement in full. NOTE A CITATION DEFECT, not a support defect: the
+      record''s statute_citation names only ''s. 9.4'', but this obligation is s. 9.6. A reader sent to
+      9.4 will not find it.'
+    signed_off_by: null
+    signed_off_when: null
+  gaps:
+  - id: gap-01
+    claim_ref: claim:ca-on-retention-psychology:gap-01
+    location: s. 9.4 bullet 2 (cont.)
+    text: 'Ongoing organizational clients: record content older than ten years may be destroyed if not
+      relevant to services currently being provided.'
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  - id: gap-02
+    claim_ref: claim:ca-on-retention-psychology:gap-02
+    location: s. 9.4 bullet 3
+    text: Record components may be stored across multiple locations, but each location must reference
+      the others.
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  - id: gap-03
+    claim_ref: claim:ca-on-retention-psychology:gap-03
+    location: s. 9.4 bullet 4
+    text: 'Registrants are NOT obliged to retain: personally identifiable information collected without
+      consent; inquiries that did not result in service; or records for recipients of prevention, public
+      education, group training, emergency/post-emergency group, or group screening services.'
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  - id: gap-04
+    claim_ref: claim:ca-on-retention-psychology:gap-04
+    location: s. 9.4 bullet 5
+    text: Records regarding fees, billing and financial matters must be retained on the same basis as
+      other service records.
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  - id: gap-05
+    claim_ref: claim:ca-on-retention-psychology:gap-05
+    location: s. 9.5 h.
+    text: Registrants who are NOT health information custodians must take reasonable steps to ensure maintenance
+      and security of service records, and ensure current and former recipients are told how to access
+      the record for the retention period.
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  - id: gap-06
+    claim_ref: claim:ca-on-retention-psychology:gap-06
+    location: s. 9.6 (cont.)
+    text: Where possible the designate for records on incapacity/death should be a registrant of the College;
+      failing that a regulated health professional, failing that someone familiar with the applicable
+      legislation.
+    note: Present in the source; the record asserts nothing about it. Not a false claim — missing coverage.
+  unsigned_count: 3

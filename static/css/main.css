@@ -650,3 +650,73 @@ footer.colophon {
   .site-nav, .skip-link { display: none; }
   body { background: #fff; }
 }
+
+/* ── Claim verification on /review/ ──────────────────────────────────────────
+   The two checks are visually separate rows on purpose: pm's
+   claim-verification-method-spec §6.3 forbids combining the mechanical and
+   semantic results into one badge, because a quote can be present word-for-word
+   and still fail to support the claim built on it. No single-score styling here. */
+
+.claim-review { margin: 2.5rem 0; }
+.claim-block {
+  border: 1px solid var(--hairline);
+  border-top: 3px solid var(--spruce);
+  background: var(--surface);
+  padding: 1.25rem 1.25rem 0.5rem;
+  margin: 1.25rem 0 2rem;
+}
+.claim-block > h3 { margin-top: 0; }
+
+.claim {
+  border-top: 1px solid var(--hairline);
+  padding: 1.1rem 0;
+}
+.claim:first-of-type { border-top: none; }
+.claim-text {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+}
+.claim-evidence {
+  border-left: 3px solid var(--brass);
+  padding-left: 0.9rem;
+  margin: 0 0 0.85rem;
+}
+.claim-quote {
+  font-family: var(--serif);
+  color: var(--ink);
+  margin: 0.35rem 0;
+  padding: 0;
+  border: none;
+  quotes: "\201C" "\201D";
+}
+.claim-quote::before { content: open-quote; }
+.claim-quote::after  { content: close-quote; }
+
+.claim-checks {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.9rem;
+  font-size: 0.94rem;
+}
+.claim-checks li {
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--hairline);
+}
+.claim-checks li:last-child { border-bottom: none; }
+
+.claim-gaps {
+  border-top: 1px solid var(--hairline);
+  margin-top: 1.25rem;
+  padding-top: 0.5rem;
+}
+.claim-gaps h4 { margin-bottom: 0.25rem; }
+.claim.gap .claim-text { font-size: 1rem; color: var(--ink-soft); }
+
+.candidate-queue { margin-top: 2rem; }
+
+@media (max-width: 34rem) {
+  .claim-block { padding: 0.9rem 0.9rem 0.4rem; }
+  .claim-evidence { padding-left: 0.6rem; }
+}

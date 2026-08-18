@@ -6,6 +6,107 @@
   <p class="entry-meta">{{ $review.count }} item{{ if ne $review.count 1 }}s{{ end }} pending.</p>
 </div>
 
+{{ $claims := .Site.Data.claims }}
+{{ if $claims.blocks }}
+<section class="claim-review">
+  <h2>Claim verification</h2>
+  <p class="entry-meta">
+    Each statement below is checked twice, and the two results are reported separately
+    on purpose. <strong>Quote check</strong> asks only whether the quoted words really
+    appear in the source — a machine does that, exactly, with no judgment. <strong>Support
+    check</strong> asks whether those words actually back up the claim as written — that
+    is a judgment, and it can fail even when the quote is perfect.
+    <strong>Nothing here is signed off until a person signs it.</strong>
+  </p>
+
+  {{ range $claims.blocks }}
+  <div class="claim-block">
+    <h3>{{ .title }}</h3>
+    <div class="entry-meta">
+      <span>{{ .cell }}</span> · <span>checked {{ .checked }}</span> ·
+      <span>{{ len .statements }} statement{{ if ne (len .statements) 1 }}s{{ end }}</span>
+      {{ if .unsigned_count }} · <strong>{{ .unsigned_count }} awaiting your sign-off</strong>{{ end }}
+    </div>
+
+    {{ range .statements }}
+    <div class="claim" id="{{ .claim_ref }}">
+      <p class="claim-text">{{ .text }}</p>
+
+      <div class="claim-evidence">
+        <div class="entry-meta">
+          {{ with .source_identity }}{{ . }}{{ end }}
+          {{ with .location }} — <strong>{{ . }}</strong>{{ end }}
+          {{ with .source_url }} · <a href="{{ . }}">open source</a>{{ end }}
+        </div>
+        <blockquote class="claim-quote">{{ .quote }}</blockquote>
+        {{ with .context }}<p class="entry-meta">{{ . }}</p>{{ end }}
+      </div>
+
+      <ul class="claim-checks">
+        <li><strong>Quote check:</strong>
+          {{ if eq .m_check "pass" }}✅ found, word for word
+          {{ else if eq .m_check "fail" }}❌ NOT found in the source
+          {{ else }}⚠️ not run{{ end }}
+          {{ with .m_reason }}<span class="entry-meta"> — {{ . }}</span>{{ end }}
+        </li>
+        <li><strong>Support check:</strong>
+          {{ if eq .s_check "supports" }}✅ the quote backs the claim
+          {{ else if eq .s_check "partially-supports" }}⚠️ only partly — read the reason
+          {{ else if eq .s_check "does-not-support" }}❌ the quote does not back the claim
+          {{ else }}⚠️ not run{{ end }}
+          {{ with .s_reason }}<span class="entry-meta"> — {{ . }}</span>{{ end }}
+        </li>
+        <li><strong>Sign-off:</strong>
+          {{ if .signed_off_by }}✅ {{ .signed_off_by }}, {{ .signed_off_when }}
+          {{ else }}📋 not yet signed by anyone{{ end }}
+        </li>
+      </ul>
+
+      <form class="review-feedback" data-candidate-id="{{ .claim_ref }}">
+        <label>
+          Your verdict on this statement (e.g. "correct, sign it off", "the qualifier is
+          missing", "wrong section")
+          <textarea name="comment" rows="2" required></textarea>
+        </label>
+        <button type="submit">Send verdict</button>
+        <span class="review-feedback-status" aria-live="polite"></span>
+      </form>
+    </div>
+    {{ end }}
+
+    {{ with .gaps }}
+    <div class="claim-gaps">
+      <h4>Things the source says that we don't cover</h4>
+      <p class="entry-meta">Not errors — the record simply asserts nothing about these.
+        Worth knowing whether any of them matter to a practising clinician.</p>
+      {{ range . }}
+      <div class="claim gap" id="{{ .claim_ref }}">
+        <p class="claim-text">{{ .text }}</p>
+        <div class="entry-meta"><strong>{{ .location }}</strong></div>
+        <form class="review-feedback" data-candidate-id="{{ .claim_ref }}">
+          <label>Should we cover this?
+            <textarea name="comment" rows="2" required></textarea>
+          </label>
+          <button type="submit">Send verdict</button>
+          <span class="review-feedback-status" aria-live="polite"></span>
+        </form>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
+<hr>
+
+<section class="candidate-queue">
+  <h2>Change queue</h2>
+  <p class="entry-meta">Pages the monitor saw change. This is a maintenance signal, not a
+    to-do list — most of it will be noise.</p>
+</section>
+
 {{ if $review.items }}
 <div class="review-list">
   {{ range $review.items }}
