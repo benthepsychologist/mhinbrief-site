@@ -77,10 +77,11 @@
             <span class="matrix-note">source not traced</span>
           {{ end }}
           {{ $rec := . }}
-          {{ with .source_quote }}
+          {{/* The quote is optional inside the panel: a record whose source
+               graph carries no quote still shows its metadata. */}}
           <details class="quote-toggle">
-            <summary>Show statutory text</summary>
-            <blockquote>{{ . }}</blockquote>
+            <summary>{{ if .source_quote }}Show statutory text{{ else }}Show details{{ end }}</summary>
+            {{ with .source_quote }}<blockquote>{{ . }}</blockquote>{{ end }}
             <dl class="matrix-meta">
               <div><dt>Regulatory model</dt><dd>{{ $rec.regulatory_model | default "—" }}</dd></div>
               <div><dt>Authority basis</dt><dd>{{ $rec.authority_basis | default "—" }}</dd></div>
@@ -88,15 +89,14 @@
               <div><dt>Enactment date</dt><dd>{{ $rec.enactment_date | default "not traced" }}</dd></div>
               <div><dt>Effective date</dt><dd>{{ $rec.effective_date | default "not traced" }}</dd></div>
               <div><dt>Penalties</dt><dd>{{ $rec.penalties | default "—" }}</dd></div>
-              <div><dt>Consent required</dt><dd>{{ if $rec.consent_required }}Yes{{ else }}No{{ end }}</dd></div>
-              <div><dt>Documentation required</dt><dd>{{ if $rec.documentation_required }}Yes{{ else }}No{{ end }}</dd></div>
+              <div><dt>Consent required</dt><dd>{{ if not (isset $rec "consent_required") }}not recorded{{ else if $rec.consent_required }}Yes{{ else }}No{{ end }}</dd></div>
+              <div><dt>Documentation required</dt><dd>{{ if not (isset $rec "documentation_required") }}not recorded{{ else if $rec.documentation_required }}Yes{{ else }}No{{ end }}</dd></div>
               <div><dt>Confidence</dt><dd>{{ $rec.confidence | default "—" }}</dd></div>
               {{ with $rec.statute_citation.bill_number }}<div><dt>Bill</dt><dd>{{ . }}</dd></div>{{ end }}
               {{ with $rec.statute_citation.regulation_cite }}<div><dt>Regulation</dt><dd>{{ . }}</dd></div>{{ end }}
               <div><dt>Record ID</dt><dd>{{ $rec.record_id }}</dd></div>
             </dl>
           </details>
-          {{ end }}
         </td>
       </tr>
       {{ end }}
